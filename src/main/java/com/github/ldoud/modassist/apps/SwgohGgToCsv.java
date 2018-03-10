@@ -9,11 +9,14 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.logging.*;
@@ -77,25 +80,36 @@ public class SwgohGgToCsv {
         }
     }
 
-    public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
-        SwgohGgToCsv app = new SwgohGgToCsv();
-        app.parseArgs(args);
+    private void logModListXml() throws TransformerException {
+        if(LOG.isLoggable(Level.FINE)) {
+            StringWriter xmlStringWritter = new StringWriter();
+            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(modListXML), new StreamResult(xmlStringWritter));
+            LOG.fine(xmlStringWritter.toString());
+        }
+    }
 
-        String baseURL = RAW_URL.replace("${username}", app.username);
-        int numberOfWebpagesToRead = app.findNumberOfWebpagesToRead();
+    private void retreiveDataFromWebsite() throws ParserConfigurationException, TransformerException, IOException {
+        String baseURL = RAW_URL.replace("${username}", username);
+        int numberOfWebpagesToRead = findNumberOfWebpagesToRead();
 
         for(int page=1; page <= numberOfWebpagesToRead; page++) {
             String webpageURL = baseURL.replace("${page}",page+"");
-            app.addMods(app.miner.extractData(webpageURL));
+            addMods(miner.extractData(webpageURL));
         }
+    }
 
-        if(LOG.isLoggable(Level.FINE)) {
-            StringWriter xmlStringWritter = new StringWriter();
-            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(app.modListXML), new StreamResult(xmlStringWritter));
-            LOG.fine(xmlStringWritter.toString());
-        }
+    private void saveToCsv() throws TransformerException {
+        StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream("data_to_csv.xsl"));
+        Transformer xslt = TransformerFactory.newInstance().newTransformer(xsl);
+        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
+    }
 
-        // TODO Save to CSV
+    public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
+        SwgohGgToCsv app = new SwgohGgToCsv();
+        app.parseArgs(args);
+        app.retreiveDataFromWebsite();
+        app.logModListXml();
+//        app.saveToCsv();
     }
 
 }
