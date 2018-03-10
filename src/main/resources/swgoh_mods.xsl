@@ -32,10 +32,46 @@
 
     <!-- TODO: Break the "set" and "type" appart -->
     <xsl:template match="img[@class = 'statmod-img']">
+        <!--
         <xsl:attribute name="type">
             <xsl:value-of select="@alt"/>
         </xsl:attribute>
+        -->
+        <xsl:call-template name="mod-set">
+            <xsl:with-param name="mod-description" select="@alt"/>
+        </xsl:call-template>
     </xsl:template>
+
+    <xsl:template name="mod-set">
+        <xsl:param name="mod-description"/>
+        <xsl:attribute name="set">
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Health')">Health</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Defense')">Defense</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Crit Damage')">Crit Damage</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Crit Chance')">Crit Chance</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Tenacity')">Tenacity</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Offense')">Offense</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Potency')">Potency</xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="contains($mod-description, 'Speed')">Speed</xsl:when>
+            </xsl:choose>
+        </xsl:attribute>
+    </xsl:template>
+
 
     <xsl:template match="div[@class = 'statmod-stats statmod-stats-1']">
         <xsl:apply-templates select="node()|@*">
