@@ -1,6 +1,7 @@
 package com.github.ldoud.modassist.apps;
 
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
+import com.oracle.tools.packager.Log;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -14,8 +15,15 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.IOException;
+import java.io.StringWriter;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class SwgohGgToCsv {
+    private static Logger LOG = Logger.getLogger(SwgohGgToCsv.class.getName());
+
     private static final String USAGE = "SwgohGgToCsv -username YourSwgohGGUsername -filename csvFileToWrite";
     private static final String RAW_URL = "https://swgoh.gg/u/${username}/mods/?page=${page}";
 
@@ -73,6 +81,16 @@ public class SwgohGgToCsv {
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
+
+        // Logging
+        ConsoleHandler handler = new ConsoleHandler();
+        handler.setFormatter(new SimpleFormatter());
+        handler.setLevel(Level.ALL);
+//        Logger.getGlobal().addHandler(handler);
+//        Logger.getGlobal().setLevel(Level.FINE);
+        LOG.setLevel(Level.FINE);
+        LOG.addHandler(handler);
+
         SwgohGgToCsv app = new SwgohGgToCsv();
         app.parseArgs(args);
 
@@ -84,8 +102,13 @@ public class SwgohGgToCsv {
             app.addMods(app.miner.extractData(webpageURL));
         }
 
+        if(LOG.isLoggable(Level.FINE)) {
+            StringWriter xmlStringWritter = new StringWriter();
+            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(app.modListXML), new StreamResult(xmlStringWritter));
+            LOG.fine(xmlStringWritter.toString());
+        }
+
         // TODO Save to CSV
-        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(app.modListXML),new StreamResult(System.out));
     }
 
 }
