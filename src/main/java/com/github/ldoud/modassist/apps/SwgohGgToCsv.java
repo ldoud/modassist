@@ -101,7 +101,8 @@ public class SwgohGgToCsv {
     private void saveToCsv() throws TransformerException {
         StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream("data_to_csv.xsl"));
         Transformer xslt = TransformerFactory.newInstance().newTransformer(xsl);
-        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
+//        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
+        xslt.transform(new DOMSource(modListXML), new StreamResult(System.out));
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
@@ -109,7 +110,7 @@ public class SwgohGgToCsv {
         app.parseArgs(args);
         app.retreiveDataFromWebsite();
         app.logModListXml();
-//        app.saveToCsv();
+        app.saveToCsv();
     }
 
 }
