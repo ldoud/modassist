@@ -1,12 +1,18 @@
 package com.github.ldoud.modassist.apps;
 
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import java.io.IOException;
 
 public class SwgohGgToCsv {
@@ -15,40 +21,30 @@ public class SwgohGgToCsv {
 
     private String username;
     private String csvOutputFilename;
-    private Node allModsAsXml;
+    Document newDocWithMods;
+    private Element modListXML;
     private HtmlDataMiner miner;
 
-    private SwgohGgToCsv() throws TransformerConfigurationException {
+    private SwgohGgToCsv() throws TransformerConfigurationException, ParserConfigurationException {
         miner = new HtmlDataMiner("swgoh_mods.xsl");
-    }
 
-    public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
-        SwgohGgToCsv app = new SwgohGgToCsv();
-        app.parseArgs(args);
-
-        String baseURL = RAW_URL.replace("${username}", app.username);
-        int numberOfWebpagesToRead = app.findNumberOfWebpagesToRead();
-
-        for(int page=0; page < numberOfWebpagesToRead; page++) {
-            String webpageURL = baseURL.replace("${page}",numberOfWebpagesToRead+"");
-            app.addMods(app.miner.extractData(webpageURL));
-        }
+        // Create new XML document containing an empty list of "mods".
+        newDocWithMods = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().newDocument();
+        modListXML = newDocWithMods.createElement("mods");
     }
 
     private void addMods(Node newMods) {
-        if(allModsAsXml != null) {
-            NodeList modList = newMods.getChildNodes();
-            for(int currentMod=0; currentMod < modList.getLength(); currentMod++) {
-                allModsAsXml.appendChild(modList.item(currentMod));
-            }
-        }
-        else {
-            allModsAsXml = newMods;
+        NodeList modList = newMods.getFirstChild().getChildNodes();
+        for(int currentMod=0; currentMod < modList.getLength(); currentMod++) {
+            Node mod = modList.item(currentMod).cloneNode(true);
+            newDocWithMods.adoptNode(mod);
+            modListXML.appendChild(mod.cloneNode(true));
         }
     }
 
+    // TODO Read from the SWGOH website.
     private int findNumberOfWebpagesToRead() {
-        return 1;
+        return 13;
     }
 
     private void parseArgs(String[] args) {
@@ -76,5 +72,20 @@ public class SwgohGgToCsv {
         }
     }
 
+    public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
+        SwgohGgToCsv app = new SwgohGgToCsv();
+        app.parseArgs(args);
+
+        String baseURL = RAW_URL.replace("${username}", app.username);
+        int numberOfWebpagesToRead = app.findNumberOfWebpagesToRead();
+
+        for(int page=1; page <= numberOfWebpagesToRead; page++) {
+            String webpageURL = baseURL.replace("${page}",page+"");
+            app.addMods(app.miner.extractData(webpageURL));
+        }
+
+        // TODO Save to CSV
+        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(app.modListXML),new StreamResult(System.out));
+    }
 
 }
