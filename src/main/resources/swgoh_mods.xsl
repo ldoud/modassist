@@ -33,16 +33,18 @@
     <!-- TODO: Break the "set" and "type" appart -->
     <xsl:template match="img[@class = 'statmod-img']">
 
-        <xsl:attribute name="type">
-            <xsl:value-of select="@alt"/>
+        <xsl:attribute name="dots">
+            <xsl:value-of select="substring-after(substring-before(@alt, '-'), ' ')"/>
         </xsl:attribute>
 
         <xsl:call-template name="mod-set">
             <xsl:with-param name="mod-description" select="@alt"/>
         </xsl:call-template>
+
         <xsl:call-template name="mod-slot">
             <xsl:with-param name="mod-description" select="@alt"/>
         </xsl:call-template>
+
     </xsl:template>
 
     <xsl:template name="mod-set">
