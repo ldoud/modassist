@@ -16,10 +16,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.IOException;
 import java.io.StringWriter;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+import java.util.logging.*;
 
 public class SwgohGgToCsv {
     private static Logger LOG = Logger.getLogger(SwgohGgToCsv.class.getName());
@@ -81,16 +78,6 @@ public class SwgohGgToCsv {
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
-
-        // Logging
-        ConsoleHandler handler = new ConsoleHandler();
-        handler.setFormatter(new SimpleFormatter());
-        handler.setLevel(Level.ALL);
-//        Logger.getGlobal().addHandler(handler);
-//        Logger.getGlobal().setLevel(Level.FINE);
-        LOG.setLevel(Level.FINE);
-        LOG.addHandler(handler);
-
         SwgohGgToCsv app = new SwgohGgToCsv();
         app.parseArgs(args);
 
