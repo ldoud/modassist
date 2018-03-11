@@ -52,7 +52,7 @@ public class SwgohGgToCsv {
 
     // TODO Read from the SWGOH website.
     private int findNumberOfWebpagesToRead() {
-        return 13;
+        return 10;
     }
 
     private void parseArgs(String[] args) {
@@ -101,8 +101,11 @@ public class SwgohGgToCsv {
     private void saveToCsv() throws TransformerException {
         StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream("data_to_csv.xsl"));
         Transformer xslt = TransformerFactory.newInstance().newTransformer(xsl);
-//        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
-        xslt.transform(new DOMSource(modListXML), new StreamResult(System.out));
+
+        if (LOG.isLoggable(Level.FINE)) {
+            xslt.transform(new DOMSource(modListXML), new StreamResult(System.out));
+        }
+        xslt.transform(new DOMSource(modListXML), new StreamResult(new File(csvOutputFilename)));
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
