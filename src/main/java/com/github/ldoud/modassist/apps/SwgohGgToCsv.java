@@ -52,7 +52,7 @@ public class SwgohGgToCsv {
 
     // TODO Read from the SWGOH website.
     private int findNumberOfWebpagesToRead() {
-        return 10;
+        return 13;
     }
 
     private void parseArgs(String[] args) {

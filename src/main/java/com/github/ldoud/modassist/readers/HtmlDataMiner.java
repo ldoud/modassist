@@ -25,31 +25,49 @@ public class HtmlDataMiner {
 
     /**
      * Create a data miner that uses a particular XSL.
-     * @param pathToXsl Which XSL file to load.
+     * @param xslToApply Relative path of XSL file to load from classpath.
      * @throws TransformerConfigurationException If there is an issue loading XSL file.
      */
-    public HtmlDataMiner(String pathToXsl) throws TransformerConfigurationException {
-        StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream(pathToXsl));
+    public HtmlDataMiner(String xslToApply) throws TransformerConfigurationException {
+        StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream(xslToApply));
         xslt = TransformerFactory.newInstance().newTransformer(xsl);
     }
 
     public Node extractData(String url) throws IOException, ParserConfigurationException, TransformerException {
-        URL webpage = new URL(url); // MalformedURLException
+        return extractData(new URL(url));
+    }
 
+    public Node extractData(URL webpage) throws IOException, ParserConfigurationException, TransformerException {
+        Document webpageAsXml = retreiveWebpageAsXML(webpage);
+
+        DOMResult results = new DOMResult();
+        xslt.transform(new DOMSource(webpageAsXml), results); // TransformerException
+
+        return results.getNode();
+    }
+
+    private static Document retreiveWebpageAsXML(String url) throws IOException, ParserConfigurationException {
+        return retreiveWebpageAsXML(new URL(url));
+    }
+
+    private static Document retreiveWebpageAsXML(URL webpage) throws IOException, ParserConfigurationException {
         // Retrieve and format webpage as XML.
         HtmlCleaner cleaner = new HtmlCleaner();
         TagNode node = cleaner.clean(webpage); // IOException
 
         // Turn into a document so it can be transformed.
         DomSerializer serializer = new DomSerializer(cleaner.getProperties());
-        Document webpageAsXml = serializer.createDOM(node); // ParserConfigurationException
+        return serializer.createDOM(node);
+    }
 
-//        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(webpageAsXml),new StreamResult(System.out));
+    public static void main(String[] args) throws IOException, ParserConfigurationException, TransformerException {
+        if(args.length != 2) {
+            System.err.println("Usage "+HtmlDataMiner.class.getName()+" <webpageURL> <targetSaveFile> ");
+            System.exit(1);
+        }
 
-        DOMResult results = new DOMResult();
-        xslt.transform(new DOMSource(webpageAsXml), results); // TransformerException
-
-        return results.getNode();
+        Document webpageAsXml = retreiveWebpageAsXML(args[0]);
+        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(webpageAsXml),new StreamResult(new File(args[1])));
     }
 
 }
