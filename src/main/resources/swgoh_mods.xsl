@@ -115,10 +115,35 @@
 
     <xsl:template match="div[@class = 'statmod-stat']">
         <xsl:param name="type"/>
+
         <xsl:element name="stat">
             <xsl:attribute name="type"><xsl:value-of select="$type"/></xsl:attribute>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:element>
+
+    </xsl:template>
+
+    <xsl:template match="span[@class = 'statmod-stat-label']">
+        <xsl:variable name="statValue" select="../span[@class = 'statmod-stat-value']"/>
+
+        <xsl:choose>
+            <xsl:when test=". = 'Critical Chance' or . = 'Potency' or . = 'Tenacity'">
+                <xsl:attribute name="name">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+            </xsl:when>
+            <xsl:when test="contains($statValue, '%')">
+                <xsl:attribute name="name">
+                    <xsl:value-of select="concat(., 'Percent')"/>
+                </xsl:attribute>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:attribute name="name">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+            </xsl:otherwise>
+        </xsl:choose>
+
     </xsl:template>
 
     <xsl:template match="span[@class = 'statmod-stat-value']">
@@ -127,9 +152,4 @@
         </xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="span[@class = 'statmod-stat-label']">
-        <xsl:attribute name="name">
-            <xsl:value-of select="."/>
-        </xsl:attribute>
-    </xsl:template>
 </xsl:stylesheet>

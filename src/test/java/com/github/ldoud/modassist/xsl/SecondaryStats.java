@@ -46,8 +46,9 @@ public class SecondaryStats {
         assertSecondaryStat(getCharacter(Character.CaptainHanSolo.toString()), "Offense", "+29");
     }
 
-//    @Test
+    @Test
     public void testOffensePercent() {
+        // Need another webpage with offense percent
     }
 
     @Test
@@ -66,9 +67,9 @@ public class SecondaryStats {
 
     @Test
     public void testDefensePercent() {
-        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "Defense", "+1.55%");
-        assertSecondaryStat(getCharacter(Character.BiggsDarklighter.toString()), "Defense", "+4.06%");
-        assertSecondaryStat(getCharacter(Character.PrincessLeia.toString()), "Defense", "+0.99%");
+        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "DefensePercent", "+1.55%");
+        assertSecondaryStat(getCharacter(Character.BiggsDarklighter.toString()), "DefensePercent", "+4.06%");
+        assertSecondaryStat(getCharacter(Character.PrincessLeia.toString()), "DefensePercent", "+0.99%");
     }
 
     @Test
@@ -88,9 +89,9 @@ public class SecondaryStats {
 
     @Test
     public void testHealthPercent() {
-//        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "Health", "+0.94%");
-//        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "Health", "+0.59%");
-        assertSecondaryStat(getCharacter(Character.EmperorPalpatine.toString()), "Health", "+0.87%");
+//        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "HealthPercent", "+0.94%");
+//        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "HealthPercent", "+0.59%");
+        assertSecondaryStat(getCharacter(Character.EmperorPalpatine.toString()), "HealthPercent", "+0.87%");
     }
 
     @Test
