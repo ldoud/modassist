@@ -61,6 +61,12 @@ public class PrimaryStatTest {
     }
 
     @Test
+    public void testOffense() {
+        assertPrimaryStat(data.getMod(Character.CommanderLukeSkywalker, Mod.Transmitter), Stat.OffensePercent, "5.88");
+        assertPrimaryStat(data.getMod(Character.SithAssassin, Mod.Receiver), Stat.OffensePercent, "4.75");
+    }
+
+    @Test
     public void testDefense() {
         assertPrimaryStat(data.getMod(Character.GeneralKenobi, Mod.Processor), Stat.DefensePercent, "11.75");
         assertPrimaryStat(data.getMod(Character.K2SO, Mod.Processor), Stat.DefensePercent, "9.5");
@@ -72,6 +78,15 @@ public class PrimaryStatTest {
         assertPrimaryStat(data.getMod(Character.BobaFett, Mod.HoloArray), Stat.HealthPercent, "5.88");
         assertPrimaryStat(data.getMod(Character.DeathTrooper, Mod.Receiver), Stat.HealthPercent, "5.88");
     }
+
+    @Test
+    public void testProtection() {
+        assertPrimaryStat(data.getMod(Character.EmperorPalpatine, Mod.HoloArray), Stat.ProtectionPercent, "23.5");
+        assertPrimaryStat(data.getMod(Character.FirstOrderTIEPilot, Mod.DataBus), Stat.ProtectionPercent, "23.5");
+        assertPrimaryStat(data.getMod(Character.GrandAdmiralThrawn, Mod.Multiplexer), Stat.ProtectionPercent, "23.5");
+        assertPrimaryStat(data.getMod(Character.RoyalGuard, Mod.DataBus), Stat.ProtectionPercent, "19");
+    }
+
 
     private void assertPrimaryStat(Node mod, Stat primaryStat, String expectedStatValue) {
         String xpath = XPATH_STAT.replace("${statName}", primaryStat.toString());

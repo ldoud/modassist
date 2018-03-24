@@ -14,6 +14,7 @@ public enum Character {
     EmperorPalpatine("Emperor Palpatine"),
     FirstOrderTIEPilot("First Order TIE Pilot"),
     GeneralKenobi("General Kenobi"),
+    GrandAdmiralThrawn("Grand Admiral Thrawn"),
     GrandMoffTarkin("Grand Moff Tarkin"),
     GrandMasterYoda("Grand Master Yoda"),
     HothRebelScout("Hoth Rebel Scout"),

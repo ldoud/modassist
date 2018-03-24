@@ -12,6 +12,8 @@ public enum Stat {
     Offense("Offense"),
     OffensePercent("OffensePercent"),
     Potency("Potency"),
+    Protection("Protection"),
+    ProtectionPercent("ProtectionPercent"),
     Speed("Speed"),
     Tenacity("Tenacity");
 
