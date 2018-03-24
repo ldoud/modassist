@@ -6,6 +6,7 @@ public enum Character {
     BobaFett("Boba Fett"),
     CadBane("Cad Bane"),
     CaptainHanSolo("Captain Han Solo"),
+    CommanderLukeSkywalker("Commander Luke Skywalker"),
     DarthMaul("Darth Maul"),
     DarthSion("Darth Sion"),
     EmperorPalpatine("Emperor Palpatine"),

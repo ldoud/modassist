@@ -58,11 +58,16 @@ public class SecondaryStats {
         assertSecondaryStat(getMod(Character.AskokaTano, Mod.Transmitter), "Offense", "24");
         assertSecondaryStat(getMod(Character.GrandMoffTarkin, Mod.Transmitter), "Offense", "97");
         assertSecondaryStat(getMod(Character.CaptainHanSolo, Mod.Transmitter), "Offense", "29");
+
+        // Has both precent and flat amount.
+        assertSecondaryStat(getMod(Character.CommanderLukeSkywalker, Mod.HoloArray), "Offense", "119");
+        assertSecondaryStat(getMod(Character.FirstOrderTIEPilot, Mod.Multiplexer), "Offense", "115");
     }
 
     @Test
     public void testOffensePercent() {
-        // Need another webpage with offense percent
+        assertSecondaryStat(getMod(Character.CommanderLukeSkywalker, Mod.HoloArray), "OffensePercent", "0.38");
+        assertSecondaryStat(getMod(Character.FirstOrderTIEPilot, Mod.Multiplexer), "OffensePercent", "0.37");
     }
 
     @Test
