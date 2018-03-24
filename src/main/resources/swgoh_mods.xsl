@@ -147,9 +147,20 @@
     </xsl:template>
 
     <xsl:template match="span[@class = 'statmod-stat-value']">
-        <xsl:attribute name="value">
-            <xsl:value-of select="substring(., 2)"/>
-        </xsl:attribute>
+        <xsl:choose>
+            <!-- If there is a percent, remove the first and last characters. -->
+            <xsl:when test="contains(., '%')">
+                <xsl:attribute name="value">
+                    <xsl:value-of select="substring(., 2, string-length(.)-2)"/>
+                </xsl:attribute>
+            </xsl:when>
+            <!-- If there is not a percent, then just remove the first character. -->
+            <xsl:otherwise>
+                <xsl:attribute name="value">
+                    <xsl:value-of select="substring(., 2)"/>
+                </xsl:attribute>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
 </xsl:stylesheet>

@@ -52,9 +52,9 @@ public class SecondaryStats {
 
     @Test
     public void testCriticalChance() {
-        assertSecondaryStat(getMod(Character.JediConsular, Mod.Transmitter), "Critical Chance", "1.72%");
-        assertSecondaryStat(getMod(Character.Shoretrooper, Mod.Transmitter), "Critical Chance", "1.72%");
-        assertSecondaryStat(getMod(Character.Magmatrooper, Mod.Transmitter), "Critical Chance", "4.98%");
+        assertSecondaryStat(getMod(Character.JediConsular, Mod.Transmitter), "Critical Chance", "1.72");
+        assertSecondaryStat(getMod(Character.Shoretrooper, Mod.Transmitter), "Critical Chance", "1.72");
+        assertSecondaryStat(getMod(Character.Magmatrooper, Mod.Transmitter), "Critical Chance", "4.98");
     }
 
     @Test
@@ -66,16 +66,16 @@ public class SecondaryStats {
 
     @Test
     public void testDefensePercent() {
-        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "DefensePercent", "1.55%");
-        assertSecondaryStat(getMod(Character.BiggsDarklighter, Mod.Transmitter), "DefensePercent", "4.06%");
-        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "DefensePercent", "0.99%");
+        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "DefensePercent", "1.55");
+        assertSecondaryStat(getMod(Character.BiggsDarklighter, Mod.Transmitter), "DefensePercent", "4.06");
+        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "DefensePercent", "0.99");
     }
 
     @Test
     public void testPotency() {
-        assertSecondaryStat(getMod(Character.CadBane, Mod.Transmitter), "Potency", "1.25%");
-        assertSecondaryStat(getMod(Character.BobaFett, Mod.Transmitter), "Potency", "1.46%");
-        assertSecondaryStat(getMod(Character.DarthSion, Mod.Transmitter), "Potency", "2.24%");
+        assertSecondaryStat(getMod(Character.CadBane, Mod.Transmitter), "Potency", "1.25");
+        assertSecondaryStat(getMod(Character.BobaFett, Mod.Transmitter), "Potency", "1.46");
+        assertSecondaryStat(getMod(Character.DarthSion, Mod.Transmitter), "Potency", "2.24");
     }
 
     @Test
@@ -88,16 +88,16 @@ public class SecondaryStats {
 
     @Test
     public void testHealthPercent() {
-        assertSecondaryStat(getMod(Character.DarthMaul, Mod.Transmitter), "HealthPercent", "0.94%");
-        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "HealthPercent", "0.59%");
-        assertSecondaryStat(getMod(Character.EmperorPalpatine, Mod.Transmitter), "HealthPercent", "0.87%");
+        assertSecondaryStat(getMod(Character.DarthMaul, Mod.Transmitter), "HealthPercent", "0.94");
+        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "HealthPercent", "0.59");
+        assertSecondaryStat(getMod(Character.EmperorPalpatine, Mod.Transmitter), "HealthPercent", "0.87");
     }
 
     @Test
     public void testTenacity() {
-        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "Tenacity", "2.64%");
-        assertSecondaryStat(getMod(Character.JynErso, Mod.Transmitter), "Tenacity", "1.26%");
-        assertSecondaryStat(getMod(Character.SabineWren, Mod.Transmitter), "Tenacity", "2.53%");
+        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "Tenacity", "2.64");
+        assertSecondaryStat(getMod(Character.JynErso, Mod.Transmitter), "Tenacity", "1.26");
+        assertSecondaryStat(getMod(Character.SabineWren, Mod.Transmitter), "Tenacity", "2.53");
     }
 
     private Node getMod(Character toon, Mod slot) {
