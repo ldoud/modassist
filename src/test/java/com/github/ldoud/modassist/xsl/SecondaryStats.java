@@ -13,11 +13,10 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 
 public class SecondaryStats {
 
-    private static String XPATH_CHARACTER = "/mods/mod[@character='${characterName}']";
+    private static String XPATH_SLOT_ON_CHARACTER = "/mods/mod[@character='${characterName}' and @slot='${modType}']";
     private static String XPATH_STAT = "stat[@name='${statName}' and @type='secondary']";
 
     private static Document doc;
@@ -34,16 +33,16 @@ public class SecondaryStats {
 
     @Test
     public void testSpeed() {
-        assertSecondaryStat(getCharacter(Character.AskokaTano.toString()), "Speed", "+4");
-        assertSecondaryStat(getCharacter(Character.HothRebelScout.toString()), "Speed", "+5");
-        assertSecondaryStat(getCharacter(Character.BiggsDarklighter.toString()), "Speed", "+9");
+        assertSecondaryStat(getMod(Character.AskokaTano, Mod.Transmitter), "Speed", "+4");
+        assertSecondaryStat(getMod(Character.HothRebelScout, Mod.Transmitter), "Speed", "+5");
+        assertSecondaryStat(getMod(Character.BiggsDarklighter, Mod.Transmitter), "Speed", "+9");
     }
 
     @Test
     public void testOffenseFlatAmount() {
-        assertSecondaryStat(getCharacter(Character.AskokaTano.toString()), "Offense", "+24");
-        assertSecondaryStat(getCharacter(Character.GrandMoffTarkin.toString()), "Offense", "+97");
-        assertSecondaryStat(getCharacter(Character.CaptainHanSolo.toString()), "Offense", "+29");
+        assertSecondaryStat(getMod(Character.AskokaTano, Mod.Transmitter), "Offense", "+24");
+        assertSecondaryStat(getMod(Character.GrandMoffTarkin, Mod.Transmitter), "Offense", "+97");
+        assertSecondaryStat(getMod(Character.CaptainHanSolo, Mod.Transmitter), "Offense", "+29");
     }
 
     @Test
@@ -53,57 +52,61 @@ public class SecondaryStats {
 
     @Test
     public void testCriticalChance() {
-        assertSecondaryStat(getCharacter(Character.JediConsular.toString()), "Critical Chance", "+1.72%");
-        assertSecondaryStat(getCharacter(Character.Shoretrooper.toString()), "Critical Chance", "+1.72%");
-        assertSecondaryStat(getCharacter(Character.Magmatrooper.toString()), "Critical Chance", "+4.98%");
+        assertSecondaryStat(getMod(Character.JediConsular, Mod.Transmitter), "Critical Chance", "+1.72%");
+        assertSecondaryStat(getMod(Character.Shoretrooper, Mod.Transmitter), "Critical Chance", "+1.72%");
+        assertSecondaryStat(getMod(Character.Magmatrooper, Mod.Transmitter), "Critical Chance", "+4.98%");
     }
 
     @Test
     public void testDefenseFlatAmount() {
-        assertSecondaryStat(getCharacter(Character.AskokaTano.toString()), "Defense", "+5");
-        assertSecondaryStat(getCharacter(Character.WedgeAntilles.toString()), "Defense", "+8");
-        assertSecondaryStat(getCharacter(Character.ResistanceTrooper.toString()), "Defense", "+14");
+        assertSecondaryStat(getMod(Character.AskokaTano, Mod.Transmitter), "Defense", "+5");
+        assertSecondaryStat(getMod(Character.WedgeAntilles, Mod.Transmitter), "Defense", "+8");
+        assertSecondaryStat(getMod(Character.ResistanceTrooper, Mod.Transmitter), "Defense", "+14");
     }
 
     @Test
     public void testDefensePercent() {
-        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "DefensePercent", "+1.55%");
-        assertSecondaryStat(getCharacter(Character.BiggsDarklighter.toString()), "DefensePercent", "+4.06%");
-        assertSecondaryStat(getCharacter(Character.PrincessLeia.toString()), "DefensePercent", "+0.99%");
+        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "DefensePercent", "+1.55%");
+        assertSecondaryStat(getMod(Character.BiggsDarklighter, Mod.Transmitter), "DefensePercent", "+4.06%");
+        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "DefensePercent", "+0.99%");
     }
 
     @Test
     public void testPotency() {
-        assertSecondaryStat(getCharacter(Character.CadBane.toString()), "Potency", "+1.25%");
-        assertSecondaryStat(getCharacter(Character.BobaFett.toString()), "Potency", "+1.46%");
-        assertSecondaryStat(getCharacter(Character.DarthSion.toString()), "Potency", "+2.24%");
+        assertSecondaryStat(getMod(Character.CadBane, Mod.Transmitter), "Potency", "+1.25%");
+        assertSecondaryStat(getMod(Character.BobaFett, Mod.Transmitter), "Potency", "+1.46%");
+        assertSecondaryStat(getMod(Character.DarthSion, Mod.Transmitter), "Potency", "+2.24%");
     }
 
     @Test
     public void testHealthFlatAmount() {
-        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "Health", "+232");
-        assertSecondaryStat(getCharacter(Character.CadBane.toString()), "Health", "+609");
-        assertSecondaryStat(getCharacter(Character.FirstOrderTIEPilot.toString()), "Health", "+223");
-        assertSecondaryStat(getCharacter(Character.GrandMoffTarkin.toString()), "Health", "+310");
+        assertSecondaryStat(getMod(Character.DarthMaul, Mod.Transmitter), "Health", "+232");
+        assertSecondaryStat(getMod(Character.CadBane, Mod.Transmitter), "Health", "+609");
+        assertSecondaryStat(getMod(Character.FirstOrderTIEPilot, Mod.Transmitter), "Health", "+223");
+        assertSecondaryStat(getMod(Character.GrandMoffTarkin, Mod.Transmitter), "Health", "+310");
     }
 
     @Test
     public void testHealthPercent() {
-        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "HealthPercent", "+0.94%");
-        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "HealthPercent", "+0.59%");
-        assertSecondaryStat(getCharacter(Character.EmperorPalpatine.toString()), "HealthPercent", "+0.87%");
+        assertSecondaryStat(getMod(Character.DarthMaul, Mod.Transmitter), "HealthPercent", "+0.94%");
+        assertSecondaryStat(getMod(Character.ResistancePilot, Mod.Transmitter), "HealthPercent", "+0.59%");
+        assertSecondaryStat(getMod(Character.EmperorPalpatine, Mod.Transmitter), "HealthPercent", "+0.87%");
     }
 
     @Test
     public void testTenacity() {
-        assertSecondaryStat(getCharacter(Character.PrincessLeia.toString()), "Tenacity", "+2.64%");
-        assertSecondaryStat(getCharacter(Character.JynErso.toString()), "Tenacity", "+1.26%");
-        assertSecondaryStat(getCharacter(Character.SabineWren.toString()), "Tenacity", "+2.53%");
+        assertSecondaryStat(getMod(Character.PrincessLeia, Mod.Transmitter), "Tenacity", "+2.64%");
+        assertSecondaryStat(getMod(Character.JynErso, Mod.Transmitter), "Tenacity", "+1.26%");
+        assertSecondaryStat(getMod(Character.SabineWren, Mod.Transmitter), "Tenacity", "+2.53%");
     }
 
-    private Node getCharacter(String name) {
-        Node character = doc.selectSingleNode(XPATH_CHARACTER.replace("${characterName}", name));
-        Assertions.assertNotNull(character, "Character found: "+name);
+    private Node getMod(Character toon, Mod slot) {
+        String xpath = XPATH_SLOT_ON_CHARACTER
+                .replace("${characterName}", toon.toString())
+                .replace("${modType}", slot.toString());
+        Node character = doc.selectSingleNode(xpath);
+
+        Assertions.assertNotNull(character, "Character found: "+toon.toString());
         return character;
     }
 
