@@ -19,12 +19,14 @@ public enum Character {
     JynErso("Jyn Erso"),
     K2SO("K-2SO"),
     Magmatrooper("Magmatrooper"),
+    OldDaka("Old Daka"),
     PrincessLeia("Princess Leia"),
     ResistancePilot("Resistance Pilot"),
     ResistanceTrooper("Resistance Trooper"),
     RoyalGuard("Royal Guard"),
     SabineWren("Sabine Wren"),
     Shoretrooper("Shoretrooper"),
+    SithAssassin("Sith Assassin"),
     WedgeAntilles("Wedge Antilles");
 
 

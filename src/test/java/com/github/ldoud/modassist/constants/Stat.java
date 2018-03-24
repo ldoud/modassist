@@ -1,6 +1,7 @@
 package com.github.ldoud.modassist.constants;
 
 public enum Stat {
+    Accuracy("Accuracy"),
     CriticalChance("Critical Chance"),
     CriticalDamage("Critical Damage"),
     Defense("Defense"),

@@ -48,6 +48,18 @@ public class PrimaryStatTest {
         assertPrimaryStat(data.getMod(Character.RoyalGuard, Mod.Multiplexer), Stat.Potency, "19.5");
     }
 
+    @Test
+    public void testTenacity() {
+        assertPrimaryStat(data.getMod(Character.WedgeAntilles, Mod.Multiplexer), Stat.Tenacity, "24");
+        assertPrimaryStat(data.getMod(Character.SithAssassin, Mod.Multiplexer), Stat.Tenacity, "19.5");
+    }
+
+    @Test
+    public void testAccuracy() {
+        assertPrimaryStat(data.getMod(Character.ResistancePilot, Mod.Receiver), Stat.Accuracy, "12");
+        assertPrimaryStat(data.getMod(Character.OldDaka, Mod.Receiver), Stat.Accuracy, "7.5");
+    }
+
     private void assertPrimaryStat(Node mod, Stat primaryStat, String expectedStatValue) {
         String xpath = XPATH_STAT.replace("${statName}", primaryStat.toString());
         String characterName = mod.selectSingleNode("@character").getText(); // used in assert message only
