@@ -106,7 +106,7 @@ public class SecondaryStats {
                 .replace("${modType}", slot.toString());
         Node character = doc.selectSingleNode(xpath);
 
-        Assertions.assertNotNull(character, "Character found: "+toon.toString());
+        Assertions.assertNotNull(character, "Character's mod found: "+xpath);
         return character;
     }
 
