@@ -24,9 +24,24 @@ public class SecondaryStats {
     @BeforeAll
     static void setUp() throws ParserConfigurationException, IOException, SAXException, TransformerException {
         // https://swgoh.gg/u/wasssup/mods/
-        URL html = ClassLoader.getSystemResource("html/swgoh_many_mods.html");
+        URL[] webpages = new URL[14];
+        webpages[0] = ClassLoader.getSystemResource("html/swgoh_page1.html");
+        webpages[1] = ClassLoader.getSystemResource("html/swgoh_page2.html");
+        webpages[2] = ClassLoader.getSystemResource("html/swgoh_page3.html");
+        webpages[3] = ClassLoader.getSystemResource("html/swgoh_page4.html");
+        webpages[4] = ClassLoader.getSystemResource("html/swgoh_page5.html");
+        webpages[5] = ClassLoader.getSystemResource("html/swgoh_page6.html");
+        webpages[6] = ClassLoader.getSystemResource("html/swgoh_page7.html");
+        webpages[7] = ClassLoader.getSystemResource("html/swgoh_page8.html");
+        webpages[8] = ClassLoader.getSystemResource("html/swgoh_page9.html");
+        webpages[9] = ClassLoader.getSystemResource("html/swgoh_page10.html");
+        webpages[10] = ClassLoader.getSystemResource("html/swgoh_page11.html");
+        webpages[11] = ClassLoader.getSystemResource("html/swgoh_page12.html");
+        webpages[12] = ClassLoader.getSystemResource("html/swgoh_page13.html");
+        webpages[13] = ClassLoader.getSystemResource("html/swgoh_page14.html");
+
         HtmlDataMiner miner = new HtmlDataMiner("swgoh_mods.xsl");
-        org.w3c.dom.Node n = miner.extractData(html);
+        org.w3c.dom.Node n = miner.extractData(webpages);
         DOMReader reader = new DOMReader();
         doc = reader.read((org.w3c.dom.Document)n);
     }

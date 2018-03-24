@@ -19,6 +19,7 @@ import javax.xml.transform.stream.StreamSource;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
+import java.net.URL;
 import java.util.logging.*;
 
 public class SwgohGgToCsv {
@@ -94,7 +95,7 @@ public class SwgohGgToCsv {
 
         for(int page=1; page <= numberOfWebpagesToRead; page++) {
             String webpageURL = baseURL.replace("${page}",page+"");
-            addMods(miner.extractData(webpageURL));
+            addMods(miner.extractData(new URL(webpageURL)));
         }
     }
 

@@ -4,8 +4,12 @@ import org.htmlcleaner.DomSerializer;
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
+import javax.print.Doc;
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -33,10 +37,6 @@ public class HtmlDataMiner {
         xslt = TransformerFactory.newInstance().newTransformer(xsl);
     }
 
-    public Node extractData(String url) throws IOException, ParserConfigurationException, TransformerException {
-        return extractData(new URL(url));
-    }
-
     public Node extractData(URL webpage) throws IOException, ParserConfigurationException, TransformerException {
         Document webpageAsXml = retreiveWebpageAsXML(webpage);
 
@@ -46,8 +46,23 @@ public class HtmlDataMiner {
         return results.getNode();
     }
 
-    private static Document retreiveWebpageAsXML(String url) throws IOException, ParserConfigurationException {
-        return retreiveWebpageAsXML(new URL(url));
+    public Node extractData(URL[] webpages) throws IOException, ParserConfigurationException, TransformerException {
+        Document newDocWithMods = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().newDocument();
+        Element modListXML = newDocWithMods.createElement("mods");
+        newDocWithMods.appendChild(modListXML);
+
+        for (URL page:webpages) {
+            Node newMods = extractData(page);
+
+            NodeList modList = newMods.getFirstChild().getChildNodes();
+            for(int currentMod=0; currentMod < modList.getLength(); currentMod++) {
+                Node mod = modList.item(currentMod).cloneNode(true);
+                newDocWithMods.adoptNode(mod);
+                modListXML.appendChild(mod.cloneNode(true));
+            }
+        }
+
+        return newDocWithMods;
     }
 
     private static Document retreiveWebpageAsXML(URL webpage) throws IOException, ParserConfigurationException {
@@ -66,7 +81,7 @@ public class HtmlDataMiner {
             System.exit(1);
         }
 
-        Document webpageAsXml = retreiveWebpageAsXML(args[0]);
+        Document webpageAsXml = retreiveWebpageAsXML(new URL(args[0]));
         TransformerFactory.newInstance().newTransformer().transform(new DOMSource(webpageAsXml),new StreamResult(new File(args[1])));
     }
 
