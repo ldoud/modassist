@@ -1,16 +1,18 @@
 package com.github.ldoud.modassist.constants;
 
 public enum Stat {
-    Speed("Speed"),
-    Offense("Offense"),
-    OffensePercent("OffensePercent"),
     CriticalChance("Critical Chance"),
+    CriticalDamage("Critical Damage"),
     Defense("Defense"),
     DefensePercent("DefensePercent"),
-    Potency("Potency"),
     Health("Health"),
     HealthPercent("HealthPercent"),
+    Offense("Offense"),
+    OffensePercent("OffensePercent"),
+    Potency("Potency"),
+    Speed("Speed"),
     Tenacity("Tenacity");
+
 
     private String name;
 

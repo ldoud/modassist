@@ -11,6 +11,10 @@ import org.junit.jupiter.api.Assertions;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -42,6 +46,8 @@ class TestData {
         org.w3c.dom.Document d = miner.extractData(webpages);
         DOMReader reader = new DOMReader();
         doc = reader.read(d);
+
+        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(d),new StreamResult(System.out));
     }
 
     public Node getMod(Character toon, Mod slot) {
