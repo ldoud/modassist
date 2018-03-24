@@ -89,8 +89,8 @@ public class SecondaryStats {
 
     @Test
     public void testHealthPercent() {
-//        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "HealthPercent", "+0.94%");
-//        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "HealthPercent", "+0.59%");
+        assertSecondaryStat(getCharacter(Character.DarthMaul.toString()), "HealthPercent", "+0.94%");
+        assertSecondaryStat(getCharacter(Character.ResistancePilot.toString()), "HealthPercent", "+0.59%");
         assertSecondaryStat(getCharacter(Character.EmperorPalpatine.toString()), "HealthPercent", "+0.87%");
     }
 
