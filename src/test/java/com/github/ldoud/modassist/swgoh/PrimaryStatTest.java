@@ -37,12 +37,6 @@ public class PrimaryStatTest {
     }
 
     @Test
-    public void testDefense() {
-        assertPrimaryStat(data.getMod(Character.GeneralKenobi, Mod.Processor), Stat.DefensePercent, "11.75");
-        assertPrimaryStat(data.getMod(Character.K2SO, Mod.Processor), Stat.DefensePercent, "9.5");
-    }
-
-    @Test
     public void testPotency() {
         assertPrimaryStat(data.getMod(Character.BobaFett, Mod.Multiplexer), Stat.Potency, "24");
         assertPrimaryStat(data.getMod(Character.RoyalGuard, Mod.Multiplexer), Stat.Potency, "19.5");
@@ -58,6 +52,25 @@ public class PrimaryStatTest {
     public void testAccuracy() {
         assertPrimaryStat(data.getMod(Character.ResistancePilot, Mod.Receiver), Stat.Accuracy, "12");
         assertPrimaryStat(data.getMod(Character.OldDaka, Mod.Receiver), Stat.Accuracy, "7.5");
+    }
+
+    @Test
+    public void testCriticalAvoidance() {
+        assertPrimaryStat(data.getMod(Character.AskokaTano, Mod.Receiver), Stat.CriticalAvoidance, "24");
+        assertPrimaryStat(data.getMod(Character.CloneWarsChewbacca, Mod.Receiver), Stat.CriticalAvoidance, "15");
+    }
+
+    @Test
+    public void testDefense() {
+        assertPrimaryStat(data.getMod(Character.GeneralKenobi, Mod.Processor), Stat.DefensePercent, "11.75");
+        assertPrimaryStat(data.getMod(Character.K2SO, Mod.Processor), Stat.DefensePercent, "9.5");
+    }
+
+    @Test
+    public void testHealth() {
+        assertPrimaryStat(data.getMod(Character.CommanderLukeSkywalker, Mod.DataBus), Stat.HealthPercent, "5.88");
+        assertPrimaryStat(data.getMod(Character.BobaFett, Mod.HoloArray), Stat.HealthPercent, "5.88");
+        assertPrimaryStat(data.getMod(Character.DeathTrooper, Mod.Receiver), Stat.HealthPercent, "5.88");
     }
 
     private void assertPrimaryStat(Node mod, Stat primaryStat, String expectedStatValue) {

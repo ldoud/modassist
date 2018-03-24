@@ -127,7 +127,7 @@
         <xsl:variable name="statValue" select="../span[@class = 'statmod-stat-value']"/>
 
         <xsl:choose>
-            <xsl:when test=". = 'Critical Chance' or . = 'Potency' or . = 'Tenacity' or . = 'Critical Damage' or . = 'Accuracy'">
+            <xsl:when test=". = 'Critical Chance' or . = 'Potency' or . = 'Tenacity' or . = 'Critical Damage' or . = 'Accuracy' or . =  'Critical Avoidance'">
                 <xsl:attribute name="name">
                     <xsl:value-of select="."/>
                 </xsl:attribute>
