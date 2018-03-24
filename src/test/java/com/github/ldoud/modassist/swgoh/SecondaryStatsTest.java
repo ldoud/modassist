@@ -99,6 +99,21 @@ public class SecondaryStatsTest {
         assertSecondaryStat(data.getMod(Character.SabineWren, Mod.Transmitter), Stat.Tenacity, "2.53");
     }
 
+    @Test
+    public void testProtectionFlatAmount() {
+        assertSecondaryStat(data.getMod(Character.RoyalGuard, Mod.DataBus), Stat.Protection, "3737");
+        assertSecondaryStat(data.getMod(Character.PrincessLeia, Mod.Multiplexer), Stat.Protection, "1531");
+        assertSecondaryStat(data.getMod(Character.Shoretrooper, Mod.Transmitter), Stat.Protection, "1658");
+    }
+
+    @Test
+    public void testProtectionPercent() {
+        assertSecondaryStat(data.getMod(Character.DarthSion, Mod.Processor), Stat.ProtectionPercent, "1.33");
+        assertSecondaryStat(data.getMod(Character.GeneralVeers, Mod.HoloArray), Stat.ProtectionPercent, "3.19");
+        assertSecondaryStat(data.getMod(Character.SabineWren, Mod.Processor), Stat.ProtectionPercent, "1.24");
+    }
+
+
     private void assertSecondaryStat(Node character, Stat secondaryStat, String expectedStatValue) {
         Node stat = character.selectSingleNode(XPATH_STAT.replace("${statName}", secondaryStat.toString()));
         Assertions.assertNotNull(stat, "Found secondary stat: "+stat+" for character: "+character.selectSingleNode("@character").getText());

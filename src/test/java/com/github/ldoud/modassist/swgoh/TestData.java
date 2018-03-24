@@ -1,5 +1,6 @@
 package com.github.ldoud.modassist.swgoh;
 
+import com.github.ldoud.modassist.apps.SwgohGgToCsv;
 import com.github.ldoud.modassist.constants.Character;
 import com.github.ldoud.modassist.constants.Mod;
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
@@ -17,8 +18,11 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 class TestData {
+    private static final Logger LOG = Logger.getLogger(TestData.class.getName());
 
     private static final String XPATH_SLOT_ON_CHARACTER = "/mods/mod[@character='${characterName}' and @slot='${modType}']";
 
@@ -47,7 +51,9 @@ class TestData {
         DOMReader reader = new DOMReader();
         doc = reader.read(d);
 
-        TransformerFactory.newInstance().newTransformer().transform(new DOMSource(d),new StreamResult(System.out));
+        if (LOG.isLoggable(Level.FINE)) {
+            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(d), new StreamResult(System.out));
+        }
     }
 
     public Node getMod(Character toon, Mod slot) {
