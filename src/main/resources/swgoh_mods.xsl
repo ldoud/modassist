@@ -148,7 +148,7 @@
 
     <xsl:template match="span[@class = 'statmod-stat-value']">
         <xsl:attribute name="value">
-            <xsl:value-of select="."/>
+            <xsl:value-of select="substring(., 2)"/>
         </xsl:attribute>
     </xsl:template>
 
