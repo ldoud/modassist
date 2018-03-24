@@ -30,25 +30,11 @@ public class SwgohGgToCsv {
 
     private String username;
     private String csvOutputFilename;
-    Document newDocWithMods;
-    private Element modListXML;
+    private Document newDocWithMods;
     private HtmlDataMiner miner;
 
     private SwgohGgToCsv() throws TransformerConfigurationException, ParserConfigurationException {
         miner = new HtmlDataMiner("swgoh_mods.xsl");
-
-        // Create new XML document containing an empty list of "mods".
-        newDocWithMods = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().newDocument();
-        modListXML = newDocWithMods.createElement("mods");
-    }
-
-    private void addMods(Node newMods) {
-        NodeList modList = newMods.getFirstChild().getChildNodes();
-        for(int currentMod=0; currentMod < modList.getLength(); currentMod++) {
-            Node mod = modList.item(currentMod).cloneNode(true);
-            newDocWithMods.adoptNode(mod);
-            modListXML.appendChild(mod.cloneNode(true));
-        }
     }
 
     // TODO Read from the SWGOH website.
@@ -84,7 +70,7 @@ public class SwgohGgToCsv {
     private void logModListXml() throws TransformerException {
         if(LOG.isLoggable(Level.FINE)) {
             StringWriter xmlStringWritter = new StringWriter();
-            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(modListXML), new StreamResult(xmlStringWritter));
+            TransformerFactory.newInstance().newTransformer().transform(new DOMSource(newDocWithMods), new StreamResult(xmlStringWritter));
             LOG.fine(xmlStringWritter.toString());
         }
     }
@@ -92,11 +78,14 @@ public class SwgohGgToCsv {
     private void retreiveDataFromWebsite() throws ParserConfigurationException, TransformerException, IOException {
         String baseURL = RAW_URL.replace("${username}", username);
         int numberOfWebpagesToRead = findNumberOfWebpagesToRead();
+        URL[] webpages = new URL[numberOfWebpagesToRead];
 
         for(int page=1; page <= numberOfWebpagesToRead; page++) {
             String webpageURL = baseURL.replace("${page}",page+"");
-            addMods(miner.extractData(new URL(webpageURL)));
+            webpages[page-1] = new URL(webpageURL);
         }
+
+        newDocWithMods = miner.extractData(webpages);
     }
 
     private void saveToCsv() throws TransformerException {
@@ -104,9 +93,9 @@ public class SwgohGgToCsv {
         Transformer xslt = TransformerFactory.newInstance().newTransformer(xsl);
 
         if (LOG.isLoggable(Level.FINE)) {
-            xslt.transform(new DOMSource(modListXML), new StreamResult(System.out));
+            xslt.transform(new DOMSource(newDocWithMods), new StreamResult(System.out));
         }
-        xslt.transform(new DOMSource(modListXML), new StreamResult(new File(csvOutputFilename)));
+        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {

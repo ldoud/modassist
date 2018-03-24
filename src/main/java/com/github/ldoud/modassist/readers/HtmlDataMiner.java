@@ -37,16 +37,16 @@ public class HtmlDataMiner {
         xslt = TransformerFactory.newInstance().newTransformer(xsl);
     }
 
-    public Node extractData(URL webpage) throws IOException, ParserConfigurationException, TransformerException {
+    public Document extractData(URL webpage) throws IOException, ParserConfigurationException, TransformerException {
         Document webpageAsXml = retreiveWebpageAsXML(webpage);
 
         DOMResult results = new DOMResult();
         xslt.transform(new DOMSource(webpageAsXml), results); // TransformerException
 
-        return results.getNode();
+        return (Document)results.getNode();
     }
 
-    public Node extractData(URL[] webpages) throws IOException, ParserConfigurationException, TransformerException {
+    public Document extractData(URL[] webpages) throws IOException, ParserConfigurationException, TransformerException {
         Document newDocWithMods = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().newDocument();
         Element modListXML = newDocWithMods.createElement("mods");
         newDocWithMods.appendChild(modListXML);
