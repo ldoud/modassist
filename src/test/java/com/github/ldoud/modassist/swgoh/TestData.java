@@ -39,9 +39,9 @@ class TestData {
         webpages[13] = ClassLoader.getSystemResource("html/swgoh_page14.html");
 
         HtmlDataMiner miner = new HtmlDataMiner("swgoh_mods.xsl");
-        org.w3c.dom.Node n = miner.extractData(webpages);
+        org.w3c.dom.Document d = miner.extractData(webpages);
         DOMReader reader = new DOMReader();
-        doc = reader.read((org.w3c.dom.Document)n);
+        doc = reader.read(d);
     }
 
     public Node getMod(Character toon, Mod slot) {
