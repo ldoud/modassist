@@ -1,4 +1,4 @@
-package com.github.ldoud.modassist.xsl;
+package com.github.ldoud.modassist.constants;
 
 public enum Character {
     AskokaTano("Ahsoka Tano"),
