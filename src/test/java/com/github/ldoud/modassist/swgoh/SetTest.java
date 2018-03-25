@@ -12,11 +12,11 @@ import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
 class SetTest {
-    private static TestData data;
+    private static TestXmlData data;
 
     @BeforeAll
     static void setUp() throws ParserConfigurationException, IOException, TransformerException {
-        data = new TestData();
+        data = TestXmlData.getInstance();
     }
 
     @Test

@@ -16,11 +16,11 @@ class PrimaryStatTest {
 
     private static final String XPATH_STAT = "stat[@name='${statName}' and @type='primary']";
 
-    private static TestData data;
+    private static TestXmlData data;
 
     @BeforeAll
     static void setUp() throws ParserConfigurationException, IOException, TransformerException {
-        data = new TestData();
+        data = TestXmlData.getInstance();
     }
 
     @Test

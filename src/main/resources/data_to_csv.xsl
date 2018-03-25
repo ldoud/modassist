@@ -10,7 +10,7 @@
     </xsl:template>
 
     <xsl:template match="mods">
-        <xsl:text>character,slot,set,level,dots,primary stat,primary value,speed,offense,defense,potency,protection,critical chance,health,tenacity</xsl:text>
+        <xsl:text>Character,Slot,Set,Level,Dots,Primary Stat,Primary Value,Speed,Offense,Offense Percent,Defense,Defense Percent,Potency,Protection,Protection Percent,Critical Chance,Health,Health Percent,Tenacity</xsl:text>
         <xsl:value-of select="$newline"/>
         <xsl:apply-templates select="*"/>
     </xsl:template>
@@ -24,11 +24,15 @@
         <xsl:apply-templates select="stat[@type='primary']"/>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Speed']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Offense']"/><xsl:text>,</xsl:text>
+        <xsl:apply-templates select="stat[@type='secondary' and @name='Offense Percent']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Defense']"/><xsl:text>,</xsl:text>
+        <xsl:apply-templates select="stat[@type='secondary' and @name='Defense Percent']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Potency']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Protection']"/><xsl:text>,</xsl:text>
+        <xsl:apply-templates select="stat[@type='secondary' and @name='Protection Percent']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Critical Chance']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Health']"/><xsl:text>,</xsl:text>
+        <xsl:apply-templates select="stat[@type='secondary' and @name='Health Percent']"/><xsl:text>,</xsl:text>
         <xsl:apply-templates select="stat[@type='secondary' and @name='Tenacity']"/>
         <xsl:value-of select="$newline"/>
     </xsl:template>

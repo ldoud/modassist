@@ -13,11 +13,11 @@ import java.io.IOException;
 
 class LevelTest {
 
-    private static TestData data;
+    private static TestXmlData data;
 
     @BeforeAll
     static void setUp() throws ParserConfigurationException, IOException, TransformerException {
-        data = new TestData();
+        data = TestXmlData.getInstance();
     }
 
     @Test

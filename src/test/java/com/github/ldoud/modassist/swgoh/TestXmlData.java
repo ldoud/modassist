@@ -4,13 +4,14 @@ import com.github.ldoud.modassist.constants.Character;
 import com.github.ldoud.modassist.constants.Mod;
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
 import org.dom4j.Document;
+import org.dom4j.DocumentException;
 import org.dom4j.Node;
 import org.dom4j.io.DOMReader;
+import org.dom4j.io.DOMWriter;
 import org.junit.jupiter.api.Assertions;
 
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.IOException;
@@ -18,14 +19,24 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class TestData {
-    private static final Logger LOG = Logger.getLogger(TestData.class.getName());
+public class TestXmlData {
+    private static final Logger LOG = Logger.getLogger(TestXmlData.class.getName());
 
     private static final String XPATH_SLOT_ON_CHARACTER = "/mods/mod[@character='${characterName}' and @slot='${modType}']";
 
+    private static TestXmlData SINGLETON;
+
     private Document doc;
 
-    TestData() throws TransformerException, ParserConfigurationException, IOException {
+    public static TestXmlData getInstance() throws IOException, TransformerException, ParserConfigurationException {
+        if(SINGLETON == null) {
+            SINGLETON = new TestXmlData();
+        }
+
+        return SINGLETON;
+    }
+
+    public TestXmlData() throws TransformerException, ParserConfigurationException, IOException {
         // https://swgoh.gg/u/wasssup/mods/
         URL[] webpages = new URL[14];
         webpages[0] = ClassLoader.getSystemResource("html/swgoh_page1.html");
@@ -53,7 +64,7 @@ class TestData {
         }
     }
 
-    public Node getMod(Character toon, Mod slot) {
+    Node getMod(Character toon, Mod slot) {
         String xpath = XPATH_SLOT_ON_CHARACTER
                 .replace("${characterName}", toon.toString())
                 .replace("${modType}", slot.toString());
@@ -61,5 +72,11 @@ class TestData {
 
         Assertions.assertNotNull(character, "Character's mod found: "+xpath);
         return character;
+    }
+
+    public void transform(Result output, Source xsl) throws TransformerException, DocumentException {
+        DOMSource source = new DOMSource(new DOMWriter().write(doc));
+        Transformer transformer = TransformerFactory.newInstance().newTransformer(xsl);
+        transformer.transform(source, output);
     }
 }
