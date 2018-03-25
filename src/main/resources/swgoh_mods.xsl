@@ -141,7 +141,7 @@
             </xsl:when>
             <xsl:when test="contains($statValue, '%')">
                 <xsl:attribute name="name">
-                    <xsl:value-of select="concat(., 'Percent')"/>
+                    <xsl:value-of select="concat(., ' Percent')"/>
                 </xsl:attribute>
             </xsl:when>
             <xsl:otherwise>

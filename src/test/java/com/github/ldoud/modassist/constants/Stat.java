@@ -6,14 +6,14 @@ public enum Stat {
     CriticalChance("Critical Chance"),
     CriticalDamage("Critical Damage"),
     Defense("Defense"),
-    DefensePercent("DefensePercent"),
+    DefensePercent("Defense Percent"),
     Health("Health"),
-    HealthPercent("HealthPercent"),
+    HealthPercent("Health Percent"),
     Offense("Offense"),
-    OffensePercent("OffensePercent"),
+    OffensePercent("Offense Percent"),
     Potency("Potency"),
     Protection("Protection"),
-    ProtectionPercent("ProtectionPercent"),
+    ProtectionPercent("Protection Percent"),
     Speed("Speed"),
     Tenacity("Tenacity");
 
