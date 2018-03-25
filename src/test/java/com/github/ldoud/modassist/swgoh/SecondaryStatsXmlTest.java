@@ -13,7 +13,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
-class SecondaryStatsTest extends SecondaryStatsBaseTest {
+class SecondaryStatsXmlTest extends SecondaryStatsBaseTest {
 
     private static final String XPATH_STAT = "stat[@name='${statName}' and @type='secondary']";
 
