@@ -1,6 +1,5 @@
 package com.github.ldoud.modassist.swgoh;
 
-import com.github.ldoud.modassist.apps.SwgohGgToCsv;
 import com.github.ldoud.modassist.constants.Character;
 import com.github.ldoud.modassist.constants.Mod;
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
@@ -10,12 +9,10 @@ import org.dom4j.io.DOMReader;
 import org.junit.jupiter.api.Assertions;
 
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.logging.Level;
@@ -28,7 +25,7 @@ class TestData {
 
     private Document doc;
 
-    public TestData() throws TransformerException, ParserConfigurationException, IOException {
+    TestData() throws TransformerException, ParserConfigurationException, IOException {
         // https://swgoh.gg/u/wasssup/mods/
         URL[] webpages = new URL[14];
         webpages[0] = ClassLoader.getSystemResource("html/swgoh_page1.html");
