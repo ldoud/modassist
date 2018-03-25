@@ -32,9 +32,16 @@
 
     <!-- TODO: Break the "set" and "type" appart -->
     <xsl:template match="img[@class = 'statmod-img']">
+        <xsl:variable name="dotsAsRomanNumerial" select="substring-after(substring-before(@alt, '-'), ' ')"/>
 
         <xsl:attribute name="dots">
-            <xsl:value-of select="substring-after(substring-before(@alt, '-'), ' ')"/>
+            <xsl:choose>
+                <xsl:when test="$dotsAsRomanNumerial = 'I'">1</xsl:when>
+                <xsl:when test="$dotsAsRomanNumerial = 'II'">2</xsl:when>
+                <xsl:when test="$dotsAsRomanNumerial = 'III'">3</xsl:when>
+                <xsl:when test="$dotsAsRomanNumerial = 'IV'">4</xsl:when>
+                <xsl:when test="$dotsAsRomanNumerial = 'V'">5</xsl:when>
+            </xsl:choose>
         </xsl:attribute>
 
         <xsl:call-template name="mod-set">

@@ -31,6 +31,7 @@ public enum Character {
     SabineWren("Sabine Wren"),
     Shoretrooper("Shoretrooper"),
     SithAssassin("Sith Assassin"),
+    StormtrooperHan("Stormtrooper Han"),
     WedgeAntilles("Wedge Antilles");
 
 
