@@ -2,6 +2,7 @@ package com.github.ldoud.modassist.constants;
 
 public enum Character {
     AskokaTano("Ahsoka Tano"),
+    AsajjVentress("Asajj Ventress"),
     BiggsDarklighter("Biggs Darklighter"),
     BobaFett("Boba Fett"),
     CadBane("Cad Bane"),
@@ -13,6 +14,7 @@ public enum Character {
     DeathTrooper("Death Trooper"),
     DirectorKrennic("Director Krennic"),
     EmperorPalpatine("Emperor Palpatine"),
+    EwokElder("Ewok Elder"),
     FirstOrderStormtrooper("First Order Stormtrooper"),
     FirstOrderTIEPilot("First Order TIE Pilot"),
     GeneralKenobi("General Kenobi"),
@@ -24,6 +26,7 @@ public enum Character {
     JediConsular("Jedi Consular"),
     JynErso("Jyn Erso"),
     K2SO("K-2SO"),
+    KyloRen("Kylo Ren"),
     Magmatrooper("Magmatrooper"),
     OldDaka("Old Daka"),
     PrincessLeia("Princess Leia"),
@@ -34,7 +37,8 @@ public enum Character {
     Shoretrooper("Shoretrooper"),
     SithAssassin("Sith Assassin"),
     StormtrooperHan("Stormtrooper Han"),
-    WedgeAntilles("Wedge Antilles");
+    WedgeAntilles("Wedge Antilles"),
+    ZamWesell("Zam Wesell");
 
 
     private String name;

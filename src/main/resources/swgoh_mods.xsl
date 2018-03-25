@@ -64,10 +64,10 @@
                 <xsl:when test="contains($mod-description, 'Defense')">Defense</xsl:when>
             </xsl:choose>
             <xsl:choose>
-                <xsl:when test="contains($mod-description, 'Crit Damage')">Crit Damage</xsl:when>
+                <xsl:when test="contains($mod-description, 'Crit Damage')">Critical Damage</xsl:when>
             </xsl:choose>
             <xsl:choose>
-                <xsl:when test="contains($mod-description, 'Crit Chance')">Crit Chance</xsl:when>
+                <xsl:when test="contains($mod-description, 'Crit Chance')">Critical Chance</xsl:when>
             </xsl:choose>
             <xsl:choose>
                 <xsl:when test="contains($mod-description, 'Tenacity')">Tenacity</xsl:when>
