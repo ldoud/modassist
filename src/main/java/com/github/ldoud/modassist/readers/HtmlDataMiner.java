@@ -65,7 +65,7 @@ public class HtmlDataMiner {
         return newDocWithMods;
     }
 
-    private static Document retreiveWebpageAsXML(URL webpage) throws IOException, ParserConfigurationException {
+    public static Document retreiveWebpageAsXML(URL webpage) throws IOException, ParserConfigurationException {
         // Retrieve and format webpage as XML.
         HtmlCleaner cleaner = new HtmlCleaner();
         TagNode node = cleaner.clean(webpage); // IOException

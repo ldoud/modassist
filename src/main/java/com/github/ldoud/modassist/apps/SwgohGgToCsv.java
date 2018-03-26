@@ -1,13 +1,12 @@
 package com.github.ldoud.modassist.apps;
 
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
-import com.oracle.tools.packager.Log;
+import org.dom4j.Node;
+import org.dom4j.io.DOMReader;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -16,6 +15,9 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -26,7 +28,8 @@ public class SwgohGgToCsv {
     private static Logger LOG = Logger.getLogger(SwgohGgToCsv.class.getName());
 
     private static final String USAGE = "SwgohGgToCsv -username YourSwgohGGUsername -filename csvFileToWrite";
-    private static final String RAW_URL = "https://swgoh.gg/u/${username}/mods/?page=${page}";
+    private static final String BASE_URL = "https://swgoh.gg/u/${username}/mods";
+    private static final String MOD_PAGE_URL = BASE_URL+"/?page=${page}";
 
     private String username;
     private String csvOutputFilename;
@@ -37,9 +40,16 @@ public class SwgohGgToCsv {
         miner = new HtmlDataMiner("swgoh_mods.xsl");
     }
 
-    // TODO Read from the SWGOH website.
-    private int findNumberOfWebpagesToRead() {
-        return 13;
+    public static int findNumberOfWebpagesToRead(URL webpage) throws IOException, ParserConfigurationException, TransformerException {
+        Document doc = HtmlDataMiner.retreiveWebpageAsXML(webpage);
+
+        DOMReader reader = new DOMReader();
+        org.dom4j.Document dom4j = reader.read(doc);
+        Node n = dom4j.selectSingleNode("//ul[@class='pagination m-t-0']/li/a[@href='javascript:;']");
+        String numberOfPages = n.getText();
+        numberOfPages = numberOfPages.substring(numberOfPages.indexOf("of")+3);
+
+        return Integer.parseInt(numberOfPages);
     }
 
     private void parseArgs(String[] args) {
@@ -76,8 +86,9 @@ public class SwgohGgToCsv {
     }
 
     private void retreiveDataFromWebsite() throws ParserConfigurationException, TransformerException, IOException {
-        String baseURL = RAW_URL.replace("${username}", username);
-        int numberOfWebpagesToRead = findNumberOfWebpagesToRead();
+        int numberOfWebpagesToRead = findNumberOfWebpagesToRead(new URL(BASE_URL.replace("${username}", username)));
+
+        String baseURL = MOD_PAGE_URL.replace("${username}", username);
         URL[] webpages = new URL[numberOfWebpagesToRead];
 
         for(int page=1; page <= numberOfWebpagesToRead; page++) {
