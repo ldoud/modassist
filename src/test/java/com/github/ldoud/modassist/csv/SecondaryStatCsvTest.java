@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.base.SecondaryStatsBaseTest;
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.dom4j.DocumentException;
@@ -22,7 +22,7 @@ class SecondaryStatCsvTest extends SecondaryStatsBaseTest {
     }
 
     @Override
-    protected void assertSecondaryStat(Character toon, ModType modType, Stat secondaryStat, String expectedStatValue) {
+    protected void assertSecondaryStat(CharacterName toon, ModType modType, Stat secondaryStat, String expectedStatValue) {
         String secondaryStatActual = csv.getSecondary(toon, modType, secondaryStat);
         Assertions.assertNotNull(secondaryStatActual, "Found secondary stat value for: "+toon.toString()+"'s "+ modType.toString());
         Assertions.assertEquals(expectedStatValue, secondaryStatActual, "Secondary stat value for: "+toon.toString()+"'s "+ modType.toString());

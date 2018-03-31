@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.LevelBaseTest;
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +20,7 @@ class LevelXmlTest extends LevelBaseTest {
         data = TestXmlData.getInstance();
     }
 
-    protected void assertNumberOLevels(Character toon, ModType modType, String expectedNumberOfLevels) {
+    protected void assertNumberOLevels(CharacterName toon, ModType modType, String expectedNumberOfLevels) {
         Node modXml = data.getMod(toon, modType);
 
         String xpath = "@level";

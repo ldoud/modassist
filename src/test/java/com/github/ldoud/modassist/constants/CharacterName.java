@@ -1,6 +1,6 @@
 package com.github.ldoud.modassist.constants;
 
-public enum Character {
+public enum CharacterName {
     AskokaTano("Ahsoka Tano"),
     AsajjVentress("Asajj Ventress"),
     BiggsDarklighter("Biggs Darklighter"),
@@ -43,7 +43,7 @@ public enum Character {
 
     private String name;
 
-    Character(String name) {
+    CharacterName(String name) {
         this.name = name;
     }
 

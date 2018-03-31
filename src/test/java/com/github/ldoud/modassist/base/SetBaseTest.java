@@ -1,6 +1,6 @@
 package com.github.ldoud.modassist.base;
 
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import org.junit.jupiter.api.Test;
 
@@ -8,72 +8,72 @@ public abstract class SetBaseTest {
 
     @Test
     void testHealthSet() {
-        assertSetName(Character.CommanderLukeSkywalker, ModType.Transmitter, "Health");
-        assertSetName(Character.Shoretrooper, ModType.Receiver, "Health");
-        assertSetName(Character.GeneralKenobi, ModType.Processor, "Health");
-        assertSetName(Character.WedgeAntilles, ModType.HoloArray, "Health");
-        assertSetName(Character.CommanderLukeSkywalker, ModType.DataBus, "Health");
-        assertSetName(Character.GeneralKenobi, ModType.Multiplexer, "Health");
+        assertSetName(CharacterName.CommanderLukeSkywalker, ModType.Transmitter, "Health");
+        assertSetName(CharacterName.Shoretrooper, ModType.Receiver, "Health");
+        assertSetName(CharacterName.GeneralKenobi, ModType.Processor, "Health");
+        assertSetName(CharacterName.WedgeAntilles, ModType.HoloArray, "Health");
+        assertSetName(CharacterName.CommanderLukeSkywalker, ModType.DataBus, "Health");
+        assertSetName(CharacterName.GeneralKenobi, ModType.Multiplexer, "Health");
     }
 
     @Test
     void testDefenseSet() {
-        assertSetName(Character.GeneralVeers, ModType.Transmitter, "Defense");
-        assertSetName(Character.AskokaTano, ModType.Receiver, "Defense");
-        assertSetName(Character.KyloRen, ModType.Processor, "Defense");
-        assertSetName(Character.DarthSion, ModType.HoloArray, "Defense");
-        assertSetName(Character.AsajjVentress, ModType.DataBus, "Defense");
-        assertSetName(Character.GrandAdmiralThrawn, ModType.Multiplexer, "Defense");
+        assertSetName(CharacterName.GeneralVeers, ModType.Transmitter, "Defense");
+        assertSetName(CharacterName.AskokaTano, ModType.Receiver, "Defense");
+        assertSetName(CharacterName.KyloRen, ModType.Processor, "Defense");
+        assertSetName(CharacterName.DarthSion, ModType.HoloArray, "Defense");
+        assertSetName(CharacterName.AsajjVentress, ModType.DataBus, "Defense");
+        assertSetName(CharacterName.GrandAdmiralThrawn, ModType.Multiplexer, "Defense");
     }
 
     @Test
     void testCriticalDamageSet() {
-        assertSetName(Character.DarthMaul, ModType.Transmitter, "Critical Damage");
-        assertSetName(Character.GrandMoffTarkin, ModType.Receiver, "Critical Damage");
-        assertSetName(Character.BobaFett, ModType.Processor, "Critical Damage");
-        assertSetName(Character.DeathTrooper, ModType.HoloArray, "Critical Damage");
-        assertSetName(Character.PrincessLeia, ModType.DataBus, "Critical Damage");
-        assertSetName(Character.JynErso, ModType.Multiplexer, "Critical Damage");
+        assertSetName(CharacterName.DarthMaul, ModType.Transmitter, "Critical Damage");
+        assertSetName(CharacterName.GrandMoffTarkin, ModType.Receiver, "Critical Damage");
+        assertSetName(CharacterName.BobaFett, ModType.Processor, "Critical Damage");
+        assertSetName(CharacterName.DeathTrooper, ModType.HoloArray, "Critical Damage");
+        assertSetName(CharacterName.PrincessLeia, ModType.DataBus, "Critical Damage");
+        assertSetName(CharacterName.JynErso, ModType.Multiplexer, "Critical Damage");
     }
 
     @Test
     void testCriticalChanceSet() {
-        assertSetName(Character.DarthMaul, ModType.Receiver, "Critical Chance");
-        assertSetName(Character.BiggsDarklighter, ModType.HoloArray, "Critical Chance");
+        assertSetName(CharacterName.DarthMaul, ModType.Receiver, "Critical Chance");
+        assertSetName(CharacterName.BiggsDarklighter, ModType.HoloArray, "Critical Chance");
     }
 
     @Test
     void testTenacitySet() {
-        assertSetName(Character.ZamWesell, ModType.Processor, "Tenacity");
-        assertSetName(Character.Shoretrooper, ModType.HoloArray, "Tenacity");
-        assertSetName(Character.JynErso, ModType.DataBus, "Tenacity");
+        assertSetName(CharacterName.ZamWesell, ModType.Processor, "Tenacity");
+        assertSetName(CharacterName.Shoretrooper, ModType.HoloArray, "Tenacity");
+        assertSetName(CharacterName.JynErso, ModType.DataBus, "Tenacity");
     }
 
     @Test
     void testOffenseSet() {
-        assertSetName(Character.OldDaka, ModType.HoloArray, "Offense");
-        assertSetName(Character.EwokElder, ModType.Multiplexer, "Offense");
+        assertSetName(CharacterName.OldDaka, ModType.HoloArray, "Offense");
+        assertSetName(CharacterName.EwokElder, ModType.Multiplexer, "Offense");
     }
 
     @Test
     void testPotencySet() {
-        assertSetName(Character.ResistancePilot, ModType.Transmitter, "Potency");
-        assertSetName(Character.BobaFett, ModType.Receiver, "Potency");
-        assertSetName(Character.JynErso, ModType.Processor, "Potency");
-        assertSetName(Character.GrandMoffTarkin, ModType.HoloArray, "Potency");
-        assertSetName(Character.AskokaTano, ModType.DataBus, "Potency");
-        assertSetName(Character.ResistanceTrooper, ModType.Multiplexer, "Potency");
+        assertSetName(CharacterName.ResistancePilot, ModType.Transmitter, "Potency");
+        assertSetName(CharacterName.BobaFett, ModType.Receiver, "Potency");
+        assertSetName(CharacterName.JynErso, ModType.Processor, "Potency");
+        assertSetName(CharacterName.GrandMoffTarkin, ModType.HoloArray, "Potency");
+        assertSetName(CharacterName.AskokaTano, ModType.DataBus, "Potency");
+        assertSetName(CharacterName.ResistanceTrooper, ModType.Multiplexer, "Potency");
     }
 
     @Test
     void testSpeedSet() {
-        assertSetName(Character.GrandAdmiralThrawn, ModType.Transmitter, "Speed");
-        assertSetName(Character.CommanderLukeSkywalker, ModType.Receiver, "Speed");
-        assertSetName(Character.GeneralVeers, ModType.Processor, "Speed");
-        assertSetName(Character.GeneralKenobi, ModType.HoloArray, "Speed");
-        assertSetName(Character.K2SO, ModType.DataBus, "Speed");
-        assertSetName(Character.ZamWesell, ModType.Multiplexer, "Speed");
+        assertSetName(CharacterName.GrandAdmiralThrawn, ModType.Transmitter, "Speed");
+        assertSetName(CharacterName.CommanderLukeSkywalker, ModType.Receiver, "Speed");
+        assertSetName(CharacterName.GeneralVeers, ModType.Processor, "Speed");
+        assertSetName(CharacterName.GeneralKenobi, ModType.HoloArray, "Speed");
+        assertSetName(CharacterName.K2SO, ModType.DataBus, "Speed");
+        assertSetName(CharacterName.ZamWesell, ModType.Multiplexer, "Speed");
     }
 
-    protected abstract void assertSetName(Character toon, ModType modType, String expectedSetName);
+    protected abstract void assertSetName(CharacterName toon, ModType modType, String expectedSetName);
 }

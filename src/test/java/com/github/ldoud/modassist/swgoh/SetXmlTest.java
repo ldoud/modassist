@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.SetBaseTest;
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +20,7 @@ class SetXmlTest extends SetBaseTest {
     }
 
     @Override
-    protected void assertSetName(Character toon, ModType modType, String expectedSetName) {
+    protected void assertSetName(CharacterName toon, ModType modType, String expectedSetName) {
         Node modXml = data.getMod(toon, modType);
         String characterName = modXml.selectSingleNode("@character").getText(); // used in assert message only
 

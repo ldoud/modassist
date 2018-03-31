@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.base.PrimaryStatBaseTest;
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.dom4j.DocumentException;
@@ -22,7 +22,7 @@ class PrimaryStatCsvTest extends PrimaryStatBaseTest {
     }
 
     @Override
-    protected void assertPrimaryStat(Character toon, ModType modType, Stat primaryStat, String expectedStatValue) {
+    protected void assertPrimaryStat(CharacterName toon, ModType modType, Stat primaryStat, String expectedStatValue) {
         String primaryStatActual = csv.getPrimaryValue(toon, modType);
         Assertions.assertNotNull(primaryStatActual, "Found primary stat value for: "+toon.toString()+"'s "+ modType.toString());
         Assertions.assertEquals(expectedStatValue, primaryStatActual, "Primary stat value for: "+toon.toString()+"'s "+ modType.toString());
