@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import com.github.ldoud.modassist.swgoh.TestXmlData;
 import org.dom4j.DocumentException;
@@ -43,32 +43,32 @@ public class TestCsvFile {
         }
     }
 
-    public String getSet(Character toon, Mod mod) {
-        return getColumn(toon, mod, 2);
+    public String getSet(Character toon, ModType modType) {
+        return getColumn(toon, modType, 2);
     }
 
-    public String getLevel(Character toon, Mod mod) {
-        return getColumn(toon, mod, 3);
+    public String getLevel(Character toon, ModType modType) {
+        return getColumn(toon, modType, 3);
     }
 
-    public String getDots(Character toon, Mod mod) {
-        return getColumn(toon, mod, 4);
+    public String getDots(Character toon, ModType modType) {
+        return getColumn(toon, modType, 4);
     }
 
-    public String getPrimaryStat(Character toon, Mod mod) {
-        return getColumn(toon, mod, 5);
+    public String getPrimaryStat(Character toon, ModType modType) {
+        return getColumn(toon, modType, 5);
     }
 
-    public String getPrimaryValue(Character toon, Mod mod) {
-        return getColumn(toon, mod, 6);
+    public String getPrimaryValue(Character toon, ModType modType) {
+        return getColumn(toon, modType, 6);
     }
 
-    public String getSecondary(Character toon, Mod mod, Stat stat) {
-        return getColumn(toon, mod, stat.getColumnIndexForSecondary());
+    public String getSecondary(Character toon, ModType modType, Stat stat) {
+        return getColumn(toon, modType, stat.getColumnIndexForSecondary());
     }
 
-    private String getColumn(Character toon, Mod mod, int columnIndex) {
-        String key = toon.toString()+"-"+mod.toString();
+    private String getColumn(Character toon, ModType modType, int columnIndex) {
+        String key = toon.toString()+"-"+ modType.toString();
         String[] columns = csvLines.get(key);
         return columns[columnIndex];
     }

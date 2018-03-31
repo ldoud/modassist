@@ -1,6 +1,6 @@
 package com.github.ldoud.modassist.constants;
 
-public enum Mod {
+public enum ModType {
     Transmitter("Transmitter", "Square"),
     Receiver("Receiver","Arrow"),
     Processor("Processor","Diamond"),
@@ -11,7 +11,7 @@ public enum Mod {
     private String name;
     private String shape;
 
-    Mod(String name, String shape) {
+    ModType(String name, String shape) {
         this.name = name;
         this.shape = shape;
     }

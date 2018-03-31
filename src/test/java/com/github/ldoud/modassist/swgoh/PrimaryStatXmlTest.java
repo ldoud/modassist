@@ -2,12 +2,11 @@ package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.PrimaryStatBaseTest;
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -25,8 +24,8 @@ class PrimaryStatXmlTest extends PrimaryStatBaseTest {
     }
 
     @Override
-    protected void assertPrimaryStat(Character toon, Mod mod, Stat primaryStat, String expectedStatValue) {
-        Node modXml = data.getMod(toon, mod);
+    protected void assertPrimaryStat(Character toon, ModType modType, Stat primaryStat, String expectedStatValue) {
+        Node modXml = data.getMod(toon, modType);
         String xpath = XPATH_STAT.replace("${statName}", primaryStat.toString());
         String characterName = modXml.selectSingleNode("@character").getText(); // used in assert message only
 

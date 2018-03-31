@@ -2,11 +2,10 @@ package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.LevelBaseTest;
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -21,14 +20,14 @@ class LevelXmlTest extends LevelBaseTest {
         data = TestXmlData.getInstance();
     }
 
-    protected void assertNumberOLevels(Character toon, Mod mod, String expectedNumberOfLevels) {
-        Node modXml = data.getMod(toon, mod);
+    protected void assertNumberOLevels(Character toon, ModType modType, String expectedNumberOfLevels) {
+        Node modXml = data.getMod(toon, modType);
 
         String xpath = "@level";
         String characterName = modXml.selectSingleNode("@character").getText(); // used in assert message only
 
         Node level = modXml.selectSingleNode(xpath);
-        Assertions.assertNotNull(level, characterName+"'s level on mod: "+xpath);
+        Assertions.assertNotNull(level, characterName+"'s level on modType: "+xpath);
         Assertions.assertEquals(expectedNumberOfLevels, level.getText(), "Number of levels on mods");
     }
 }
