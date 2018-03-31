@@ -1,6 +1,6 @@
 package com.github.ldoud.modassist.csv;
 
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import com.github.ldoud.modassist.swgoh.TestXmlData;
@@ -43,31 +43,31 @@ public class TestCsvFile {
         }
     }
 
-    public String getSet(Character toon, ModType modType) {
+    public String getSet(CharacterName toon, ModType modType) {
         return getColumn(toon, modType, 2);
     }
 
-    public String getLevel(Character toon, ModType modType) {
+    public String getLevel(CharacterName toon, ModType modType) {
         return getColumn(toon, modType, 3);
     }
 
-    public String getDots(Character toon, ModType modType) {
+    public String getDots(CharacterName toon, ModType modType) {
         return getColumn(toon, modType, 4);
     }
 
-    public String getPrimaryStat(Character toon, ModType modType) {
+    public String getPrimaryStat(CharacterName toon, ModType modType) {
         return getColumn(toon, modType, 5);
     }
 
-    public String getPrimaryValue(Character toon, ModType modType) {
+    public String getPrimaryValue(CharacterName toon, ModType modType) {
         return getColumn(toon, modType, 6);
     }
 
-    public String getSecondary(Character toon, ModType modType, Stat stat) {
+    public String getSecondary(CharacterName toon, ModType modType, Stat stat) {
         return getColumn(toon, modType, stat.getColumnIndexForSecondary());
     }
 
-    private String getColumn(Character toon, ModType modType, int columnIndex) {
+    private String getColumn(CharacterName toon, ModType modType, int columnIndex) {
         String key = toon.toString()+"-"+ modType.toString();
         String[] columns = csvLines.get(key);
         return columns[columnIndex];

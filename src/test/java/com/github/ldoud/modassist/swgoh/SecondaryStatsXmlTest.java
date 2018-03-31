@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.SecondaryStatsBaseTest;
-import com.github.ldoud.modassist.constants.Character;
+import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.dom4j.Node;
@@ -24,7 +24,7 @@ class SecondaryStatsXmlTest extends SecondaryStatsBaseTest {
     }
 
     @Override
-    protected void assertSecondaryStat(Character toon, ModType modType, Stat secondaryStat, String expectedStatValue) {
+    protected void assertSecondaryStat(CharacterName toon, ModType modType, Stat secondaryStat, String expectedStatValue) {
         Node modXml = data.getMod(toon, modType);
         Node stat = modXml.selectSingleNode(XPATH_STAT.replace("${statName}", secondaryStat.toString()));
         Assertions.assertNotNull(stat, "Found secondary stat: "+stat+" for character: "+modXml.selectSingleNode("@character").getText());
