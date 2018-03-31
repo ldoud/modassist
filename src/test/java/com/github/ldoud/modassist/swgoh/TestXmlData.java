@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.readers.HtmlDataMiner;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -64,7 +64,7 @@ public class TestXmlData {
         }
     }
 
-    Node getMod(Character toon, Mod slot) {
+    Node getMod(Character toon, ModType slot) {
         String xpath = XPATH_SLOT_ON_CHARACTER
                 .replace("${characterName}", toon.toString())
                 .replace("${modType}", slot.toString());

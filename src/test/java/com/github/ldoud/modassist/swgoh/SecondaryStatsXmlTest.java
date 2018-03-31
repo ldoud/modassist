@@ -2,12 +2,11 @@ package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.SecondaryStatsBaseTest;
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -25,8 +24,8 @@ class SecondaryStatsXmlTest extends SecondaryStatsBaseTest {
     }
 
     @Override
-    protected void assertSecondaryStat(Character toon, Mod mod, Stat secondaryStat, String expectedStatValue) {
-        Node modXml = data.getMod(toon, mod);
+    protected void assertSecondaryStat(Character toon, ModType modType, Stat secondaryStat, String expectedStatValue) {
+        Node modXml = data.getMod(toon, modType);
         Node stat = modXml.selectSingleNode(XPATH_STAT.replace("${statName}", secondaryStat.toString()));
         Assertions.assertNotNull(stat, "Found secondary stat: "+stat+" for character: "+modXml.selectSingleNode("@character").getText());
 

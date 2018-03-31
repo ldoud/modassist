@@ -2,11 +2,10 @@ package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.SetBaseTest;
 import com.github.ldoud.modassist.constants.Character;
-import com.github.ldoud.modassist.constants.Mod;
+import com.github.ldoud.modassist.constants.ModType;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -21,13 +20,13 @@ class SetXmlTest extends SetBaseTest {
     }
 
     @Override
-    protected void assertSetName(Character toon, Mod mod, String expectedSetName) {
-        Node modXml = data.getMod(toon, mod);
+    protected void assertSetName(Character toon, ModType modType, String expectedSetName) {
+        Node modXml = data.getMod(toon, modType);
         String characterName = modXml.selectSingleNode("@character").getText(); // used in assert message only
 
         String xpath = "@set";
         Node setName = modXml.selectSingleNode(xpath);
-        Assertions.assertNotNull(setName, characterName+"'s set on mod: "+xpath);
-        Assertions.assertEquals(expectedSetName, setName.getText(), "Set name on mod");
+        Assertions.assertNotNull(setName, characterName+"'s set on modType: "+xpath);
+        Assertions.assertEquals(expectedSetName, setName.getText(), "Set name on modType");
     }
 }
