@@ -4,8 +4,6 @@ import com.github.ldoud.modassist.readers.HtmlDataMiner;
 import org.dom4j.Node;
 import org.dom4j.io.DOMReader;
 import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
@@ -15,28 +13,28 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathFactory;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.net.URL;
 import java.util.logging.*;
 
-public class SwgohGgToCsv {
-    private static Logger LOG = Logger.getLogger(SwgohGgToCsv.class.getName());
+public class SwgohGG {
+    enum OutputFormat {CSV, XML};
 
-    private static final String USAGE = "SwgohGgToCsv -username YourSwgohGGUsername -filename csvFileToWrite";
+    private static Logger LOG = Logger.getLogger(SwgohGG.class.getName());
+
+    private static final String USAGE = "SwgohGG -username YourSwgohGGUsername (-csvfilename | -xmlFilename) filename)";
     private static final String BASE_URL = "https://swgoh.gg/u/${username}/mods";
     private static final String MOD_PAGE_URL = BASE_URL+"/?page=${page}";
 
     private String username;
-    private String csvOutputFilename;
+    private String outputFilename;
     private Document newDocWithMods;
     private HtmlDataMiner miner;
+    private OutputFormat outputFormat = null;
 
-    private SwgohGgToCsv() throws TransformerConfigurationException, ParserConfigurationException {
+    private SwgohGG() throws TransformerConfigurationException, ParserConfigurationException {
         miner = new HtmlDataMiner("swgoh_mods.xsl");
     }
 
@@ -64,13 +62,18 @@ public class SwgohGgToCsv {
                 case "-username":
                     username = args[++currentArg];
                     break;
-                case "-filename":
-                    csvOutputFilename = args[++currentArg];
+                case "-csvFilename":
+                    outputFilename = args[++currentArg];
+                    outputFormat = OutputFormat.CSV;
+                    break;
+                case "-xmlFilename":
+                    outputFilename = args[++currentArg];
+                    outputFormat = OutputFormat.XML;
                     break;
             }
         }
 
-        if (username == null || csvOutputFilename == null) {
+        if (username == null || outputFormat == null) {
             System.err.println("Missing required parameters");
             System.out.println(USAGE);
             System.exit(-1);
@@ -99,22 +102,28 @@ public class SwgohGgToCsv {
         newDocWithMods = miner.extractData(webpages);
     }
 
-    private void saveToCsv() throws TransformerException {
-        StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream("data_to_csv.xsl"));
-        Transformer xslt = TransformerFactory.newInstance().newTransformer(xsl);
+    private void saveToFile() throws TransformerException {
+        Transformer xslt;
+        if (outputFormat == OutputFormat.CSV) {
+            StreamSource xsl = new StreamSource(ClassLoader.getSystemResourceAsStream("data_to_csv.xsl"));
+            xslt = TransformerFactory.newInstance().newTransformer(xsl);
+        }
+        else {
+            xslt = TransformerFactory.newInstance().newTransformer();
+        }
 
         if (LOG.isLoggable(Level.FINE)) {
             xslt.transform(new DOMSource(newDocWithMods), new StreamResult(System.out));
         }
-        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(csvOutputFilename)));
+        xslt.transform(new DOMSource(newDocWithMods), new StreamResult(new File(outputFilename)));
     }
 
     public static void main(String[] args) throws TransformerException, ParserConfigurationException, IOException {
-        SwgohGgToCsv app = new SwgohGgToCsv();
+        SwgohGG app = new SwgohGG();
         app.parseArgs(args);
         app.retreiveDataFromWebsite();
         app.logModListXml();
-        app.saveToCsv();
+        app.saveToFile();
     }
 
 }
