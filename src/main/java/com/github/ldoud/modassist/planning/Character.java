@@ -1,5 +1,6 @@
 package com.github.ldoud.modassist.planning;
 
+import com.github.ldoud.modassist.data.Mod;
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 

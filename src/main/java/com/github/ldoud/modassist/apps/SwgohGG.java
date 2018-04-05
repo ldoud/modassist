@@ -1,6 +1,6 @@
 package com.github.ldoud.modassist.apps;
 
-import com.github.ldoud.modassist.readers.HtmlDataMiner;
+import com.github.ldoud.modassist.io.HtmlDataMiner;
 import org.dom4j.Node;
 import org.dom4j.io.DOMReader;
 import org.w3c.dom.Document;

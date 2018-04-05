@@ -1,8 +1,8 @@
 package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.planning.ModType;
-import com.github.ldoud.modassist.readers.HtmlDataMiner;
+import com.github.ldoud.modassist.data.ModType;
+import com.github.ldoud.modassist.io.HtmlDataMiner;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Node;

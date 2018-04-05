@@ -1,4 +1,4 @@
-package com.github.ldoud.modassist.planning;
+package com.github.ldoud.modassist.data;
 
 public enum ModType {
     Transmitter("Transmitter", "Square"),

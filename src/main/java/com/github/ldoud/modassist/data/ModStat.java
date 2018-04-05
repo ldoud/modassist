@@ -1,6 +1,6 @@
-package com.github.ldoud.modassist.constants;
+package com.github.ldoud.modassist.data;
 
-public enum Stat {
+public enum ModStat {
     Accuracy("Accuracy", -1),
     CriticalAvoidance("Critical Avoidance", -1),
     CriticalChance("Critical Chance", 15),
@@ -21,7 +21,7 @@ public enum Stat {
     private String name;
     private int csvColumnIndexForSecondary;
 
-    Stat(String name, int index) {
+    ModStat(String name, int index) {
         this.name = name;
         csvColumnIndexForSecondary = index;
     }

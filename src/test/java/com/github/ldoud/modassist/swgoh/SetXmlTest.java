@@ -2,7 +2,7 @@ package com.github.ldoud.modassist.swgoh;
 
 import com.github.ldoud.modassist.base.SetBaseTest;
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.planning.ModType;
+import com.github.ldoud.modassist.data.ModType;
 import org.dom4j.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

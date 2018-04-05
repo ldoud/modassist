@@ -1,9 +1,9 @@
 package com.github.ldoud.modassist.csv;
 
-import com.github.ldoud.modassist.base.PrimaryStatBaseTest;
+import com.github.ldoud.modassist.base.PrimaryModStatBaseTest;
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.planning.ModType;
-import com.github.ldoud.modassist.constants.Stat;
+import com.github.ldoud.modassist.data.ModStat;
+import com.github.ldoud.modassist.data.ModType;
 import org.dom4j.DocumentException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -12,7 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
-class PrimaryStatCsvTest extends PrimaryStatBaseTest {
+class PrimaryModStatCsvTest extends PrimaryModStatBaseTest {
 
     private static TestCsvFile csv;
 
@@ -22,13 +22,13 @@ class PrimaryStatCsvTest extends PrimaryStatBaseTest {
     }
 
     @Override
-    protected void assertPrimaryStat(CharacterName toon, ModType modType, Stat primaryStat, String expectedStatValue) {
+    protected void assertPrimaryStat(CharacterName toon, ModType modType, ModStat primaryModStat, String expectedStatValue) {
         String primaryStatActual = csv.getPrimaryValue(toon, modType);
         Assertions.assertNotNull(primaryStatActual, "Found primary stat value for: "+toon.toString()+"'s "+ modType.toString());
         Assertions.assertEquals(expectedStatValue, primaryStatActual, "Primary stat value for: "+toon.toString()+"'s "+ modType.toString());
 
         String primaryStatName = csv.getPrimaryStat(toon, modType);
         Assertions.assertNotNull(primaryStatName, "Found primary stat name for: "+toon.toString()+"'s "+ modType.toString());
-        Assertions.assertEquals(primaryStatName, primaryStat.toString(), "Primary stat value for: "+toon.toString()+"'s "+ modType.toString());
+        Assertions.assertEquals(primaryStatName, primaryModStat.toString(), "Primary stat value for: "+toon.toString()+"'s "+ modType.toString());
     }
 }

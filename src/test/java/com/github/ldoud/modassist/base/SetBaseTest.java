@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.base;
 
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.planning.ModType;
+import com.github.ldoud.modassist.data.ModType;
 import org.junit.jupiter.api.Test;
 
 public abstract class SetBaseTest {
