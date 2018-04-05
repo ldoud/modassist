@@ -2,7 +2,7 @@ package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.base.SetBaseTest;
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.constants.ModType;
+import com.github.ldoud.modassist.planning.ModType;
 import org.dom4j.DocumentException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

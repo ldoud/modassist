@@ -1,7 +1,7 @@
 package com.github.ldoud.modassist.base;
 
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.constants.ModType;
+import com.github.ldoud.modassist.planning.ModType;
 import com.github.ldoud.modassist.constants.Stat;
 import org.junit.jupiter.api.Test;
 
