@@ -27,6 +27,7 @@ class SecondaryStatsXmlTest extends SecondaryStatsBaseTest {
     protected void assertSecondaryStat(CharacterName toon, ModType modType, StatName secondaryStatName, String expectedStatValue) {
         Node modXml = data.getMod(toon, modType);
         Node stat = modXml.selectSingleNode(XPATH_STAT.replace("${statName}", secondaryStatName.toString()));
+
         Assertions.assertNotNull(stat, "Found secondary stat: "+stat+" for character: "+modXml.selectSingleNode("@character").getText());
 
         String asserting = modXml.selectSingleNode("@character").getText()+"'s "+ secondaryStatName.toString();

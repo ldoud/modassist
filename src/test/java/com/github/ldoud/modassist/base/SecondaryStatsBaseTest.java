@@ -1,9 +1,10 @@
 package com.github.ldoud.modassist.base;
 
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.data.StatName;
 import com.github.ldoud.modassist.data.ModType;
+import com.github.ldoud.modassist.data.StatName;
 import org.junit.jupiter.api.Test;
+
 
 public abstract class SecondaryStatsBaseTest {
 
@@ -97,4 +98,5 @@ public abstract class SecondaryStatsBaseTest {
     }
 
     protected abstract void assertSecondaryStat(CharacterName toon, ModType modType, StatName secondaryStatName, String expectedStatValue);
+
 }

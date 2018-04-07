@@ -2,8 +2,8 @@ package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.base.SecondaryStatsBaseTest;
 import com.github.ldoud.modassist.constants.CharacterName;
-import com.github.ldoud.modassist.data.StatName;
 import com.github.ldoud.modassist.data.ModType;
+import com.github.ldoud.modassist.data.StatName;
 import org.dom4j.DocumentException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

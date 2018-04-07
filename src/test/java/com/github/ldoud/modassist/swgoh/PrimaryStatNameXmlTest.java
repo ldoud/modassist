@@ -12,6 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
+
 class PrimaryStatNameXmlTest extends PrimaryStatNameBaseTest {
 
     private static final String XPATH_STAT = "stat[@name='${statName}' and @type='primary']";
