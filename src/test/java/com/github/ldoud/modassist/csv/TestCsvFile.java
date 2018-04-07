@@ -2,7 +2,7 @@ package com.github.ldoud.modassist.csv;
 
 import com.github.ldoud.modassist.constants.CharacterName;
 import com.github.ldoud.modassist.data.ModType;
-import com.github.ldoud.modassist.data.ModStat;
+import com.github.ldoud.modassist.data.StatName;
 import com.github.ldoud.modassist.swgoh.TestXmlData;
 import org.dom4j.DocumentException;
 
@@ -63,8 +63,8 @@ public class TestCsvFile {
         return getColumn(toon, modType, 6);
     }
 
-    public String getSecondary(CharacterName toon, ModType modType, ModStat modStat) {
-        return getColumn(toon, modType, modStat.getColumnIndexForSecondary());
+    public String getSecondary(CharacterName toon, ModType modType, StatName statName) {
+        return getColumn(toon, modType, statName.getColumnIndexForSecondary());
     }
 
     private String getColumn(CharacterName toon, ModType modType, int columnIndex) {

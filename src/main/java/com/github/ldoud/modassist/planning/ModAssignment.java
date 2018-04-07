@@ -63,7 +63,7 @@ public class ModAssignment {
     }
 
     public void setMods(Collection<Mod> allMods) {
-        modsByType = allMods.stream().collect(Collectors.groupingBy(p -> p.getType()));
+        modsByType = allMods.stream().collect(Collectors.groupingBy(p -> p.getSlot()));
     }
 
     @PlanningScore

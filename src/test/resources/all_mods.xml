@@ -1,0 +1,3249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mods>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Potency" type="secondary" value="2.05"/>
+		<stat name="Protection" type="secondary" value="572"/>
+		<stat name="Tenacity" type="secondary" value="2.16"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense Percent" type="secondary" value="2.75"/>
+		<stat name="Critical Chance" type="secondary" value="3.19"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Health Percent" type="secondary" value="0.88"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="17"/>
+		<stat name="Critical Chance" type="secondary" value="1.59"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Health" type="secondary" value="419"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Tenacity" type="secondary" value="3.12"/>
+		<stat name="Protection Percent" type="secondary" value="2.17"/>
+		<stat name="Protection" type="secondary" value="675"/>
+		<stat name="Defense Percent" type="secondary" value="1.62"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="28"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health" type="secondary" value="327"/>
+		<stat name="Health Percent" type="secondary" value="0.61"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="24"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Protection Percent" type="secondary" value="1.98"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Health Percent" type="secondary" value="2.78"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="4.05"/>
+		<stat name="Protection" type="secondary" value="557"/>
+	</mod>
+	<mod character="Cad Bane" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="609"/>
+		<stat name="Potency" type="secondary" value="1.25"/>
+		<stat name="Protection Percent" type="secondary" value="1.99"/>
+		<stat name="Tenacity" type="secondary" value="1.52"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="35"/>
+		<stat name="Protection" type="secondary" value="423"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Potency" type="secondary" value="1.46"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="477"/>
+		<stat name="Offense" type="secondary" value="97"/>
+		<stat name="Health" type="secondary" value="310"/>
+		<stat name="Defense Percent" type="secondary" value="1.49"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="1658"/>
+		<stat name="Tenacity" type="secondary" value="1.92"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Critical Chance" type="secondary" value="1.72"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense Percent" type="secondary" value="2.45"/>
+		<stat name="Offense" type="secondary" value="40"/>
+		<stat name="Health" type="secondary" value="223"/>
+		<stat name="Potency" type="secondary" value="2.21"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Potency" type="secondary" value="1.32"/>
+		<stat name="Protection" type="secondary" value="650"/>
+		<stat name="Offense" type="secondary" value="31"/>
+	</mod>
+	<mod character="Jedi Consular" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="1.72"/>
+		<stat name="Speed" type="secondary" value="13"/>
+		<stat name="Health" type="secondary" value="348"/>
+		<stat name="Protection" type="secondary" value="714"/>
+	</mod>
+	<mod character="Darth Sion" dots="5" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Protection Percent" type="secondary" value="2.17"/>
+		<stat name="Potency" type="secondary" value="2.24"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="2.2"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="1.79"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Defense Percent" type="secondary" value="4.06"/>
+		<stat name="Protection" type="secondary" value="422"/>
+	</mod>
+	<mod character="Princess Leia" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="4.04"/>
+		<stat name="Tenacity" type="secondary" value="2.64"/>
+		<stat name="Defense Percent" type="secondary" value="0.99"/>
+		<stat name="Protection" type="secondary" value="427"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Protection" type="secondary" value="895"/>
+		<stat name="Protection Percent" type="secondary" value="1.6"/>
+		<stat name="Offense" type="secondary" value="44"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="62"/>
+		<stat name="Protection" type="secondary" value="810"/>
+		<stat name="Health" type="secondary" value="313"/>
+		<stat name="Defense" type="secondary" value="5"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection" type="secondary" value="595"/>
+		<stat name="Defense Percent" type="secondary" value="0.89"/>
+		<stat name="Health" type="secondary" value="280"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense Percent" type="secondary" value="1.92"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Critical Chance" type="secondary" value="1.39"/>
+		<stat name="Tenacity" type="secondary" value="2.07"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Health" type="secondary" value="232"/>
+		<stat name="Health Percent" type="secondary" value="0.94"/>
+		<stat name="Potency" type="secondary" value="1.6"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Tenacity" type="secondary" value="1.59"/>
+		<stat name="Health" type="secondary" value="875"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Potency" type="secondary" value="1.68"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="4.98"/>
+		<stat name="Potency" type="secondary" value="1.99"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Poe Dameron" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Offense" type="secondary" value="30"/>
+		<stat name="Protection Percent" type="secondary" value="1.26"/>
+		<stat name="Critical Chance" type="secondary" value="2.08"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="3.4"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="1.26"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="24"/>
+		<stat name="Tenacity" type="secondary" value="2.8"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Critical Chance" type="secondary" value="2"/>
+	</mod>
+	<mod character="BB-8" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Offense" type="secondary" value="74"/>
+		<stat name="Critical Chance" type="secondary" value="1.45"/>
+		<stat name="Protection Percent" type="secondary" value="3.49"/>
+	</mod>
+	<mod character="R2-D2" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="2.09"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Defense" type="secondary" value="21"/>
+		<stat name="Protection" type="secondary" value="420"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="55"/>
+		<stat name="Defense" type="secondary" value="14"/>
+		<stat name="Protection Percent" type="secondary" value="1.49"/>
+		<stat name="Protection" type="secondary" value="685"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="966"/>
+		<stat name="Defense Percent" type="secondary" value="1.55"/>
+		<stat name="Health Percent" type="secondary" value="0.59"/>
+		<stat name="Critical Chance" type="secondary" value="1.47"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Tenacity" type="secondary" value="1.16"/>
+		<stat name="Critical Chance" type="secondary" value="1.39"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="4.7"/>
+		<stat name="Offense" type="secondary" value="43"/>
+		<stat name="Health Percent" type="secondary" value="0.87"/>
+		<stat name="Speed" type="secondary" value="16"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Protection Percent" type="secondary" value="2.71"/>
+		<stat name="Potency" type="secondary" value="2.06"/>
+		<stat name="Speed" type="secondary" value="18"/>
+		<stat name="Protection" type="secondary" value="437"/>
+	</mod>
+	<mod character="Sabine Wren" dots="5" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Tenacity" type="secondary" value="2.53"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Protection" type="secondary" value="759"/>
+		<stat name="Health Percent" type="secondary" value="0.93"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="5" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="29"/>
+		<stat name="Health Percent" type="secondary" value="3.37"/>
+		<stat name="Protection Percent" type="secondary" value="2.09"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Potency" type="secondary" value="4.02"/>
+		<stat name="Protection Percent" type="secondary" value="1.64"/>
+		<stat name="Critical Chance" type="secondary" value="3.08"/>
+		<stat name="Defense" type="secondary" value="7"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense" type="secondary" value="40"/>
+		<stat name="Critical Chance" type="secondary" value="1.86"/>
+		<stat name="Tenacity" type="secondary" value="1.42"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health Percent" type="secondary" value="1.44"/>
+		<stat name="Protection" type="secondary" value="686"/>
+		<stat name="Tenacity" type="secondary" value="1.87"/>
+		<stat name="Offense" type="secondary" value="38"/>
+	</mod>
+	<mod character="Barriss Offee" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health" type="secondary" value="421"/>
+		<stat name="Offense" type="secondary" value="35"/>
+		<stat name="Potency" type="secondary" value="1.19"/>
+		<stat name="Defense Percent" type="secondary" value="0.9"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Defense" type="secondary" value="15"/>
+		<stat name="Offense" type="secondary" value="25"/>
+		<stat name="Offense Percent" type="secondary" value="0.38"/>
+		<stat name="Critical Chance" type="secondary" value="1.84"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health" type="secondary" value="333"/>
+		<stat name="Protection" type="secondary" value="424"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Potency" type="secondary" value="2.02"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health Percent" type="secondary" value="0.93"/>
+		<stat name="Protection Percent" type="secondary" value="1.85"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+		<stat name="Defense Percent" type="secondary" value="1.13"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense Percent" type="secondary" value="1"/>
+		<stat name="Tenacity" type="secondary" value="1.6"/>
+		<stat name="Offense" type="secondary" value="30"/>
+		<stat name="Health Percent" type="secondary" value="0.83"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection Percent" type="secondary" value="3.61"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection" type="secondary" value="538"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="528"/>
+		<stat name="Tenacity" type="secondary" value="3.32"/>
+		<stat name="Potency" type="secondary" value="1.24"/>
+		<stat name="Offense" type="secondary" value="42"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Defense" slot="Receiver">
+		<stat name="Critical Avoidance" type="primary" value="24"/>
+		<stat name="Defense Percent" type="secondary" value="2.49"/>
+		<stat name="Critical Chance" type="secondary" value="1.74"/>
+		<stat name="Offense Percent" type="secondary" value="0.54"/>
+		<stat name="Offense" type="secondary" value="29"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="5" level="15" set="Defense" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Potency" type="secondary" value="3.92"/>
+		<stat name="Offense Percent" type="secondary" value="0.42"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Protection Percent" type="secondary" value="1.42"/>
+	</mod>
+	<mod character="Princess Leia" dots="5" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense" type="secondary" value="45"/>
+		<stat name="Critical Chance" type="secondary" value="1.75"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="1.31"/>
+		<stat name="Critical Chance" type="secondary" value="1.91"/>
+		<stat name="Protection Percent" type="secondary" value="1.27"/>
+		<stat name="Offense" type="secondary" value="27"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="14"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="1.33"/>
+		<stat name="Protection Percent" type="secondary" value="1.24"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="1.37"/>
+		<stat name="Health Percent" type="secondary" value="0.84"/>
+		<stat name="Tenacity" type="secondary" value="1.46"/>
+		<stat name="Protection Percent" type="secondary" value="2.22"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="3.12"/>
+		<stat name="Offense Percent" type="secondary" value="0.54"/>
+		<stat name="Tenacity" type="secondary" value="1.4"/>
+		<stat name="Offense" type="secondary" value="27"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="56"/>
+		<stat name="Potency" type="secondary" value="1.56"/>
+		<stat name="Defense Percent" type="secondary" value="2.87"/>
+		<stat name="Critical Chance" type="secondary" value="4.61"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="3.3"/>
+		<stat name="Offense" type="secondary" value="33"/>
+		<stat name="Health" type="secondary" value="216"/>
+		<stat name="Critical Chance" type="secondary" value="1.5"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Potency" type="secondary" value="1.73"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense Percent" type="secondary" value="0.32"/>
+		<stat name="Health" type="secondary" value="400"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="5" level="15" set="Potency" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Critical Chance" type="secondary" value="1.73"/>
+		<stat name="Tenacity" type="secondary" value="1.23"/>
+		<stat name="Potency" type="secondary" value="1.37"/>
+		<stat name="Health" type="secondary" value="356"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Potency" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health" type="secondary" value="341"/>
+		<stat name="Tenacity" type="secondary" value="2.02"/>
+		<stat name="Critical Chance" type="secondary" value="1.19"/>
+		<stat name="Offense" type="secondary" value="25"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="5" level="15" set="Potency" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense Percent" type="secondary" value="2.88"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health Percent" type="secondary" value="0.93"/>
+		<stat name="Critical Chance" type="secondary" value="1.61"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="12"/>
+		<stat name="Offense" type="secondary" value="70"/>
+		<stat name="Defense Percent" type="secondary" value="2.3"/>
+		<stat name="Protection Percent" type="secondary" value="4.17"/>
+		<stat name="Health" type="secondary" value="290"/>
+	</mod>
+	<mod character="General Kenobi" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Tenacity" type="secondary" value="1.84"/>
+		<stat name="Defense Percent" type="secondary" value="4.04"/>
+		<stat name="Critical Chance" type="secondary" value="2.18"/>
+		<stat name="Defense" type="secondary" value="19"/>
+	</mod>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Protection Percent" type="secondary" value="1.41"/>
+		<stat name="Critical Chance" type="secondary" value="1.97"/>
+		<stat name="Health Percent" type="secondary" value="0.93"/>
+		<stat name="Potency" type="secondary" value="1.88"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health Percent" type="secondary" value="1.55"/>
+		<stat name="Critical Chance" type="secondary" value="6.24"/>
+		<stat name="Offense" type="secondary" value="39"/>
+		<stat name="Protection" type="secondary" value="1006"/>
+	</mod>
+	<mod character="General Veers" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Offense Percent" type="secondary" value="0.53"/>
+		<stat name="Tenacity" type="secondary" value="1.25"/>
+		<stat name="Protection Percent" type="secondary" value="1.71"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Critical Chance" type="secondary" value="1.7"/>
+		<stat name="Protection" type="secondary" value="531"/>
+		<stat name="Potency" type="secondary" value="1.2"/>
+		<stat name="Protection Percent" type="secondary" value="2.18"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Protection" type="secondary" value="797"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Offense" type="secondary" value="43"/>
+		<stat name="Tenacity" type="secondary" value="1.16"/>
+	</mod>
+	<mod character="Han Solo" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="0.89"/>
+		<stat name="Critical Chance" type="secondary" value="1.63"/>
+		<stat name="Protection Percent" type="secondary" value="1.5"/>
+		<stat name="Protection" type="secondary" value="583"/>
+	</mod>
+	<mod character="Sabine Wren" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Health" type="secondary" value="377"/>
+		<stat name="Potency" type="secondary" value="1.59"/>
+		<stat name="Protection" type="secondary" value="547"/>
+		<stat name="Health Percent" type="secondary" value="0.71"/>
+	</mod>
+	<mod character="R2-D2" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Potency" type="secondary" value="1.44"/>
+		<stat name="Health Percent" type="secondary" value="1.06"/>
+		<stat name="Critical Chance" type="secondary" value="1.68"/>
+	</mod>
+	<mod character="IG-88" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Defense Percent" type="secondary" value="1.57"/>
+		<stat name="Protection Percent" type="secondary" value="1.81"/>
+		<stat name="Tenacity" type="secondary" value="1.54"/>
+		<stat name="Health Percent" type="secondary" value="0.88"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="5" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="30"/>
+		<stat name="Critical Chance" type="secondary" value="1.81"/>
+		<stat name="Offense" type="secondary" value="30"/>
+		<stat name="Offense Percent" type="secondary" value="0.36"/>
+		<stat name="Protection Percent" type="secondary" value="2.05"/>
+	</mod>
+	<mod character="General Kenobi" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Potency" type="secondary" value="1.47"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Health Percent" type="secondary" value="0.74"/>
+		<stat name="Health" type="secondary" value="380"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Health Percent" type="secondary" value="1.41"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Protection" type="secondary" value="661"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection" type="secondary" value="737"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+		<stat name="Defense" type="secondary" value="5"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.54"/>
+		<stat name="Speed" type="secondary" value="19"/>
+		<stat name="Critical Chance" type="secondary" value="2.23"/>
+		<stat name="Protection Percent" type="secondary" value="1.51"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.92"/>
+		<stat name="Critical Chance" type="secondary" value="1.17"/>
+		<stat name="Protection Percent" type="secondary" value="1.58"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense Percent" type="secondary" value="0.46"/>
+		<stat name="Critical Chance" type="secondary" value="1.67"/>
+		<stat name="Potency" type="secondary" value="1.4"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense" type="secondary" value="39"/>
+		<stat name="Speed" type="secondary" value="21"/>
+		<stat name="Defense" type="secondary" value="14"/>
+		<stat name="Protection" type="secondary" value="451"/>
+	</mod>
+	<mod character="Barriss Offee" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Health" type="secondary" value="305"/>
+		<stat name="Offense" type="secondary" value="41"/>
+		<stat name="Critical Chance" type="secondary" value="2.12"/>
+	</mod>
+	<mod character="Sabine Wren" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="1907"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Health Percent" type="secondary" value="1.05"/>
+		<stat name="Protection Percent" type="secondary" value="1.24"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Health" type="secondary" value="743"/>
+		<stat name="Offense Percent" type="secondary" value="0.49"/>
+		<stat name="Offense" type="secondary" value="29"/>
+		<stat name="Health Percent" type="secondary" value="0.69"/>
+	</mod>
+	<mod character="Cad Bane" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Potency" type="secondary" value="4.83"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Tenacity" type="secondary" value="1.42"/>
+		<stat name="Offense Percent" type="secondary" value="0.49"/>
+	</mod>
+	<mod character="R2-D2" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="1.76"/>
+		<stat name="Tenacity" type="secondary" value="1.5"/>
+		<stat name="Protection" type="secondary" value="533"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Tenacity" type="secondary" value="2.17"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="31"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Defense" type="secondary" value="13"/>
+		<stat name="Protection Percent" type="secondary" value="2.19"/>
+		<stat name="Critical Chance" type="secondary" value="2.06"/>
+	</mod>
+	<mod character="Chief Nebit" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Health" type="secondary" value="681"/>
+		<stat name="Protection" type="secondary" value="615"/>
+		<stat name="Critical Chance" type="secondary" value="2.1"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="15"/>
+		<stat name="Critical Chance" type="secondary" value="1.34"/>
+		<stat name="Tenacity" type="secondary" value="3.31"/>
+		<stat name="Offense Percent" type="secondary" value="0.89"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="1237"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+		<stat name="Critical Chance" type="secondary" value="1.74"/>
+	</mod>
+	<mod character="Greedo" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense" type="secondary" value="79"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection" type="secondary" value="438"/>
+		<stat name="Critical Chance" type="secondary" value="1.39"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Health Percent" type="secondary" value="1.02"/>
+		<stat name="Potency" type="secondary" value="1.58"/>
+		<stat name="Offense" type="secondary" value="36"/>
+		<stat name="Protection Percent" type="secondary" value="2.05"/>
+	</mod>
+	<mod character="Darth Sion" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="969"/>
+		<stat name="Speed" type="secondary" value="11"/>
+		<stat name="Protection Percent" type="secondary" value="1.33"/>
+		<stat name="Potency" type="secondary" value="1.71"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Tenacity" type="secondary" value="3.52"/>
+		<stat name="Protection" type="secondary" value="711"/>
+		<stat name="Health Percent" type="secondary" value="0.91"/>
+		<stat name="Critical Chance" type="secondary" value="1.54"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Health Percent" type="secondary" value="1.81"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Offense" type="secondary" value="41"/>
+		<stat name="Protection Percent" type="secondary" value="1.22"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="5" level="15" set="Defense" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Potency" type="secondary" value="2.24"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="36"/>
+	</mod>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Defense" type="secondary" value="12"/>
+		<stat name="Offense Percent" type="secondary" value="0.43"/>
+		<stat name="Protection Percent" type="secondary" value="1.68"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.3"/>
+		<stat name="Critical Chance" type="secondary" value="5.88"/>
+		<stat name="Health" type="secondary" value="828"/>
+		<stat name="Protection Percent" type="secondary" value="2.22"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="5" level="15" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="889"/>
+		<stat name="Critical Chance" type="secondary" value="3.29"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Tenacity" type="secondary" value="1.35"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection Percent" type="secondary" value="5.54"/>
+		<stat name="Potency" type="secondary" value="1.23"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Health" type="secondary" value="416"/>
+	</mod>
+	<mod character="Zam Wesell" dots="5" level="15" set="Tenacity" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Critical Chance" type="secondary" value="4.71"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Potency" type="secondary" value="3.35"/>
+		<stat name="Defense" type="secondary" value="13"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Protection Percent" type="secondary" value="2.73"/>
+		<stat name="Defense" type="secondary" value="13"/>
+		<stat name="Potency" type="secondary" value="4.91"/>
+	</mod>
+	<mod character="Poe Dameron" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.5"/>
+		<stat name="Health Percent" type="secondary" value="2.44"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Tenacity" type="secondary" value="2.73"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.32"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Speed" type="secondary" value="15"/>
+		<stat name="Health" type="secondary" value="770"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection Percent" type="secondary" value="1.73"/>
+		<stat name="Health Percent" type="secondary" value="0.87"/>
+		<stat name="Critical Chance" type="secondary" value="2.07"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Health Percent" type="secondary" value="0.6"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Health" type="secondary" value="375"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Tenacity" type="secondary" value="2.73"/>
+		<stat name="Offense" type="secondary" value="82"/>
+		<stat name="Critical Chance" type="secondary" value="1.87"/>
+		<stat name="Potency" type="secondary" value="1.55"/>
+	</mod>
+	<mod character="Count Dooku" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="2706"/>
+		<stat name="Protection Percent" type="secondary" value="1.97"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Potency" type="secondary" value="5.14"/>
+		<stat name="Offense" type="secondary" value="35"/>
+		<stat name="Defense" type="secondary" value="15"/>
+		<stat name="Health" type="secondary" value="407"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Potency" type="secondary" value="2.11"/>
+		<stat name="Critical Chance" type="secondary" value="1.24"/>
+		<stat name="Health Percent" type="secondary" value="1.09"/>
+	</mod>
+	<mod character="General Veers" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Potency" type="secondary" value="3.4"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Tenacity" type="secondary" value="1.27"/>
+		<stat name="Protection Percent" type="secondary" value="1.39"/>
+	</mod>
+	<mod character="Han Solo" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Tenacity" type="secondary" value="1.32"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Health" type="secondary" value="250"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Offense Percent" type="secondary" value="0.68"/>
+		<stat name="Offense" type="secondary" value="28"/>
+		<stat name="Health" type="secondary" value="393"/>
+	</mod>
+	<mod character="Colonel Starck" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="1150"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Offense Percent" type="secondary" value="0.38"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Potency" type="secondary" value="9.97"/>
+		<stat name="Protection" type="secondary" value="763"/>
+		<stat name="Tenacity" type="secondary" value="2.16"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="5" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Health" type="secondary" value="650"/>
+		<stat name="Health Percent" type="secondary" value="0.77"/>
+		<stat name="Potency" type="secondary" value="2.05"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense Percent" type="secondary" value="0.49"/>
+		<stat name="Health" type="secondary" value="222"/>
+		<stat name="Protection" type="secondary" value="701"/>
+	</mod>
+	<mod character="Kylo Ren" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="33"/>
+		<stat name="Defense Percent" type="secondary" value="1.22"/>
+	</mod>
+	<mod character="General Veers" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Protection Percent" type="secondary" value="3.19"/>
+		<stat name="Protection" type="secondary" value="1580"/>
+		<stat name="Health" type="secondary" value="331"/>
+		<stat name="Offense" type="secondary" value="35"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="12"/>
+		<stat name="Defense" type="secondary" value="14"/>
+		<stat name="Offense" type="secondary" value="76"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Potency" type="secondary" value="1.52"/>
+	</mod>
+	<mod character="Barriss Offee" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Defense Percent" type="secondary" value="1.68"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="567"/>
+	</mod>
+	<mod character="Han Solo" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Health Percent" type="secondary" value="0.64"/>
+		<stat name="Protection" type="secondary" value="535"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="603"/>
+		<stat name="Protection" type="secondary" value="820"/>
+		<stat name="Offense" type="secondary" value="89"/>
+		<stat name="Critical Chance" type="secondary" value="3.23"/>
+	</mod>
+	<mod character="Cad Bane" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+		<stat name="Critical Chance" type="secondary" value="2.18"/>
+		<stat name="Defense Percent" type="secondary" value="0.87"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Tenacity" type="secondary" value="1.89"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="3.06"/>
+		<stat name="Tenacity" type="secondary" value="2.24"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection Percent" type="secondary" value="2.08"/>
+	</mod>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Defense" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense" type="secondary" value="119"/>
+		<stat name="Offense Percent" type="secondary" value="0.38"/>
+		<stat name="Critical Chance" type="secondary" value="2.09"/>
+		<stat name="Speed" type="secondary" value="13"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Defense" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="387"/>
+		<stat name="Potency" type="secondary" value="1.36"/>
+		<stat name="Protection Percent" type="secondary" value="1.43"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Critical Damage" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Protection Percent" type="secondary" value="1.74"/>
+		<stat name="Defense Percent" type="secondary" value="1.31"/>
+		<stat name="Protection" type="secondary" value="638"/>
+		<stat name="Speed" type="secondary" value="5"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Critical Damage" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Protection" type="secondary" value="713"/>
+		<stat name="Protection Percent" type="secondary" value="1.57"/>
+		<stat name="Critical Chance" type="secondary" value="1.57"/>
+		<stat name="Speed" type="secondary" value="5"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Critical Damage" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Tenacity" type="secondary" value="3.06"/>
+		<stat name="Health" type="secondary" value="734"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="1.14"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Critical Damage" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Health" type="secondary" value="348"/>
+		<stat name="Offense Percent" type="secondary" value="0.4"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Chance" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Potency" type="secondary" value="6.33"/>
+		<stat name="Offense" type="secondary" value="28"/>
+		<stat name="Tenacity" type="secondary" value="3.18"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Tenacity" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Health Percent" type="secondary" value="2.31"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Offense" type="secondary" value="23"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Tenacity" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Offense" type="secondary" value="65"/>
+		<stat name="Critical Chance" type="secondary" value="3.7"/>
+		<stat name="Protection Percent" type="secondary" value="1.49"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="12"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Offense Percent" type="secondary" value="0.33"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="2.08"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Health" type="secondary" value="250"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection" type="secondary" value="611"/>
+		<stat name="Tenacity" type="secondary" value="1.92"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="12"/>
+		<stat name="Protection" type="secondary" value="641"/>
+		<stat name="Offense Percent" type="secondary" value="0.39"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection Percent" type="secondary" value="1.14"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="36"/>
+		<stat name="Health" type="secondary" value="368"/>
+		<stat name="Protection" type="secondary" value="799"/>
+		<stat name="Critical Chance" type="secondary" value="1.2"/>
+		<stat name="Speed" type="secondary" value="5"/>
+	</mod>
+	<mod character="General Kenobi" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Critical Chance" type="secondary" value="2.69"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense Percent" type="secondary" value="0.32"/>
+		<stat name="Health" type="secondary" value="425"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health Percent" type="secondary" value="1.04"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Protection" type="secondary" value="452"/>
+		<stat name="Critical Chance" type="secondary" value="1.84"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense" type="secondary" value="32"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="808"/>
+		<stat name="Critical Chance" type="secondary" value="1.92"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Health Percent" type="secondary" value="0.78"/>
+		<stat name="Tenacity" type="secondary" value="2.25"/>
+		<stat name="Offense" type="secondary" value="45"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense" type="secondary" value="65"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="2.16"/>
+		<stat name="Health Percent" type="secondary" value="1"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Tenacity" type="secondary" value="3.85"/>
+		<stat name="Speed" type="secondary" value="16"/>
+		<stat name="Health" type="secondary" value="379"/>
+		<stat name="Health Percent" type="secondary" value="1.07"/>
+	</mod>
+	<mod character="BB-8" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Critical Chance" type="secondary" value="1.34"/>
+		<stat name="Health" type="secondary" value="330"/>
+		<stat name="Offense Percent" type="secondary" value="0.52"/>
+		<stat name="Potency" type="secondary" value="2"/>
+	</mod>
+	<mod character="R2-D2" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Offense Percent" type="secondary" value="1.17"/>
+		<stat name="Potency" type="secondary" value="1.27"/>
+		<stat name="Protection" type="secondary" value="542"/>
+	</mod>
+	<mod character="Rebel Officer Leia Organa" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health" type="secondary" value="271"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="46"/>
+		<stat name="Defense Percent" type="secondary" value="1.35"/>
+	</mod>
+	<mod character="IG-88" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="12"/>
+		<stat name="Tenacity" type="secondary" value="2.1"/>
+		<stat name="Potency" type="secondary" value="5.05"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Health Percent" type="secondary" value="0.96"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="5" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection Percent" type="secondary" value="1.99"/>
+		<stat name="Defense Percent" type="secondary" value="1.53"/>
+	</mod>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="75"/>
+		<stat name="Speed" type="secondary" value="13"/>
+		<stat name="Protection Percent" type="secondary" value="3.35"/>
+		<stat name="Defense Percent" type="secondary" value="1.52"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="1429"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Offense Percent" type="secondary" value="0.29"/>
+		<stat name="Defense Percent" type="secondary" value="0.92"/>
+	</mod>
+	<mod character="Darth Sidious" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="508"/>
+		<stat name="Offense Percent" type="secondary" value="0.47"/>
+		<stat name="Protection Percent" type="secondary" value="1.23"/>
+		<stat name="Critical Chance" type="secondary" value="1.3"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense" type="secondary" value="29"/>
+		<stat name="Tenacity" type="secondary" value="1.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.3"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="1.42"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Potency" type="secondary" value="1.25"/>
+		<stat name="Speed" type="secondary" value="5"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health" type="secondary" value="417"/>
+		<stat name="Speed" type="secondary" value="14"/>
+		<stat name="Defense Percent" type="secondary" value="1.58"/>
+		<stat name="Offense" type="secondary" value="37"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health Percent" type="secondary" value="1.61"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Tenacity" type="secondary" value="2.17"/>
+		<stat name="Offense" type="secondary" value="41"/>
+	</mod>
+	<mod character="Barriss Offee" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="690"/>
+		<stat name="Defense Percent" type="secondary" value="1.24"/>
+		<stat name="Health" type="secondary" value="416"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Protection" type="secondary" value="1490"/>
+		<stat name="Defense Percent" type="secondary" value="1.34"/>
+		<stat name="Potency" type="secondary" value="1.25"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection Percent" type="secondary" value="2.06"/>
+		<stat name="Tenacity" type="secondary" value="1.57"/>
+		<stat name="Protection" type="secondary" value="796"/>
+	</mod>
+	<mod character="Rebel Officer Leia Organa" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="545"/>
+		<stat name="Defense" type="secondary" value="22"/>
+		<stat name="Potency" type="secondary" value="4.71"/>
+	</mod>
+	<mod character="Count Dooku" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Defense" type="secondary" value="16"/>
+		<stat name="Offense Percent" type="secondary" value="0.48"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Potency" type="secondary" value="1.53"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection" type="secondary" value="713"/>
+		<stat name="Offense" type="secondary" value="39"/>
+		<stat name="Critical Chance" type="secondary" value="1.45"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="3.77"/>
+		<stat name="Protection" type="secondary" value="501"/>
+		<stat name="Defense" type="secondary" value="17"/>
+		<stat name="Health" type="secondary" value="339"/>
+	</mod>
+	<mod character="Zam Wesell" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="423"/>
+		<stat name="Defense Percent" type="secondary" value="4.29"/>
+		<stat name="Tenacity" type="secondary" value="1.24"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="1304"/>
+		<stat name="Health" type="secondary" value="340"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Potency" type="secondary" value="1.78"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Damage" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Potency" type="secondary" value="3.32"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health Percent" type="secondary" value="0.76"/>
+		<stat name="Health" type="secondary" value="253"/>
+	</mod>
+	<mod character="Princess Leia" dots="5" level="15" set="Critical Damage" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health" type="secondary" value="444"/>
+		<stat name="Protection" type="secondary" value="672"/>
+		<stat name="Critical Chance" type="secondary" value="1.37"/>
+		<stat name="Offense Percent" type="secondary" value="0.41"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="5" level="15" set="Critical Damage" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="68"/>
+		<stat name="Protection" type="secondary" value="737"/>
+		<stat name="Protection Percent" type="secondary" value="1.15"/>
+		<stat name="Defense Percent" type="secondary" value="1.42"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Critical Damage" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="12"/>
+		<stat name="Potency" type="secondary" value="2.55"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health" type="secondary" value="384"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Critical Damage" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="3.27"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Critical Chance" type="secondary" value="2.23"/>
+		<stat name="Offense Percent" type="secondary" value="0.46"/>
+	</mod>
+	<mod character="Poe Dameron" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection Percent" type="secondary" value="4.93"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense Percent" type="secondary" value="0.75"/>
+		<stat name="Offense" type="secondary" value="31"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health Percent" type="secondary" value="1.95"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Protection" type="secondary" value="586"/>
+		<stat name="Health" type="secondary" value="224"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Potency" type="secondary" value="4.85"/>
+		<stat name="Tenacity" type="secondary" value="1.92"/>
+		<stat name="Defense Percent" type="secondary" value="1.06"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="4.59"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="1.16"/>
+		<stat name="Offense Percent" type="secondary" value="0.37"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="3.24"/>
+		<stat name="Protection Percent" type="secondary" value="4.03"/>
+		<stat name="Defense Percent" type="secondary" value="1.21"/>
+		<stat name="Protection" type="secondary" value="798"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Offense" type="secondary" value="76"/>
+		<stat name="Health" type="secondary" value="697"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Defense Percent" type="secondary" value="1.58"/>
+	</mod>
+	<mod character="Darth Sion" dots="5" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="20"/>
+		<stat name="Critical Chance" type="secondary" value="1.51"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Potency" type="secondary" value="1.94"/>
+	</mod>
+	<mod character="General Kenobi" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="1338"/>
+		<stat name="Defense Percent" type="secondary" value="1.36"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health" type="secondary" value="319"/>
+	</mod>
+	<mod character="K-2SO" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense" type="secondary" value="95"/>
+		<stat name="Protection Percent" type="secondary" value="1.8"/>
+		<stat name="Protection" type="secondary" value="724"/>
+	</mod>
+	<mod character="General Veers" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="2.64"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Defense" type="secondary" value="18"/>
+		<stat name="Critical Chance" type="secondary" value="1.49"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="11"/>
+		<stat name="Health" type="secondary" value="338"/>
+		<stat name="Offense" type="secondary" value="76"/>
+		<stat name="Health Percent" type="secondary" value="0.61"/>
+	</mod>
+	<mod character="Han Solo" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Potency" type="secondary" value="3.64"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Tenacity" type="secondary" value="1.58"/>
+		<stat name="Offense Percent" type="secondary" value="0.43"/>
+	</mod>
+	<mod character="Sabine Wren" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="3.24"/>
+		<stat name="Potency" type="secondary" value="4.23"/>
+		<stat name="Protection" type="secondary" value="1399"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="R2-D2" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="3.21"/>
+		<stat name="Health" type="secondary" value="268"/>
+		<stat name="Offense" type="secondary" value="40"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Tenacity" type="secondary" value="5.54"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Defense Percent" type="secondary" value="1.25"/>
+		<stat name="Offense" type="secondary" value="38"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="5" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Potency" type="secondary" value="3.35"/>
+		<stat name="Health" type="secondary" value="677"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense Percent" type="secondary" value="0.32"/>
+	</mod>
+	<mod character="General Kenobi" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense" type="secondary" value="84"/>
+		<stat name="Critical Chance" type="secondary" value="3.2"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Protection" type="secondary" value="587"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health" type="secondary" value="518"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Tenacity" type="secondary" value="2.13"/>
+		<stat name="Health Percent" type="secondary" value="4.14"/>
+	</mod>
+	<mod character="TIE Fighter Pilot" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="432"/>
+		<stat name="Tenacity" type="secondary" value="1.93"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Protection Percent" type="secondary" value="1.59"/>
+	</mod>
+	<mod character="K-2SO" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="11"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Potency" type="secondary" value="1.88"/>
+		<stat name="Defense Percent" type="secondary" value="1.51"/>
+	</mod>
+	<mod character="Barriss Offee" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="1101"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="1.25"/>
+	</mod>
+	<mod character="Han Solo" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Potency" type="secondary" value="3.35"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Health" type="secondary" value="377"/>
+		<stat name="Defense" type="secondary" value="7"/>
+	</mod>
+	<mod character="Sith Trooper" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Offense" type="secondary" value="63"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Health" type="secondary" value="261"/>
+		<stat name="Tenacity" type="secondary" value="1.41"/>
+	</mod>
+	<mod character="Wedge Antilles" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Protection" type="secondary" value="514"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Offense Percent" type="secondary" value="0.39"/>
+		<stat name="Offense" type="secondary" value="32"/>
+	</mod>
+	<mod character="Cad Bane" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Defense" type="secondary" value="16"/>
+		<stat name="Tenacity" type="secondary" value="1.29"/>
+		<stat name="Defense Percent" type="secondary" value="1.58"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Boba Fett" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Health Percent" type="secondary" value="0.99"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Tenacity" type="secondary" value="1.67"/>
+		<stat name="Offense Percent" type="secondary" value="0.3"/>
+	</mod>
+	<mod character="CT-7567 &amp;quot;Rex&amp;quot;" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Protection" type="secondary" value="1857"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Health" type="secondary" value="411"/>
+		<stat name="Offense" type="secondary" value="35"/>
+	</mod>
+	<mod character="Darth Maul" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Offense Percent" type="secondary" value="0.4"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection Percent" type="secondary" value="1.52"/>
+		<stat name="Health Percent" type="secondary" value="0.98"/>
+	</mod>
+	<mod character="Grand Moff Tarkin" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Offense Percent" type="secondary" value="0.49"/>
+		<stat name="Critical Chance" type="secondary" value="1.17"/>
+		<stat name="Defense Percent" type="secondary" value="1.18"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection Percent" type="secondary" value="1.68"/>
+		<stat name="Offense" type="secondary" value="34"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="First Order TIE Pilot" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Tenacity" type="secondary" value="3.09"/>
+		<stat name="Offense Percent" type="secondary" value="0.37"/>
+		<stat name="Offense" type="secondary" value="115"/>
+		<stat name="Potency" type="secondary" value="1.51"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Health Percent" type="secondary" value="1.85"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Defense Percent" type="secondary" value="0.91"/>
+		<stat name="Defense" type="secondary" value="9"/>
+	</mod>
+	<mod character="Jedi Consular" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Offense Percent" type="secondary" value="0.83"/>
+		<stat name="Health Percent" type="secondary" value="1.02"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Protection" type="secondary" value="429"/>
+	</mod>
+	<mod character="Death Trooper" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Critical Chance" type="secondary" value="1.95"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Protection Percent" type="secondary" value="1.6"/>
+		<stat name="Protection" type="secondary" value="607"/>
+	</mod>
+	<mod character="Magmatrooper" dots="5" level="15" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="11.75"/>
+		<stat name="Protection" type="secondary" value="1405"/>
+		<stat name="Potency" type="secondary" value="1.2"/>
+		<stat name="Offense Percent" type="secondary" value="0.51"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Grand Admiral Thrawn" dots="5" level="15" set="Defense" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection" type="secondary" value="749"/>
+		<stat name="Tenacity" type="secondary" value="3.84"/>
+		<stat name="Offense" type="secondary" value="108"/>
+	</mod>
+	<mod character="Biggs Darklighter" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Defense" type="secondary" value="12"/>
+		<stat name="Health Percent" type="secondary" value="1.12"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Critical Chance" type="secondary" value="1.19"/>
+	</mod>
+	<mod character="Princess Leia" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Health" type="secondary" value="733"/>
+		<stat name="Protection" type="secondary" value="1531"/>
+		<stat name="Potency" type="secondary" value="1.52"/>
+		<stat name="Defense Percent" type="secondary" value="1.41"/>
+	</mod>
+	<mod character="Finn" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="1.83"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Health Percent" type="secondary" value="0.71"/>
+		<stat name="Critical Chance" type="secondary" value="1.25"/>
+	</mod>
+	<mod character="Snowtrooper" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense Percent" type="secondary" value="1.19"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Defense Percent" type="secondary" value="1.1"/>
+		<stat name="Offense" type="secondary" value="28"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Critical Chance" type="secondary" value="2.09"/>
+		<stat name="Potency" type="secondary" value="1.38"/>
+		<stat name="Health Percent" type="secondary" value="0.83"/>
+		<stat name="Offense" type="secondary" value="35"/>
+	</mod>
+	<mod character="Darth Vader" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Tenacity" type="secondary" value="1.22"/>
+		<stat name="Speed" type="secondary" value="13"/>
+		<stat name="Offense Percent" type="secondary" value="0.67"/>
+		<stat name="Health Percent" type="secondary" value="1.87"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Health" type="secondary" value="239"/>
+		<stat name="Defense" type="secondary" value="19"/>
+		<stat name="Offense Percent" type="secondary" value="0.35"/>
+		<stat name="Potency" type="secondary" value="1.63"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="5" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Protection" type="secondary" value="1225"/>
+		<stat name="Offense Percent" type="secondary" value="0.28"/>
+		<stat name="Critical Chance" type="secondary" value="1.16"/>
+		<stat name="Potency" type="secondary" value="2.18"/>
+	</mod>
+	<mod character="CT-5555 &amp;quot;Fives&amp;quot;" dots="5" level="15" set="Critical Chance" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Critical Chance" type="secondary" value="1.73"/>
+		<stat name="Health Percent" type="secondary" value="2.11"/>
+		<stat name="Offense" type="secondary" value="77"/>
+		<stat name="Tenacity" type="secondary" value="4.5"/>
+	</mod>
+	<mod character="Commander Luke Skywalker" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="5.88"/>
+		<stat name="Critical Chance" type="secondary" value="1.99"/>
+		<stat name="Speed" type="secondary" value="12"/>
+		<stat name="Protection Percent" type="secondary" value="2.01"/>
+		<stat name="Tenacity" type="secondary" value="1.12"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="1158"/>
+		<stat name="Defense Percent" type="secondary" value="2.5"/>
+		<stat name="Potency" type="secondary" value="2.23"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Protection" type="secondary" value="1243"/>
+		<stat name="Critical Chance" type="secondary" value="4.07"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Defense" type="secondary" value="8"/>
+	</mod>
+	<mod character="Poe Dameron" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Defense Percent" type="secondary" value="0.96"/>
+		<stat name="Protection Percent" type="secondary" value="3.45"/>
+		<stat name="Critical Chance" type="secondary" value="4.95"/>
+		<stat name="Health Percent" type="secondary" value="1.35"/>
+	</mod>
+	<mod character="Ahsoka Tano" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="24"/>
+		<stat name="Critical Chance" type="secondary" value="3.12"/>
+		<stat name="Defense Percent" type="secondary" value="1.24"/>
+		<stat name="Offense Percent" type="secondary" value="1.37"/>
+		<stat name="Health" type="secondary" value="373"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Protection Percent" type="secondary" value="2.12"/>
+		<stat name="Health" type="secondary" value="370"/>
+		<stat name="Tenacity" type="secondary" value="1.35"/>
+		<stat name="Defense Percent" type="secondary" value="1.34"/>
+	</mod>
+	<mod character="Resistance Pilot" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Health" type="secondary" value="219"/>
+		<stat name="Health Percent" type="secondary" value="0.95"/>
+		<stat name="Critical Chance" type="secondary" value="1.19"/>
+	</mod>
+	<mod character="Colonel Starck" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection" type="secondary" value="515"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Critical Chance" type="secondary" value="1.45"/>
+	</mod>
+	<mod character="Darth Sion" dots="5" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="5.88"/>
+		<stat name="Speed" type="secondary" value="13"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Protection" type="secondary" value="446"/>
+		<stat name="Tenacity" type="secondary" value="1.64"/>
+	</mod>
+	<mod character="General Veers" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.89"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Tenacity" type="secondary" value="2.11"/>
+		<stat name="Protection" type="secondary" value="450"/>
+	</mod>
+	<mod character="Emperor Palpatine" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.48"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="45"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="24"/>
+		<stat name="Speed" type="secondary" value="10"/>
+		<stat name="Health Percent" type="secondary" value="1.92"/>
+		<stat name="Offense Percent" type="secondary" value="0.51"/>
+		<stat name="Tenacity" type="secondary" value="1.21"/>
+	</mod>
+	<mod character="Rebel Officer Leia Organa" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="1.65"/>
+		<stat name="Health Percent" type="secondary" value="0.88"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Health" type="secondary" value="297"/>
+	</mod>
+	<mod character="Shoretrooper" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="1.19"/>
+		<stat name="Defense Percent" type="secondary" value="1.03"/>
+		<stat name="Tenacity" type="secondary" value="2.16"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="5" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="23.5"/>
+		<stat name="Tenacity" type="secondary" value="1.67"/>
+		<stat name="Protection" type="secondary" value="825"/>
+		<stat name="Health Percent" type="secondary" value="1.06"/>
+		<stat name="Offense" type="secondary" value="44"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="5" level="14" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="11"/>
+		<stat name="Protection Percent" type="secondary" value="2.37"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Critical Chance" type="secondary" value="2.22"/>
+		<stat name="Potency" type="secondary" value="2.01"/>
+	</mod>
+	<mod character="Savage Opress" dots="4" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Defense Percent" type="secondary" value="2.43"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Health Percent" type="secondary" value="0.63"/>
+	</mod>
+	<mod character="Barriss Offee" dots="4" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Tenacity" type="secondary" value="3.16"/>
+		<stat name="Health" type="secondary" value="776"/>
+		<stat name="Health Percent" type="secondary" value="0.75"/>
+		<stat name="Speed" type="secondary" value="7"/>
+	</mod>
+	<mod character="General Veers" dots="4" level="15" set="Defense" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Speed" type="secondary" value="11"/>
+		<stat name="Health" type="secondary" value="192"/>
+		<stat name="Health Percent" type="secondary" value="0.71"/>
+		<stat name="Defense" type="secondary" value="4"/>
+	</mod>
+	<mod character="General Kenobi" dots="4" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Critical Chance" type="secondary" value="1.25"/>
+		<stat name="Health Percent" type="secondary" value="0.75"/>
+		<stat name="Defense" type="secondary" value="4"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="4" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Protection" type="secondary" value="568"/>
+		<stat name="Speed" type="secondary" value="12"/>
+		<stat name="Defense" type="secondary" value="4"/>
+		<stat name="Potency" type="secondary" value="1.95"/>
+	</mod>
+	<mod character="Zam Wesell" dots="4" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Speed" type="primary" value="26"/>
+		<stat name="Protection Percent" type="secondary" value="1.59"/>
+		<stat name="Tenacity" type="secondary" value="1.32"/>
+		<stat name="Health" type="secondary" value="268"/>
+		<stat name="Health Percent" type="secondary" value="0.53"/>
+	</mod>
+	<mod character="Poe Dameron" dots="4" level="15" set="Potency" slot="Receiver">
+		<stat name="Speed" type="primary" value="26"/>
+		<stat name="Critical Chance" type="secondary" value="4.73"/>
+		<stat name="Defense Percent" type="secondary" value="0.77"/>
+		<stat name="Potency" type="secondary" value="1.62"/>
+		<stat name="Health" type="secondary" value="283"/>
+	</mod>
+	<mod character="Cad Bane" dots="4" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="26"/>
+		<stat name="Critical Chance" type="secondary" value="1.1"/>
+		<stat name="Protection Percent" type="secondary" value="1.47"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Defense Percent" type="secondary" value="0.9"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="4" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Tenacity" type="secondary" value="2.65"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Potency" type="secondary" value="1.99"/>
+		<stat name="Offense Percent" type="secondary" value="0.31"/>
+	</mod>
+	<mod character="Jawa" dots="4" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Defense" type="secondary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="1.54"/>
+		<stat name="Health" type="secondary" value="686"/>
+	</mod>
+	<mod character="BB-8" dots="4" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="4.57"/>
+		<stat name="Speed" type="secondary" value="6"/>
+		<stat name="Offense Percent" type="secondary" value="0.28"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Princess Leia" dots="4" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="31.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.26"/>
+		<stat name="Defense Percent" type="secondary" value="0.78"/>
+		<stat name="Health Percent" type="secondary" value="0.85"/>
+		<stat name="Offense" type="secondary" value="28"/>
+	</mod>
+	<mod character="Sabine Wren" dots="4" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="10.5"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="1.42"/>
+		<stat name="Offense" type="secondary" value="19"/>
+	</mod>
+	<mod character="Count Dooku" dots="4" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="31.5"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Health" type="secondary" value="182"/>
+		<stat name="Offense" type="secondary" value="30"/>
+		<stat name="Critical Chance" type="secondary" value="1.43"/>
+	</mod>
+	<mod character="Poe Dameron" dots="4" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Tenacity" type="secondary" value="2.94"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Offense" type="secondary" value="22"/>
+	</mod>
+	<mod character="Resistance Trooper" dots="4" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="31.5"/>
+		<stat name="Health Percent" type="secondary" value="0.7"/>
+		<stat name="Protection" type="secondary" value="524"/>
+		<stat name="Protection Percent" type="secondary" value="1.91"/>
+		<stat name="Potency" type="secondary" value="1.15"/>
+	</mod>
+	<mod character="Chief Nebit" dots="4" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="10.5"/>
+		<stat name="Defense Percent" type="secondary" value="2.83"/>
+		<stat name="Potency" type="secondary" value="2.7"/>
+		<stat name="Tenacity" type="secondary" value="2.51"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="K-2SO" dots="4" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="4"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense" type="secondary" value="63"/>
+		<stat name="Tenacity" type="secondary" value="4.13"/>
+		<stat name="Defense Percent" type="secondary" value="1.08"/>
+	</mod>
+	<mod character="Savage Opress" dots="4" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4"/>
+		<stat name="Defense" type="secondary" value="13"/>
+		<stat name="Protection Percent" type="secondary" value="1.51"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Health" type="secondary" value="266"/>
+	</mod>
+	<mod character="Cad Bane" dots="4" level="15" set="Tenacity" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="16"/>
+		<stat name="Defense Percent" type="secondary" value="2.26"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Protection" type="secondary" value="1157"/>
+		<stat name="Health Percent" type="secondary" value="0.55"/>
+	</mod>
+	<mod character="Kylo Ren" dots="4" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4"/>
+		<stat name="Defense Percent" type="secondary" value="3.28"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="1.22"/>
+		<stat name="Protection Percent" type="secondary" value="1.28"/>
+	</mod>
+	<mod character="Darth Nihilus" dots="4" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4"/>
+		<stat name="Critical Chance" type="secondary" value="2.44"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Speed" type="secondary" value="11"/>
+		<stat name="Protection Percent" type="secondary" value="1.94"/>
+	</mod>
+	<mod character="Kylo Ren (Unmasked)" dots="4" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="16"/>
+		<stat name="Tenacity" type="secondary" value="3.2"/>
+		<stat name="Offense Percent" type="secondary" value="0.25"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection" type="secondary" value="537"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="4" level="15" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="21"/>
+		<stat name="Tenacity" type="secondary" value="1.73"/>
+		<stat name="Health" type="secondary" value="890"/>
+		<stat name="Offense" type="secondary" value="18"/>
+		<stat name="Critical Chance" type="secondary" value="1.31"/>
+	</mod>
+	<mod character="Sabine Wren" dots="4" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="16"/>
+		<stat name="Offense Percent" type="secondary" value="0.52"/>
+		<stat name="Defense" type="secondary" value="11"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Defense Percent" type="secondary" value="0.93"/>
+	</mod>
+	<mod character="Jawa" dots="5" level="13" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="5.13"/>
+		<stat name="Potency" type="secondary" value="4.4"/>
+		<stat name="Defense Percent" type="secondary" value="1.49"/>
+		<stat name="Offense" type="secondary" value="27"/>
+		<stat name="Protection" type="secondary" value="576"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="13" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="10.25"/>
+		<stat name="Critical Chance" type="secondary" value="1.39"/>
+		<stat name="Protection Percent" type="secondary" value="5.8"/>
+		<stat name="Protection" type="secondary" value="488"/>
+		<stat name="Offense" type="secondary" value="40"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="5" level="13" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="10.25"/>
+		<stat name="Protection" type="secondary" value="1384"/>
+		<stat name="Offense Percent" type="secondary" value="0.74"/>
+		<stat name="Health" type="secondary" value="255"/>
+		<stat name="Potency" type="secondary" value="2.06"/>
+	</mod>
+	<mod character="Greedo" dots="5" level="13" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="10.25"/>
+		<stat name="Health" type="secondary" value="812"/>
+		<stat name="Offense Percent" type="secondary" value="1.86"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="632"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Health" type="secondary" value="254"/>
+		<stat name="Defense Percent" type="secondary" value="1.45"/>
+		<stat name="Potency" type="secondary" value="1.72"/>
+		<stat name="Health Percent" type="secondary" value="0.71"/>
+	</mod>
+	<mod character="K-2SO" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Potency" type="secondary" value="2.97"/>
+		<stat name="Defense Percent" type="secondary" value="1.43"/>
+		<stat name="Offense" type="secondary" value="87"/>
+		<stat name="Health" type="secondary" value="273"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection" type="secondary" value="684"/>
+		<stat name="Defense Percent" type="secondary" value="1.02"/>
+		<stat name="Health" type="secondary" value="237"/>
+		<stat name="Defense" type="secondary" value="7"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Health Percent" type="secondary" value="1.05"/>
+		<stat name="Tenacity" type="secondary" value="1.52"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Critical Chance" type="secondary" value="1.87"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection" type="secondary" value="1360"/>
+		<stat name="Protection Percent" type="secondary" value="3.6"/>
+		<stat name="Tenacity" type="secondary" value="1.75"/>
+		<stat name="Critical Chance" type="secondary" value="2"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Potency" type="secondary" value="3.93"/>
+		<stat name="Tenacity" type="secondary" value="1.98"/>
+		<stat name="Health" type="secondary" value="397"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Tenacity" type="secondary" value="2.21"/>
+		<stat name="Offense" type="secondary" value="96"/>
+		<stat name="Potency" type="secondary" value="1.43"/>
+		<stat name="Health" type="secondary" value="266"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="5" level="12" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Critical Chance" type="secondary" value="3.01"/>
+		<stat name="Defense Percent" type="secondary" value="0.97"/>
+		<stat name="Health Percent" type="secondary" value="0.81"/>
+		<stat name="Health" type="secondary" value="369"/>
+	</mod>
+	<mod character="Luke Skywalker (Farmboy)" dots="5" level="12" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Critical Chance" type="secondary" value="2.13"/>
+		<stat name="Protection" type="secondary" value="1598"/>
+		<stat name="Health" type="secondary" value="223"/>
+		<stat name="Defense Percent" type="secondary" value="0.89"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="12" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Defense Percent" type="secondary" value="3.53"/>
+		<stat name="Tenacity" type="secondary" value="1.17"/>
+		<stat name="Health" type="secondary" value="412"/>
+	</mod>
+	<mod character="Greedo" dots="5" level="12" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection Percent" type="secondary" value="3.87"/>
+		<stat name="Protection" type="secondary" value="1214"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Health Percent" type="secondary" value="0.73"/>
+	</mod>
+	<mod character="Zam Wesell" dots="5" level="12" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection" type="secondary" value="1436"/>
+		<stat name="Offense" type="secondary" value="23"/>
+		<stat name="Health Percent" type="secondary" value="1.11"/>
+		<stat name="Protection Percent" type="secondary" value="1.65"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="9.75"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection Percent" type="secondary" value="7.37"/>
+		<stat name="Health Percent" type="secondary" value="1.05"/>
+		<stat name="Offense Percent" type="secondary" value="0.42"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Tenacity" type="secondary" value="3.95"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="46"/>
+		<stat name="Critical Chance" type="secondary" value="1.82"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Critical Chance" type="secondary" value="3.17"/>
+		<stat name="Defense Percent" type="secondary" value="1.59"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Offense" type="secondary" value="44"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Tenacity" type="secondary" value="1.44"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Health Percent" type="secondary" value="0.58"/>
+		<stat name="Offense" type="secondary" value="28"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Health Percent" type="secondary" value="1.12"/>
+		<stat name="Protection" type="secondary" value="531"/>
+		<stat name="Defense Percent" type="secondary" value="0.93"/>
+		<stat name="Tenacity" type="secondary" value="2.15"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="12" set="Health" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="9.75"/>
+		<stat name="Potency" type="secondary" value="4.11"/>
+		<stat name="Offense" type="secondary" value="65"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense Percent" type="secondary" value="0.35"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="12" set="Critical Damage" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection Percent" type="secondary" value="1.33"/>
+		<stat name="Tenacity" type="secondary" value="5.98"/>
+		<stat name="Protection" type="secondary" value="799"/>
+		<stat name="Critical Chance" type="secondary" value="2.13"/>
+	</mod>
+	<mod character="Princess Leia" dots="5" level="12" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.3"/>
+		<stat name="Protection" type="secondary" value="980"/>
+		<stat name="Defense" type="secondary" value="23"/>
+		<stat name="Protection Percent" type="secondary" value="2.78"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="12" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Tenacity" type="secondary" value="2.52"/>
+		<stat name="Protection Percent" type="secondary" value="1.2"/>
+		<stat name="Critical Chance" type="secondary" value="1.78"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="5" level="12" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Potency" type="secondary" value="5.78"/>
+		<stat name="Health Percent" type="secondary" value="0.97"/>
+		<stat name="Health" type="secondary" value="951"/>
+		<stat name="Offense Percent" type="secondary" value="0.38"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="5" level="12" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense" type="secondary" value="84"/>
+		<stat name="Defense" type="secondary" value="18"/>
+		<stat name="Offense Percent" type="secondary" value="0.32"/>
+		<stat name="Health Percent" type="secondary" value="0.86"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="12" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense" type="secondary" value="42"/>
+		<stat name="Offense Percent" type="secondary" value="0.54"/>
+		<stat name="Critical Chance" type="secondary" value="2.08"/>
+		<stat name="Protection" type="secondary" value="627"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="5" level="12" set="Defense" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Health" type="secondary" value="329"/>
+		<stat name="Offense" type="secondary" value="39"/>
+		<stat name="Critical Chance" type="secondary" value="1.83"/>
+		<stat name="Health Percent" type="secondary" value="1.1"/>
+	</mod>
+	<mod character="Kylo Ren" dots="5" level="12" set="Defense" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense Percent" type="secondary" value="1.02"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Critical Chance" type="secondary" value="5.35"/>
+		<stat name="Tenacity" type="secondary" value="1.63"/>
+	</mod>
+	<mod character="Finn" dots="5" level="12" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+		<stat name="Protection" type="secondary" value="687"/>
+		<stat name="Tenacity" type="secondary" value="2.18"/>
+	</mod>
+	<mod character="Darth Sidious" dots="5" level="12" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense" type="secondary" value="94"/>
+		<stat name="Offense Percent" type="secondary" value="0.5"/>
+		<stat name="Protection Percent" type="secondary" value="1.87"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="5" level="12" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.42"/>
+		<stat name="Health Percent" type="secondary" value="0.92"/>
+		<stat name="Health" type="secondary" value="317"/>
+		<stat name="Protection" type="secondary" value="484"/>
+	</mod>
+	<mod character="K-2SO" dots="5" level="12" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Tenacity" type="secondary" value="3.85"/>
+		<stat name="Critical Chance" type="secondary" value="3.48"/>
+		<stat name="Protection" type="secondary" value="571"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="12" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Tenacity" type="secondary" value="3.64"/>
+		<stat name="Health" type="secondary" value="540"/>
+		<stat name="Potency" type="secondary" value="2.15"/>
+		<stat name="Critical Chance" type="secondary" value="1.68"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="12" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.47"/>
+		<stat name="Protection" type="secondary" value="655"/>
+		<stat name="Protection Percent" type="secondary" value="1.53"/>
+		<stat name="Health Percent" type="secondary" value="0.75"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="12" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Health Percent" type="secondary" value="0.96"/>
+		<stat name="Offense" type="secondary" value="25"/>
+		<stat name="Tenacity" type="secondary" value="1.79"/>
+		<stat name="Defense Percent" type="secondary" value="1.18"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="12" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="29.25"/>
+		<stat name="Protection Percent" type="secondary" value="2.08"/>
+		<stat name="Potency" type="secondary" value="1.74"/>
+		<stat name="Defense Percent" type="secondary" value="1.59"/>
+		<stat name="Critical Chance" type="secondary" value="1.28"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="12" set="Health" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="9.75"/>
+		<stat name="Tenacity" type="secondary" value="1.54"/>
+		<stat name="Health Percent" type="secondary" value="0.71"/>
+		<stat name="Potency" type="secondary" value="2.12"/>
+		<stat name="Offense Percent" type="secondary" value="0.44"/>
+	</mod>
+	<mod character="Director Krennic" dots="5" level="12" set="Potency" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="9.5"/>
+		<stat name="Offense" type="secondary" value="111"/>
+		<stat name="Health" type="secondary" value="635"/>
+		<stat name="Defense" type="secondary" value="14"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Greedo" dots="5" level="12" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Potency" type="secondary" value="3.24"/>
+		<stat name="Offense" type="secondary" value="65"/>
+		<stat name="Health Percent" type="secondary" value="0.7"/>
+		<stat name="Offense Percent" type="secondary" value="0.42"/>
+	</mod>
+	<mod character="Zam Wesell" dots="5" level="12" set="Speed" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="9.75"/>
+		<stat name="Health Percent" type="secondary" value="2.2"/>
+		<stat name="Health" type="secondary" value="277"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Protection Percent" type="secondary" value="1.71"/>
+	</mod>
+	<mod character="Finn" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Health Percent" type="secondary" value="1.28"/>
+		<stat name="Potency" type="secondary" value="2.02"/>
+		<stat name="Protection" type="secondary" value="578"/>
+		<stat name="Tenacity" type="secondary" value="2.02"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Potency" type="secondary" value="2.2"/>
+		<stat name="Protection" type="secondary" value="420"/>
+		<stat name="Tenacity" type="secondary" value="1.86"/>
+		<stat name="Critical Chance" type="secondary" value="8.59"/>
+	</mod>
+	<mod character="Royal Guard" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Defense Percent" type="secondary" value="1.66"/>
+		<stat name="Tenacity" type="secondary" value="1.73"/>
+		<stat name="Protection" type="secondary" value="3737"/>
+		<stat name="Offense" type="secondary" value="39"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Offense" type="secondary" value="73"/>
+		<stat name="Health" type="secondary" value="600"/>
+		<stat name="Potency" type="secondary" value="1.31"/>
+		<stat name="Offense Percent" type="secondary" value="0.53"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Defense Percent" type="secondary" value="2.76"/>
+		<stat name="Critical Chance" type="secondary" value="3.72"/>
+		<stat name="Health Percent" type="secondary" value="1.47"/>
+		<stat name="Offense" type="secondary" value="25"/>
+	</mod>
+	<mod character="Old Daka" dots="5" level="12" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Protection" type="secondary" value="925"/>
+		<stat name="Potency" type="secondary" value="1.75"/>
+		<stat name="Critical Chance" type="secondary" value="1.73"/>
+		<stat name="Tenacity" type="secondary" value="1.96"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="12" set="Critical Damage" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Critical Chance" type="secondary" value="3.38"/>
+		<stat name="Defense Percent" type="secondary" value="2.15"/>
+		<stat name="Protection Percent" type="secondary" value="3.78"/>
+		<stat name="Offense" type="secondary" value="27"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="5" level="12" set="Critical Damage" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Potency" type="secondary" value="3.04"/>
+		<stat name="Tenacity" type="secondary" value="1.93"/>
+		<stat name="Health Percent" type="secondary" value="0.86"/>
+		<stat name="Critical Chance" type="secondary" value="1.84"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="12" set="Tenacity" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Protection Percent" type="secondary" value="3.33"/>
+		<stat name="Offense" type="secondary" value="69"/>
+		<stat name="Defense" type="secondary" value="24"/>
+	</mod>
+	<mod character="Jyn Erso" dots="5" level="12" set="Tenacity" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.87"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Protection Percent" type="secondary" value="2.83"/>
+		<stat name="Defense Percent" type="secondary" value="2.81"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="5" level="12" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Health Percent" type="secondary" value="1.76"/>
+		<stat name="Defense Percent" type="secondary" value="1.34"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Tenacity" type="secondary" value="2.06"/>
+	</mod>
+	<mod character="Admiral Ackbar" dots="5" level="12" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Health Percent" type="secondary" value="2.02"/>
+		<stat name="Critical Chance" type="secondary" value="3.07"/>
+		<stat name="Protection" type="secondary" value="615"/>
+		<stat name="Offense" type="secondary" value="29"/>
+	</mod>
+	<mod character="Cassian Andor" dots="5" level="12" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Potency" type="secondary" value="3.58"/>
+		<stat name="Critical Chance" type="secondary" value="3.23"/>
+		<stat name="Protection" type="secondary" value="981"/>
+		<stat name="Health" type="secondary" value="393"/>
+	</mod>
+	<mod character="Greedo" dots="5" level="12" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Tenacity" type="secondary" value="1.68"/>
+		<stat name="Defense" type="secondary" value="26"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Health" type="secondary" value="315"/>
+	</mod>
+	<mod character="Sith Assassin" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="19.5"/>
+		<stat name="Offense" type="secondary" value="110"/>
+		<stat name="Health Percent" type="secondary" value="0.99"/>
+		<stat name="Defense Percent" type="secondary" value="0.95"/>
+		<stat name="Protection Percent" type="secondary" value="1.6"/>
+	</mod>
+	<mod character="Royal Guard" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="19.5"/>
+		<stat name="Critical Chance" type="secondary" value="4.06"/>
+		<stat name="Offense" type="secondary" value="45"/>
+		<stat name="Offense Percent" type="secondary" value="0.46"/>
+		<stat name="Defense Percent" type="secondary" value="1.41"/>
+	</mod>
+	<mod character="Savage Opress" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Defense Percent" type="secondary" value="3.14"/>
+		<stat name="Tenacity" type="secondary" value="1.24"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense" type="secondary" value="42"/>
+	</mod>
+	<mod character="Count Dooku" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="19.5"/>
+		<stat name="Critical Chance" type="secondary" value="1.17"/>
+		<stat name="Defense Percent" type="secondary" value="1.08"/>
+		<stat name="Health" type="secondary" value="306"/>
+		<stat name="Offense" type="secondary" value="40"/>
+	</mod>
+	<mod character="IG-88" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Health" type="secondary" value="750"/>
+		<stat name="Protection" type="secondary" value="1368"/>
+		<stat name="Health Percent" type="secondary" value="0.85"/>
+		<stat name="Offense" type="secondary" value="102"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="12" set="Health" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="19.5"/>
+		<stat name="Health Percent" type="secondary" value="0.68"/>
+		<stat name="Protection Percent" type="secondary" value="2.01"/>
+		<stat name="Defense Percent" type="secondary" value="1.28"/>
+		<stat name="Tenacity" type="secondary" value="2.03"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="12" set="Critical Damage" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Protection" type="secondary" value="817"/>
+		<stat name="Tenacity" type="secondary" value="1.25"/>
+		<stat name="Defense Percent" type="secondary" value="1.41"/>
+		<stat name="Critical Chance" type="secondary" value="2.02"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="5" level="12" set="Potency" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="4.75"/>
+		<stat name="Tenacity" type="secondary" value="2.9"/>
+		<stat name="Health" type="secondary" value="273"/>
+		<stat name="Offense" type="secondary" value="28"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="5" level="12" set="Potency" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="4.75"/>
+		<stat name="Defense Percent" type="secondary" value="0.95"/>
+		<stat name="Offense" type="secondary" value="72"/>
+		<stat name="Protection Percent" type="secondary" value="3.56"/>
+		<stat name="Critical Chance" type="secondary" value="5.71"/>
+	</mod>
+	<mod character="Zam Wesell" dots="5" level="12" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="19"/>
+		<stat name="Offense" type="secondary" value="23"/>
+		<stat name="Defense" type="secondary" value="23"/>
+		<stat name="Tenacity" type="secondary" value="1.9"/>
+		<stat name="Critical Chance" type="secondary" value="1.86"/>
+	</mod>
+	<mod character="Ezra Bridger" dots="4" level="14" set="Critical Damage" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="9.85"/>
+		<stat name="Health Percent" type="secondary" value="0.72"/>
+		<stat name="Health" type="secondary" value="235"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Offense Percent" type="secondary" value="0.36"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="4" level="14" set="Defense" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="15"/>
+		<stat name="Defense Percent" type="secondary" value="1.34"/>
+		<stat name="Protection" type="secondary" value="550"/>
+		<stat name="Offense Percent" type="secondary" value="0.46"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Han Solo" dots="3" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.88"/>
+		<stat name="Speed" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="19"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Protection Percent" type="secondary" value="1.48"/>
+	</mod>
+	<mod character="IG-88" dots="3" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.88"/>
+		<stat name="Protection" type="secondary" value="1033"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Critical Chance" type="secondary" value="1.03"/>
+		<stat name="Health" type="secondary" value="249"/>
+	</mod>
+	<mod character="Colonel Starck" dots="3" level="15" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.88"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Defense Percent" type="secondary" value="2.34"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Speed" type="secondary" value="7"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="3" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Protection" type="secondary" value="698"/>
+		<stat name="Defense Percent" type="secondary" value="0.91"/>
+		<stat name="Potency" type="secondary" value="1.37"/>
+		<stat name="Offense" type="secondary" value="19"/>
+	</mod>
+	<mod character="Savage Opress" dots="3" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Critical Chance" type="secondary" value="1.31"/>
+		<stat name="Defense Percent" type="secondary" value="0.71"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="16"/>
+	</mod>
+	<mod character="Jedi Consular" dots="3" level="15" set="Health" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Tenacity" type="secondary" value="1.93"/>
+		<stat name="Protection Percent" type="secondary" value="1.46"/>
+		<stat name="Critical Chance" type="secondary" value="1.41"/>
+		<stat name="Offense" type="secondary" value="18"/>
+	</mod>
+	<mod character="Finn" dots="3" level="15" set="Defense" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Offense" type="secondary" value="43"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Protection Percent" type="secondary" value="0.75"/>
+		<stat name="Offense Percent" type="secondary" value="0.26"/>
+	</mod>
+	<mod character="Darth Sion" dots="3" level="15" set="Defense" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Protection Percent" type="secondary" value="2.08"/>
+		<stat name="Health Percent" type="secondary" value="1.4"/>
+		<stat name="Defense Percent" type="secondary" value="0.91"/>
+		<stat name="Potency" type="secondary" value="1.27"/>
+	</mod>
+	<mod character="BB-8" dots="3" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Protection" type="secondary" value="655"/>
+		<stat name="Protection Percent" type="secondary" value="3.2"/>
+		<stat name="Tenacity" type="secondary" value="1.14"/>
+		<stat name="Offense" type="secondary" value="24"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="3" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Tenacity" type="secondary" value="0.75"/>
+		<stat name="Protection Percent" type="secondary" value="0.85"/>
+		<stat name="Potency" type="secondary" value="1.05"/>
+		<stat name="Offense" type="secondary" value="21"/>
+	</mod>
+	<mod character="Colonel Starck" dots="3" level="15" set="Potency" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Defense Percent" type="secondary" value="0.86"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Health Percent" type="secondary" value="0.43"/>
+		<stat name="Offense" type="secondary" value="15"/>
+	</mod>
+	<mod character="Rebel Officer Leia Organa" dots="3" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Defense Percent" type="secondary" value="0.84"/>
+		<stat name="Tenacity" type="secondary" value="0.86"/>
+		<stat name="Protection Percent" type="secondary" value="1.4"/>
+		<stat name="Health Percent" type="secondary" value="0.74"/>
+	</mod>
+	<mod character="Greedo" dots="3" level="15" set="Speed" slot="Receiver">
+		<stat name="Speed" type="primary" value="21"/>
+		<stat name="Tenacity" type="secondary" value="1"/>
+		<stat name="Protection" type="secondary" value="323"/>
+		<stat name="Offense Percent" type="secondary" value="0.27"/>
+		<stat name="Critical Chance" type="secondary" value="0.88"/>
+	</mod>
+	<mod character="Savage Opress" dots="3" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.75"/>
+		<stat name="Tenacity" type="secondary" value="2.01"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection Percent" type="secondary" value="1.3"/>
+		<stat name="Offense" type="secondary" value="15"/>
+	</mod>
+	<mod character="Director Krennic" dots="3" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.75"/>
+		<stat name="Speed" type="secondary" value="4"/>
+		<stat name="Offense Percent" type="secondary" value="0.54"/>
+		<stat name="Tenacity" type="secondary" value="1.22"/>
+		<stat name="Critical Chance" type="secondary" value="1.01"/>
+	</mod>
+	<mod character="IG-88" dots="3" level="15" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.75"/>
+		<stat name="Speed" type="secondary" value="8"/>
+		<stat name="Health Percent" type="secondary" value="0.73"/>
+		<stat name="Defense" type="secondary" value="4"/>
+		<stat name="Health" type="secondary" value="183"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="3" level="15" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="7.75"/>
+		<stat name="Potency" type="secondary" value="1.03"/>
+		<stat name="Offense" type="secondary" value="25"/>
+		<stat name="Health Percent" type="secondary" value="0.45"/>
+		<stat name="Protection Percent" type="secondary" value="1.37"/>
+	</mod>
+	<mod character="Royal Guard" dots="3" level="15" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="15.5"/>
+		<stat name="Tenacity" type="secondary" value="1.08"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Critical Chance" type="secondary" value="1.28"/>
+		<stat name="Defense Percent" type="secondary" value="0.99"/>
+	</mod>
+	<mod character="Captain Han Solo" dots="3" level="15" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="3.88"/>
+		<stat name="Protection" type="secondary" value="736"/>
+		<stat name="Critical Chance" type="secondary" value="1.16"/>
+		<stat name="Potency" type="secondary" value="0.75"/>
+		<stat name="Protection Percent" type="secondary" value="1"/>
+	</mod>
+	<mod character="Jedi Consular" dots="3" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="26.25"/>
+		<stat name="Potency" type="secondary" value="0.87"/>
+		<stat name="Health Percent" type="secondary" value="0.4"/>
+		<stat name="Defense Percent" type="secondary" value="0.75"/>
+		<stat name="Tenacity" type="secondary" value="0.91"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="3" level="15" set="Defense" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="3.88"/>
+		<stat name="Potency" type="secondary" value="2.64"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Defense Percent" type="secondary" value="2.06"/>
+		<stat name="Defense" type="secondary" value="4"/>
+	</mod>
+	<mod character="Darth Sion" dots="3" level="15" set="Defense" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="3.88"/>
+		<stat name="Protection Percent" type="secondary" value="3.72"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Critical Chance" type="secondary" value="1.3"/>
+		<stat name="Offense" type="secondary" value="26"/>
+	</mod>
+	<mod character="Colonel Starck" dots="3" level="15" set="Speed" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="3.88"/>
+		<stat name="Tenacity" type="secondary" value="1.05"/>
+		<stat name="Critical Chance" type="secondary" value="3.81"/>
+		<stat name="Offense Percent" type="secondary" value="0.35"/>
+		<stat name="Speed" type="secondary" value="2"/>
+	</mod>
+	<mod character="BB-8" dots="3" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="15.5"/>
+		<stat name="Critical Chance" type="secondary" value="1.32"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Protection" type="secondary" value="289"/>
+		<stat name="Defense" type="secondary" value="3"/>
+	</mod>
+	<mod character="Colonel Starck" dots="3" level="15" set="Speed" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="3.88"/>
+		<stat name="Critical Chance" type="secondary" value="0.9"/>
+		<stat name="Health" type="secondary" value="185"/>
+		<stat name="Defense Percent" type="secondary" value="1.09"/>
+		<stat name="Protection Percent" type="secondary" value="0.92"/>
+	</mod>
+	<mod character="BB-8" dots="3" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Health Percent" type="primary" value="3.88"/>
+		<stat name="Critical Chance" type="secondary" value="1.43"/>
+		<stat name="Defense Percent" type="secondary" value="1"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Potency" type="secondary" value="0.79"/>
+	</mod>
+	<mod character="R2-D2" dots="3" level="15" set="Speed" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="7.75"/>
+		<stat name="Offense" type="secondary" value="37"/>
+		<stat name="Critical Chance" type="secondary" value="3.54"/>
+		<stat name="Protection" type="secondary" value="247"/>
+		<stat name="Health" type="secondary" value="298"/>
+	</mod>
+	<mod character="Rebel Officer Leia Organa" dots="5" level="11" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8.75"/>
+		<stat name="Potency" type="secondary" value="3.12"/>
+		<stat name="Tenacity" type="secondary" value="2.83"/>
+		<stat name="Offense" type="secondary" value="36"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="5" level="11" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="17.5"/>
+		<stat name="Protection" type="secondary" value="1934"/>
+		<stat name="Offense" type="secondary" value="29"/>
+		<stat name="Offense Percent" type="secondary" value="0.33"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="11" set="Health" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="17.5"/>
+		<stat name="Health" type="secondary" value="349"/>
+		<stat name="Health Percent" type="secondary" value="2.89"/>
+		<stat name="Critical Chance" type="secondary" value="1.98"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="3" level="14" set="Health" slot="Receiver">
+		<stat name="Critical Avoidance" type="primary" value="16.4"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Offense" type="secondary" value="39"/>
+		<stat name="Offense Percent" type="secondary" value="0.26"/>
+		<stat name="Health" type="secondary" value="202"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="5" level="10" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="4"/>
+		<stat name="Potency" type="secondary" value="3.83"/>
+		<stat name="Health" type="secondary" value="410"/>
+		<stat name="Defense" type="secondary" value="8"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="10" set="Health" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Speed" type="secondary" value="5"/>
+		<stat name="Protection Percent" type="secondary" value="1.98"/>
+		<stat name="Offense" type="secondary" value="26"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="10" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Defense" type="secondary" value="18"/>
+		<stat name="Protection" type="secondary" value="477"/>
+		<stat name="Potency" type="secondary" value="1.35"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="10" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="8"/>
+		<stat name="Critical Chance" type="secondary" value="5.18"/>
+		<stat name="Offense Percent" type="secondary" value="0.37"/>
+		<stat name="Tenacity" type="secondary" value="3.29"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="10" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="16"/>
+		<stat name="Protection" type="secondary" value="1078"/>
+		<stat name="Critical Chance" type="secondary" value="1.57"/>
+		<stat name="Offense" type="secondary" value="32"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="4" level="12" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.25"/>
+		<stat name="Critical Chance" type="secondary" value="1.12"/>
+		<stat name="Potency" type="secondary" value="1.58"/>
+		<stat name="Protection Percent" type="secondary" value="1.22"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Jedi Consular" dots="4" level="12" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="6.5"/>
+		<stat name="Critical Chance" type="secondary" value="3.35"/>
+		<stat name="Offense" type="secondary" value="48"/>
+		<stat name="Offense Percent" type="secondary" value="0.53"/>
+		<stat name="Speed" type="secondary" value="7"/>
+	</mod>
+	<mod character="Obi-Wan Kenobi (Old Ben)" dots="4" level="12" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="6.5"/>
+		<stat name="Health Percent" type="secondary" value="0.81"/>
+		<stat name="Critical Chance" type="secondary" value="1.44"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="541"/>
+	</mod>
+	<mod character="Hera Syndulla" dots="4" level="12" set="Potency" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="3.25"/>
+		<stat name="Critical Chance" type="secondary" value="2.79"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Health" type="secondary" value="267"/>
+		<stat name="Protection" type="secondary" value="522"/>
+	</mod>
+	<mod character="Ewok Elder" dots="5" level="9" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Health" type="secondary" value="427"/>
+		<stat name="Protection Percent" type="secondary" value="1.39"/>
+		<stat name="Defense Percent" type="secondary" value="1.1"/>
+	</mod>
+	<mod character="Finn" dots="5" level="9" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Tenacity" type="secondary" value="3.54"/>
+		<stat name="Protection Percent" type="secondary" value="4.92"/>
+		<stat name="Critical Chance" type="secondary" value="1.33"/>
+		<stat name="Potency" type="secondary" value="2.18"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="5" level="9" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Potency" type="secondary" value="3.75"/>
+		<stat name="Offense" type="secondary" value="45"/>
+		<stat name="Tenacity" type="secondary" value="5.08"/>
+	</mod>
+	<mod character="Count Dooku" dots="5" level="9" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Critical Chance" type="secondary" value="5.58"/>
+		<stat name="Protection" type="secondary" value="419"/>
+		<stat name="Protection Percent" type="secondary" value="1.84"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="9" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Offense" type="secondary" value="82"/>
+		<stat name="Potency" type="secondary" value="1.59"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="5" level="9" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection" type="secondary" value="2090"/>
+		<stat name="Health" type="secondary" value="592"/>
+		<stat name="Defense" type="secondary" value="5"/>
+	</mod>
+	<mod character="Darth Sidious" dots="5" level="9" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection Percent" type="secondary" value="2.68"/>
+		<stat name="Offense" type="secondary" value="71"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="9" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection Percent" type="secondary" value="2.09"/>
+		<stat name="Potency" type="secondary" value="6.64"/>
+		<stat name="Defense Percent" type="secondary" value="1.22"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="5" level="9" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Defense Percent" type="secondary" value="0.86"/>
+		<stat name="Protection" type="secondary" value="820"/>
+		<stat name="Health" type="secondary" value="310"/>
+	</mod>
+	<mod character="First Order Stormtrooper" dots="5" level="9" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection" type="secondary" value="1520"/>
+		<stat name="Defense Percent" type="secondary" value="1"/>
+		<stat name="Critical Chance" type="secondary" value="1.25"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection" type="secondary" value="1253"/>
+		<stat name="Health Percent" type="secondary" value="1.85"/>
+		<stat name="Tenacity" type="secondary" value="3.23"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Offense Percent" type="secondary" value="0.3"/>
+		<stat name="Potency" type="secondary" value="1.17"/>
+		<stat name="Tenacity" type="secondary" value="1.58"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Offense" type="secondary" value="118"/>
+		<stat name="Offense Percent" type="secondary" value="0.35"/>
+		<stat name="Critical Chance" type="secondary" value="1.7"/>
+	</mod>
+	<mod character="Count Dooku" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Speed" type="secondary" value="7"/>
+		<stat name="Offense" type="secondary" value="85"/>
+		<stat name="Potency" type="secondary" value="1.88"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Health" type="secondary" value="712"/>
+		<stat name="Offense" type="secondary" value="41"/>
+		<stat name="Health Percent" type="secondary" value="0.96"/>
+	</mod>
+	<mod character="Luke Skywalker (Farmboy)" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Critical Chance" type="secondary" value="3.88"/>
+		<stat name="Health" type="secondary" value="274"/>
+		<stat name="Offense Percent" type="secondary" value="0.39"/>
+	</mod>
+	<mod character="Old Daka" dots="5" level="9" set="Health" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="7.5"/>
+		<stat name="Protection" type="secondary" value="578"/>
+		<stat name="Critical Chance" type="secondary" value="1.72"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="9" set="Potency" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense" type="secondary" value="70"/>
+		<stat name="Health" type="secondary" value="662"/>
+		<stat name="Protection" type="secondary" value="496"/>
+	</mod>
+	<mod character="First Order Stormtrooper" dots="5" level="9" set="Speed" slot="Receiver">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Offense Percent" type="secondary" value="0.47"/>
+		<stat name="Protection" type="secondary" value="806"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Defense Percent" type="secondary" value="4.57"/>
+		<stat name="Critical Chance" type="secondary" value="1.36"/>
+		<stat name="Health Percent" type="secondary" value="1.59"/>
+		<stat name="Defense" type="secondary" value="9"/>
+	</mod>
+	<mod character="Kanan Jarrus" dots="5" level="9" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense Percent" type="secondary" value="0.65"/>
+		<stat name="Potency" type="secondary" value="2.77"/>
+		<stat name="Health Percent" type="secondary" value="0.67"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="5" level="9" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Health" type="secondary" value="896"/>
+		<stat name="Offense" type="secondary" value="26"/>
+		<stat name="Offense Percent" type="secondary" value="0.4"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="5" level="9" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Health" type="secondary" value="735"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Health Percent" type="secondary" value="0.65"/>
+	</mod>
+	<mod character="Rey (Scavenger)" dots="5" level="9" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense" type="secondary" value="65"/>
+		<stat name="Tenacity" type="secondary" value="1.73"/>
+		<stat name="Protection" type="secondary" value="1062"/>
+		<stat name="Critical Chance" type="secondary" value="3.71"/>
+	</mod>
+	<mod character="Royal Guard" dots="5" level="9" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Health" type="secondary" value="258"/>
+		<stat name="Protection Percent" type="secondary" value="2.14"/>
+		<stat name="Offense Percent" type="secondary" value="0.28"/>
+	</mod>
+	<mod character="Luke Skywalker (Farmboy)" dots="5" level="9" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense Percent" type="secondary" value="0.36"/>
+		<stat name="Critical Chance" type="secondary" value="5.83"/>
+		<stat name="Health" type="secondary" value="308"/>
+	</mod>
+	<mod character="First Order Stormtrooper" dots="5" level="9" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Defense" type="secondary" value="17"/>
+		<stat name="Protection" type="secondary" value="1070"/>
+		<stat name="Protection Percent" type="secondary" value="2.06"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense" type="secondary" value="31"/>
+		<stat name="Protection" type="secondary" value="1293"/>
+		<stat name="Health Percent" type="secondary" value="2.32"/>
+	</mod>
+	<mod character="Garazeb &amp;quot;Zeb&amp;quot; Orrelios" dots="5" level="9" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Offense" type="secondary" value="44"/>
+		<stat name="Tenacity" type="secondary" value="1.75"/>
+		<stat name="Health" type="secondary" value="299"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="5" level="9" set="Critical Chance" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Defense Percent" type="secondary" value="1.97"/>
+		<stat name="Defense" type="secondary" value="9"/>
+		<stat name="Potency" type="secondary" value="1.87"/>
+	</mod>
+	<mod character="Finn" dots="5" level="9" set="Potency" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Tenacity" type="secondary" value="1.99"/>
+		<stat name="Critical Chance" type="secondary" value="2.18"/>
+		<stat name="Defense" type="secondary" value="8"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="9" set="Potency" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="3.63"/>
+		<stat name="Protection Percent" type="secondary" value="3.06"/>
+		<stat name="Offense" type="secondary" value="35"/>
+		<stat name="Health Percent" type="secondary" value="1.04"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="5" level="9" set="Potency" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="22.5"/>
+		<stat name="Offense" type="secondary" value="69"/>
+		<stat name="Potency" type="secondary" value="1.55"/>
+		<stat name="Protection Percent" type="secondary" value="1.85"/>
+	</mod>
+	<mod character="Luke Skywalker (Farmboy)" dots="5" level="9" set="Potency" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="22.5"/>
+		<stat name="Defense" type="secondary" value="8"/>
+		<stat name="Tenacity" type="secondary" value="1.84"/>
+		<stat name="Critical Chance" type="secondary" value="2.1"/>
+	</mod>
+	<mod character="First Order Stormtrooper" dots="5" level="9" set="Speed" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Health" type="secondary" value="329"/>
+		<stat name="Critical Chance" type="secondary" value="2.04"/>
+		<stat name="Defense" type="secondary" value="6"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="7.5"/>
+		<stat name="Protection Percent" type="secondary" value="3.55"/>
+		<stat name="Defense Percent" type="secondary" value="1.26"/>
+		<stat name="Defense" type="secondary" value="9"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="5" level="9" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Potency" type="secondary" value="3.2"/>
+		<stat name="Critical Chance" type="secondary" value="3.55"/>
+		<stat name="Offense Percent" type="secondary" value="0.41"/>
+		<stat name="Health" type="secondary" value="535"/>
+	</mod>
+	<mod character="Chopper" dots="5" level="9" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Defense" type="secondary" value="10"/>
+		<stat name="Offense" type="secondary" value="42"/>
+		<stat name="Defense Percent" type="secondary" value="0.91"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="5" level="9" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Tenacity" type="secondary" value="2.93"/>
+		<stat name="Defense" type="secondary" value="7"/>
+		<stat name="Speed" type="secondary" value="4"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="5" level="9" set="Critical Damage" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Defense Percent" type="secondary" value="1.16"/>
+		<stat name="Critical Chance" type="secondary" value="4.2"/>
+		<stat name="Protection" type="secondary" value="1158"/>
+		<stat name="Defense" type="secondary" value="16"/>
+	</mod>
+	<mod character="Jedi Knight Anakin" dots="5" level="9" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="5.48"/>
+		<stat name="Defense Percent" type="secondary" value="1.12"/>
+	</mod>
+	<mod character="Luke Skywalker (Farmboy)" dots="5" level="9" set="Potency" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="3.63"/>
+		<stat name="Protection" type="secondary" value="1921"/>
+		<stat name="Potency" type="secondary" value="1.13"/>
+		<stat name="Critical Chance" type="secondary" value="3.1"/>
+	</mod>
+	<mod character="First Order Stormtrooper" dots="5" level="9" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Tenacity" type="secondary" value="2.77"/>
+		<stat name="Offense" type="secondary" value="34"/>
+		<stat name="Health" type="secondary" value="413"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.38"/>
+		<stat name="Health" type="secondary" value="993"/>
+		<stat name="Health Percent" type="secondary" value="1.52"/>
+	</mod>
+	<mod character="Darth Sidious" dots="5" level="9" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="15"/>
+		<stat name="Protection Percent" type="secondary" value="2.94"/>
+		<stat name="Critical Chance" type="secondary" value="2.07"/>
+		<stat name="Speed" type="secondary" value="5"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="5" level="9" set="Health" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="7.25"/>
+		<stat name="Health Percent" type="secondary" value="0.84"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Tenacity" type="secondary" value="1.21"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="5" level="9" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="15"/>
+		<stat name="Protection" type="secondary" value="1086"/>
+		<stat name="Health" type="secondary" value="404"/>
+		<stat name="Potency" type="secondary" value="1.96"/>
+	</mod>
+	<mod character="Grand Master Yoda" dots="5" level="9" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="15"/>
+		<stat name="Potency" type="secondary" value="1.65"/>
+		<stat name="Health" type="secondary" value="221"/>
+		<stat name="Speed" type="secondary" value="3"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="5" level="9" set="Critical Damage" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="15"/>
+		<stat name="Offense Percent" type="secondary" value="0.53"/>
+		<stat name="Protection Percent" type="secondary" value="1.36"/>
+		<stat name="Tenacity" type="secondary" value="2.2"/>
+	</mod>
+	<mod character="Captain Phasma" dots="5" level="9" set="Speed" slot="Multiplexer">
+		<stat name="Protection Percent" type="primary" value="14.5"/>
+		<stat name="Defense Percent" type="secondary" value="2.49"/>
+		<stat name="Critical Chance" type="secondary" value="1.67"/>
+		<stat name="Defense" type="secondary" value="5"/>
+		<stat name="Offense" type="secondary" value="86"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="4" level="11" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="12"/>
+		<stat name="Protection" type="secondary" value="1111"/>
+		<stat name="Tenacity" type="secondary" value="3.2"/>
+		<stat name="Critical Chance" type="secondary" value="1.47"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="2" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="2"/>
+		<stat name="Protection" type="secondary" value="167"/>
+		<stat name="Health Percent" type="secondary" value="0.51"/>
+		<stat name="Protection Percent" type="secondary" value="0.63"/>
+		<stat name="Offense" type="secondary" value="19"/>
+	</mod>
+	<mod character="Royal Guard" dots="2" level="15" set="Potency" slot="Receiver">
+		<stat name="Offense Percent" type="primary" value="2"/>
+		<stat name="Defense" type="secondary" value="6"/>
+		<stat name="Offense" type="secondary" value="10"/>
+		<stat name="Tenacity" type="secondary" value="0.77"/>
+		<stat name="Speed" type="secondary" value="1"/>
+	</mod>
+	<mod character="Stormtrooper Han" dots="2" level="15" set="Health" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="4"/>
+		<stat name="Protection" type="secondary" value="364"/>
+		<stat name="Health" type="secondary" value="228"/>
+		<stat name="Protection Percent" type="secondary" value="0.69"/>
+		<stat name="Tenacity" type="secondary" value="1.11"/>
+	</mod>
+	<mod character="Darth Sidious" dots="2" level="15" set="Offense" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="8"/>
+		<stat name="Protection Percent" type="secondary" value="0.8"/>
+		<stat name="Tenacity" type="secondary" value="1.23"/>
+		<stat name="Defense Percent" type="secondary" value="0.87"/>
+		<stat name="Health" type="secondary" value="204"/>
+	</mod>
+	<mod character="Talia" dots="2" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="8"/>
+		<stat name="Offense" type="secondary" value="12"/>
+		<stat name="Critical Chance" type="secondary" value="1.13"/>
+		<stat name="Offense Percent" type="secondary" value="0.24"/>
+		<stat name="Health" type="secondary" value="230"/>
+	</mod>
+	<mod character="IG-88" dots="2" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="8"/>
+		<stat name="Potency" type="secondary" value="0.65"/>
+		<stat name="Health" type="secondary" value="225"/>
+		<stat name="Defense Percent" type="secondary" value="0.93"/>
+		<stat name="Protection" type="secondary" value="202"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="2" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="2"/>
+		<stat name="Protection" type="secondary" value="230"/>
+		<stat name="Health" type="secondary" value="135"/>
+		<stat name="Protection Percent" type="secondary" value="0.64"/>
+		<stat name="Offense" type="secondary" value="20"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="2" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="16"/>
+		<stat name="Defense Percent" type="secondary" value="1.61"/>
+		<stat name="Offense Percent" type="secondary" value="0.24"/>
+		<stat name="Health Percent" type="secondary" value="0.53"/>
+		<stat name="Health" type="secondary" value="211"/>
+	</mod>
+	<mod character="Hoth Rebel Scout" dots="3" level="12" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="21.3"/>
+		<stat name="Health Percent" type="secondary" value="1.2"/>
+		<stat name="Defense Percent" type="secondary" value="0.79"/>
+		<stat name="Potency" type="secondary" value="1.23"/>
+		<stat name="Health" type="secondary" value="276"/>
+	</mod>
+	<mod character="Savage Opress" dots="3" level="12" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="12.5"/>
+		<stat name="Tenacity" type="secondary" value="1.27"/>
+		<stat name="Defense" type="secondary" value="4"/>
+		<stat name="Offense Percent" type="secondary" value="0.36"/>
+		<stat name="Critical Chance" type="secondary" value="1.5"/>
+	</mod>
+	<mod character="Old Daka" dots="4" level="9" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="5"/>
+		<stat name="Offense" type="secondary" value="53"/>
+		<stat name="Tenacity" type="secondary" value="1.09"/>
+		<stat name="Defense" type="secondary" value="7"/>
+	</mod>
+	<mod character="Scarif Rebel Pathfinder" dots="4" level="9" set="Health" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="2.5"/>
+		<stat name="Protection Percent" type="secondary" value="1.07"/>
+		<stat name="Offense" type="secondary" value="71"/>
+		<stat name="Potency" type="secondary" value="1.97"/>
+	</mod>
+	<mod character="Hoth Rebel Soldier" dots="4" level="9" set="Defense" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="5"/>
+		<stat name="Offense Percent" type="secondary" value="0.42"/>
+		<stat name="Protection Percent" type="secondary" value="1.55"/>
+		<stat name="Protection" type="secondary" value="327"/>
+	</mod>
+	<mod character="Director Krennic" dots="5" level="6" set="Speed" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="2.5"/>
+		<stat name="Speed" type="secondary" value="9"/>
+		<stat name="Tenacity" type="secondary" value="2.74"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Defense Percent" type="secondary" value="0.84"/>
+		<stat name="Health" type="secondary" value="186"/>
+		<stat name="Critical Chance" type="secondary" value="0.67"/>
+		<stat name="Protection Percent" type="secondary" value="0.77"/>
+	</mod>
+	<mod character="Talia" dots="1" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Offense" type="secondary" value="14"/>
+		<stat name="Health" type="secondary" value="150"/>
+		<stat name="Potency" type="secondary" value="0.51"/>
+		<stat name="Protection" type="secondary" value="176"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="1" level="15" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Critical Chance" type="secondary" value="0.64"/>
+		<stat name="Tenacity" type="secondary" value="0.52"/>
+		<stat name="Defense" type="secondary" value="3"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Critical Damage" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Offense" type="secondary" value="28"/>
+		<stat name="Health" type="secondary" value="130"/>
+		<stat name="Critical Chance" type="secondary" value="0.54"/>
+		<stat name="Speed" type="secondary" value="1"/>
+	</mod>
+	<mod character="Royal Guard" dots="1" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Health" type="secondary" value="174"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Defense Percent" type="secondary" value="0.98"/>
+		<stat name="Protection" type="secondary" value="180"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Health Percent" type="secondary" value="0.45"/>
+		<stat name="Protection" type="secondary" value="195"/>
+		<stat name="Potency" type="secondary" value="0.68"/>
+		<stat name="Tenacity" type="secondary" value="0.53"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Health" type="secondary" value="114"/>
+		<stat name="Critical Chance" type="secondary" value="0.87"/>
+		<stat name="Offense" type="secondary" value="14"/>
+		<stat name="Tenacity" type="secondary" value="0.52"/>
+	</mod>
+	<mod character="Talia" dots="1" level="15" set="Health" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="7.5"/>
+		<stat name="Potency" type="secondary" value="0.8"/>
+		<stat name="Offense" type="secondary" value="16"/>
+		<stat name="Critical Chance" type="secondary" value="0.58"/>
+		<stat name="Tenacity" type="secondary" value="0.69"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="1" level="15" set="Health" slot="Receiver">
+		<stat name="Critical Avoidance" type="primary" value="15"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Health" type="secondary" value="150"/>
+		<stat name="Protection Percent" type="secondary" value="0.82"/>
+		<stat name="Offense" type="secondary" value="11"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="1" level="15" set="Health" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="1.88"/>
+		<stat name="Speed" type="secondary" value="3"/>
+		<stat name="Health" type="secondary" value="146"/>
+		<stat name="Offense Percent" type="secondary" value="0.15"/>
+		<stat name="Defense" type="secondary" value="2"/>
+	</mod>
+	<mod character="Darth Sidious" dots="1" level="15" set="Defense" slot="Receiver">
+		<stat name="Speed" type="primary" value="17"/>
+		<stat name="Tenacity" type="secondary" value="1.76"/>
+		<stat name="Critical Chance" type="secondary" value="1.27"/>
+		<stat name="Protection" type="secondary" value="171"/>
+		<stat name="Offense" type="secondary" value="10"/>
+	</mod>
+	<mod character="Ewok Elder" dots="1" level="15" set="Defense" slot="Receiver">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Health Percent" type="secondary" value="0.68"/>
+		<stat name="Offense" type="secondary" value="10"/>
+		<stat name="Protection" type="secondary" value="100"/>
+		<stat name="Potency" type="secondary" value="0.66"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Critical Damage" slot="Receiver">
+		<stat name="Health Percent" type="primary" value="1.88"/>
+		<stat name="Defense" type="secondary" value="2"/>
+		<stat name="Protection Percent" type="secondary" value="0.87"/>
+		<stat name="Offense Percent" type="secondary" value="0.18"/>
+		<stat name="Health" type="secondary" value="176"/>
+	</mod>
+	<mod character="Chirrut &amp;Icirc;mwe" dots="1" level="15" set="Critical Chance" slot="Receiver">
+		<stat name="Speed" type="primary" value="17"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Defense Percent" type="secondary" value="0.81"/>
+		<stat name="Health Percent" type="secondary" value="0.32"/>
+		<stat name="Tenacity" type="secondary" value="0.68"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Receiver">
+		<stat name="Accuracy" type="primary" value="7.5"/>
+		<stat name="Protection" type="secondary" value="261"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Health Percent" type="secondary" value="0.34"/>
+		<stat name="Offense" type="secondary" value="15"/>
+	</mod>
+	<mod character="Qui-Gon Jinn" dots="1" level="15" set="Potency" slot="Receiver">
+		<stat name="Speed" type="primary" value="17"/>
+		<stat name="Offense" type="secondary" value="10"/>
+		<stat name="Tenacity" type="secondary" value="0.92"/>
+		<stat name="Protection" type="secondary" value="139"/>
+		<stat name="Defense" type="secondary" value="2"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Health" type="secondary" value="179"/>
+		<stat name="Critical Chance" type="secondary" value="0.93"/>
+	</mod>
+	<mod character="Talia" dots="1" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Protection Percent" type="secondary" value="0.61"/>
+		<stat name="Health" type="secondary" value="132"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Protection" type="secondary" value="137"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="1" level="15" set="Health" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Offense" type="secondary" value="12"/>
+		<stat name="Health" type="secondary" value="115"/>
+		<stat name="Health Percent" type="secondary" value="0.29"/>
+		<stat name="Protection Percent" type="secondary" value="0.6"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Critical Damage" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Protection" type="secondary" value="147"/>
+		<stat name="Offense Percent" type="secondary" value="0.22"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Health Percent" type="secondary" value="0.45"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Protection" type="secondary" value="144"/>
+		<stat name="Tenacity" type="secondary" value="0.82"/>
+		<stat name="Health Percent" type="secondary" value="0.48"/>
+		<stat name="Protection Percent" type="secondary" value="0.51"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="1" level="15" set="Potency" slot="Processor">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Tenacity" type="secondary" value="0.59"/>
+		<stat name="Health" type="secondary" value="108"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Offense Percent" type="secondary" value="0.19"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="7.5"/>
+		<stat name="Offense" type="secondary" value="21"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Potency" type="secondary" value="0.78"/>
+		<stat name="Defense Percent" type="secondary" value="0.61"/>
+	</mod>
+	<mod character="Talia" dots="1" level="15" set="Health" slot="Holo-Array">
+		<stat name="Critical Damage" type="primary" value="22.5"/>
+		<stat name="Critical Chance" type="secondary" value="0.9"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Tenacity" type="secondary" value="0.87"/>
+		<stat name="Defense Percent" type="secondary" value="0.76"/>
+	</mod>
+	<mod character="Ewok Elder" dots="1" level="15" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Offense Percent" type="secondary" value="0.46"/>
+		<stat name="Defense Percent" type="secondary" value="0.99"/>
+		<stat name="Health" type="secondary" value="166"/>
+		<stat name="Protection" type="secondary" value="181"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="1" level="15" set="Health" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Defense Percent" type="secondary" value="0.79"/>
+		<stat name="Potency" type="secondary" value="0.89"/>
+		<stat name="Protection" type="secondary" value="156"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="1" level="15" set="Health" slot="Holo-Array">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Defense Percent" type="secondary" value="1.14"/>
+		<stat name="Potency" type="secondary" value="0.55"/>
+		<stat name="Tenacity" type="secondary" value="0.59"/>
+		<stat name="Health" type="secondary" value="170"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Defense" slot="Holo-Array">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Tenacity" type="secondary" value="0.55"/>
+		<stat name="Offense" type="secondary" value="16"/>
+		<stat name="Protection" type="secondary" value="186"/>
+		<stat name="Critical Chance" type="secondary" value="0.72"/>
+	</mod>
+	<mod character="Lando Calrissian" dots="1" level="15" set="Critical Chance" slot="Holo-Array">
+		<stat name="Critical Chance" type="primary" value="7.5"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Protection" type="secondary" value="190"/>
+		<stat name="Health" type="secondary" value="183"/>
+		<stat name="Offense Percent" type="secondary" value="0.23"/>
+	</mod>
+	<mod character="Old Daka" dots="1" level="15" set="Offense" slot="Holo-Array">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Health" type="secondary" value="164"/>
+		<stat name="Offense Percent" type="secondary" value="0.13"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Tenacity" type="secondary" value="0.81"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Holo-Array">
+		<stat name="Health Percent" type="primary" value="1.88"/>
+		<stat name="Tenacity" type="secondary" value="0.95"/>
+		<stat name="Defense" type="secondary" value="3"/>
+		<stat name="Offense" type="secondary" value="14"/>
+		<stat name="Health" type="secondary" value="130"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="1.88"/>
+		<stat name="Critical Chance" type="secondary" value="0.64"/>
+		<stat name="Tenacity" type="secondary" value="0.77"/>
+		<stat name="Defense" type="secondary" value="2"/>
+		<stat name="Speed" type="secondary" value="1"/>
+	</mod>
+	<mod character="Ewok Elder" dots="1" level="15" set="Health" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Offense" type="secondary" value="9"/>
+		<stat name="Potency" type="secondary" value="0.89"/>
+		<stat name="Health Percent" type="secondary" value="0.46"/>
+		<stat name="Tenacity" type="secondary" value="0.91"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Defense" slot="Data-Bus">
+		<stat name="Health Percent" type="primary" value="1.88"/>
+		<stat name="Critical Chance" type="secondary" value="0.64"/>
+		<stat name="Offense Percent" type="secondary" value="0.17"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Defense" type="secondary" value="3"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Defense" type="secondary" value="2"/>
+		<stat name="Health Percent" type="secondary" value="0.3"/>
+		<stat name="Critical Chance" type="secondary" value="0.98"/>
+		<stat name="Offense Percent" type="secondary" value="0.21"/>
+	</mod>
+	<mod character="Clone Wars Chewbacca" dots="1" level="15" set="Potency" slot="Data-Bus">
+		<stat name="Protection Percent" type="primary" value="7.5"/>
+		<stat name="Tenacity" type="secondary" value="0.55"/>
+		<stat name="Offense Percent" type="secondary" value="0.18"/>
+		<stat name="Defense" type="secondary" value="2"/>
+		<stat name="Critical Chance" type="secondary" value="0.94"/>
+	</mod>
+	<mod character="Geonosian Soldier" dots="1" level="15" set="Health" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Defense Percent" type="secondary" value="0.66"/>
+		<stat name="Critical Chance" type="secondary" value="0.83"/>
+		<stat name="Defense" type="secondary" value="2"/>
+		<stat name="Protection Percent" type="secondary" value="0.5"/>
+	</mod>
+	<mod character="Talia" dots="1" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="15"/>
+		<stat name="Defense Percent" type="secondary" value="0.67"/>
+		<stat name="Offense Percent" type="secondary" value="0.17"/>
+		<stat name="Protection Percent" type="secondary" value="0.5"/>
+		<stat name="Health" type="secondary" value="136"/>
+	</mod>
+	<mod character="Luminara Unduli" dots="1" level="15" set="Health" slot="Multiplexer">
+		<stat name="Tenacity" type="primary" value="15"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Health" type="secondary" value="152"/>
+		<stat name="Defense Percent" type="secondary" value="0.6"/>
+		<stat name="Critical Chance" type="secondary" value="0.91"/>
+	</mod>
+	<mod character="Asajj Ventress" dots="1" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="15"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Offense" type="secondary" value="14"/>
+		<stat name="Defense Percent" type="secondary" value="0.63"/>
+		<stat name="Protection" type="secondary" value="190"/>
+	</mod>
+	<mod character="Old Daka" dots="1" level="15" set="Critical Damage" slot="Multiplexer">
+		<stat name="Potency" type="primary" value="15"/>
+		<stat name="Protection Percent" type="secondary" value="0.72"/>
+		<stat name="Health" type="secondary" value="102"/>
+		<stat name="Offense" type="secondary" value="9"/>
+		<stat name="Defense" type="secondary" value="2"/>
+	</mod>
+	<mod character="Ewok Elder" dots="1" level="15" set="Offense" slot="Multiplexer">
+		<stat name="Defense Percent" type="primary" value="3.75"/>
+		<stat name="Speed" type="secondary" value="2"/>
+		<stat name="Tenacity" type="secondary" value="0.52"/>
+		<stat name="Protection" type="secondary" value="161"/>
+		<stat name="Health" type="secondary" value="185"/>
+	</mod>
+	<mod character="Teebo" dots="1" level="15" set="Potency" slot="Multiplexer">
+		<stat name="Offense Percent" type="primary" value="1.88"/>
+		<stat name="Potency" type="secondary" value="0.92"/>
+		<stat name="Speed" type="secondary" value="1"/>
+		<stat name="Health Percent" type="secondary" value="0.37"/>
+		<stat name="Defense" type="secondary" value="3"/>
+	</mod>
+	<mod character="Old Daka" dots="5" level="1" set="Health" slot="Transmitter">
+		<stat name="Offense Percent" type="primary" value="0.63"/>
+		<stat name="Health Percent" type="secondary" value="0.73"/>
+		<stat name="Tenacity" type="secondary" value="1.66"/>
+		<stat name="Potency" type="secondary" value="1.43"/>
+		<stat name="Health" type="secondary" value="277"/>
+	</mod>
+</mods>
