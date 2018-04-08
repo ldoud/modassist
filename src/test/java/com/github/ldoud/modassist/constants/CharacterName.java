@@ -35,6 +35,7 @@ public enum CharacterName {
     RoyalGuard("Royal Guard"),
     SabineWren("Sabine Wren"),
     Shoretrooper("Shoretrooper"),
+    Snowtrooper("Snowtrooper"),
     SithAssassin("Sith Assassin"),
     StormtrooperHan("Stormtrooper Han"),
     WedgeAntilles("Wedge Antilles"),

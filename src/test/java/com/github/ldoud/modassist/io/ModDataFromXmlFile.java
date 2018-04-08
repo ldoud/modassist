@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class ModDataFromXmlFile {
+public class ModDataFromXmlFile {
 
     private static ModDataFromXmlFile SINGLETON;
 
@@ -24,7 +24,7 @@ class ModDataFromXmlFile {
         modsForCharacters = modList.stream().collect(Collectors.groupingBy(p -> p.getCharacter()));
     }
 
-    static ModDataFromXmlFile getInstance() throws ParserConfigurationException, SAXException, IOException {
+    public static ModDataFromXmlFile getInstance() throws ParserConfigurationException, SAXException, IOException {
         if (SINGLETON == null) {
             SINGLETON = new ModDataFromXmlFile();
         }
@@ -32,7 +32,7 @@ class ModDataFromXmlFile {
         return SINGLETON;
     }
 
-    Mod getMod(CharacterName toon, ModType modType) {
+    public Mod getMod(CharacterName toon, ModType modType) {
         List<Mod> modsForThisToon = modsForCharacters.get(toon.toString());
         Assertions.assertNotNull(modsForThisToon, "List of mods found for this character");
 

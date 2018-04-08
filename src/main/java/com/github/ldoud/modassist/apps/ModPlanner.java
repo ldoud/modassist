@@ -34,6 +34,6 @@ public class ModPlanner {
         Solver<ModAssignment> solver = solverFactory.buildSolver();
         solver.solve(assignmentOfMods);
 
-        System.out.println("Done");
+        System.out.println("Thrawn's speed: "+thrawn.getSpeed());
     }
 }
