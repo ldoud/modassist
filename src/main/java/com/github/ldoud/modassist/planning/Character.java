@@ -13,11 +13,11 @@ import java.util.Map;
 public class Character {
     private Map<ModType, Mod> modsByType = new HashMap<>();
 
-    @PlanningVariable(valueRangeProviderRefs = {"transmitter"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"transmitter"}, strengthComparatorClass = ModComparator.class)
     public Mod getTransmitter() {return modsByType.get(ModType.Transmitter);}
     public void setTransmitter(Mod transmitter) {modsByType.put(ModType.Transmitter, transmitter);}
 
-    @PlanningVariable(valueRangeProviderRefs = {"receiver"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"receiver"}, strengthComparatorClass = ModComparator.class)
     public Mod getReceiver() {
         return modsByType.get(ModType.Receiver);
     }
@@ -25,7 +25,7 @@ public class Character {
         modsByType.put(ModType.Receiver, receiver);
     }
 
-    @PlanningVariable(valueRangeProviderRefs = {"processor"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"processor"},strengthComparatorClass = ModComparator.class)
     public Mod getProcessor() {
         return modsByType.get(ModType.Processor);
     }
@@ -33,7 +33,7 @@ public class Character {
         modsByType.put(ModType.Processor, processor);
     }
 
-    @PlanningVariable(valueRangeProviderRefs = {"holoArray"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"holoArray"}, strengthComparatorClass = ModComparator.class)
     public Mod getHoloArray() {
         return modsByType.get(ModType.HoloArray);
     }
@@ -41,7 +41,7 @@ public class Character {
         modsByType.put(ModType.HoloArray, holoArray);
     }
 
-    @PlanningVariable(valueRangeProviderRefs = {"dataBus"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"dataBus"}, strengthComparatorClass = ModComparator.class)
     public Mod getDataBus() {
         return modsByType.get(ModType.DataBus);
     }
@@ -49,7 +49,7 @@ public class Character {
         modsByType.put(ModType.DataBus, dataBus);
     }
 
-    @PlanningVariable(valueRangeProviderRefs = {"multiplexer"}, nullable = true, strengthComparatorClass = ModComparator.class)
+    @PlanningVariable(valueRangeProviderRefs = {"multiplexer"}, strengthComparatorClass = ModComparator.class)
     public Mod getMultiplexer() {
         return modsByType.get(ModType.Multiplexer);
     }

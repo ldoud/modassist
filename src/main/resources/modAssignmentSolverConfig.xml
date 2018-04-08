@@ -14,7 +14,7 @@
 
     <!-- Optimization algorithms configuration -->
     <termination>
-        <secondsSpentLimit>600</secondsSpentLimit>
+        <secondsSpentLimit>60</secondsSpentLimit>
     </termination>
 
     <!--
@@ -26,5 +26,9 @@
     <constructionHeuristic>
         <constructionHeuristicType>ALLOCATE_ENTITY_FROM_QUEUE</constructionHeuristicType>
     </constructionHeuristic>
+
+        <localSearch>
+            <localSearchType>LATE_ACCEPTANCE</localSearchType>
+        </localSearch>
 
 </solver>

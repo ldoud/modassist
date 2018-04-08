@@ -11,6 +11,6 @@ public class ModComparator implements Comparator<Mod> {
         int speedOfMod1 = m1 != null ? m1.getSpeed() : 0;
         int speedOfMod2 = m2 != null ? m2.getSpeed() : 0;
 
-        return speedOfMod1 - speedOfMod2;
+        return speedOfMod2 - speedOfMod1;
     }
 }
