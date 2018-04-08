@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <!--<environmentMode>FAST_ASSERT</environmentMode>-->
+
+    <!-- Domain model configuration -->
+    <scanAnnotatedClasses>
+        <packageInclude>com.github.ldoud.modassist.planning</packageInclude>
+    </scanAnnotatedClasses>
+
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>com.github.ldoud.modassist.planning.EasySpeedScoreCalculator</easyScoreCalculatorClass>
+        <!--<scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingScoreRules.drl</scoreDrl>-->
+    </scoreDirectorFactory>
+
+
+    <!-- Optimization algorithms configuration -->
+    <termination>
+        <secondsSpentLimit>120</secondsSpentLimit>
+    </termination>
+
+</solver>

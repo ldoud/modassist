@@ -8,6 +8,7 @@ import org.optaplanner.core.api.domain.solution.PlanningSolution;
 import org.optaplanner.core.api.domain.solution.drools.ProblemFactCollectionProperty;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.Score;
+import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -18,11 +19,15 @@ public class ModAssignment {
     private Map<ModType, List<Mod>> modsByType = new HashMap<>(0);
     private Collection<Character> characters = new ArrayList<>();
 
-    private Score score;
+    private SimpleScore score;
 
     @PlanningEntityCollectionProperty
     public Collection<Character> getCharacters() {
         return characters;
+    }
+
+    public void setCharacters(Collection<Character> characters) {
+        this.characters = characters;
     }
 
     @ValueRangeProvider(id = "transmitter")
@@ -67,11 +72,11 @@ public class ModAssignment {
     }
 
     @PlanningScore
-    public Score getScore() {
+    public SimpleScore getScore() {
         return score;
     }
 
-    public void setScore(Score score) {
+    public void setScore(SimpleScore score) {
         this.score = score;
     }
 }
