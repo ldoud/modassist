@@ -35,5 +35,12 @@ public class ModPlanner {
         solver.solve(assignmentOfMods);
 
         System.out.println("Thrawn's speed: "+thrawn.getSpeed());
+        System.out.println(thrawn.getReceiver());
+        System.out.println(thrawn.getTransmitter());
+        System.out.println(thrawn.getProcessor());
+        System.out.println(thrawn.getHoloArray());
+        System.out.println(thrawn.getDataBus());
+        System.out.println(thrawn.getMultiplexer());
+
     }
 }

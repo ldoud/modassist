@@ -12,10 +12,19 @@
         <!--<scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingScoreRules.drl</scoreDrl>-->
     </scoreDirectorFactory>
 
-
     <!-- Optimization algorithms configuration -->
     <termination>
-        <secondsSpentLimit>120</secondsSpentLimit>
+        <secondsSpentLimit>600</secondsSpentLimit>
     </termination>
+
+    <!--
+    <constructionHeuristic>
+        <constructionHeuristicType>STRONGEST_FIT</constructionHeuristicType>
+    </constructionHeuristic>
+    -->
+
+    <constructionHeuristic>
+        <constructionHeuristicType>ALLOCATE_ENTITY_FROM_QUEUE</constructionHeuristicType>
+    </constructionHeuristic>
 
 </solver>

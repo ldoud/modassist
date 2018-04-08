@@ -12,6 +12,7 @@ public class Mod {
     private int level;
     private StatName set;
     private ModType slot;
+    private Collection<Stat> stats = new ArrayList<>();
 
     public String getCharacter() {
         return character;
@@ -65,6 +66,27 @@ public class Mod {
         stats.add(stat);
     }
 
-    private Collection<Stat> stats = new ArrayList<>();
+    public int getSpeed() {
+        double speed = stats.stream()
+                .filter(stat -> stat.getName() == StatName.Speed)
+                .mapToDouble(stat -> stat.getValue())
+                .sum();
 
+        return (int)speed;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(slot.toString());
+        builder.append(" ");
+        builder.append(character);
+        builder.append(" ");
+
+        for (Stat s : stats) {
+            builder.append(s.toString());
+        }
+
+        return builder.toString();
+    }
 }
