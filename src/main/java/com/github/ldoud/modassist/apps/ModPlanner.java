@@ -32,7 +32,10 @@ public class ModPlanner {
 
         SolverFactory<ModAssignment> solverFactory = SolverFactory.createFromXmlResource("modAssignmentSolverConfig.xml");
         Solver<ModAssignment> solver = solverFactory.buildSolver();
+        long startTime = System.currentTimeMillis();
         solver.solve(assignmentOfMods);
+        double elapsedMS = System.currentTimeMillis() - startTime;
+        System.out.println("Elapsed time (seconds): "+elapsedMS / 1000.0);
 
         System.out.println("Thrawn's speed: "+thrawn.getSpeed());
         System.out.println(thrawn.getReceiver());

@@ -21,11 +21,19 @@
     <constructionHeuristic>
         <constructionHeuristicType>STRONGEST_FIT</constructionHeuristicType>
     </constructionHeuristic>
-    -->
+-->
 
+    <!---->
     <constructionHeuristic>
         <constructionHeuristicType>ALLOCATE_ENTITY_FROM_QUEUE</constructionHeuristicType>
     </constructionHeuristic>
+
+
+    <!--
+    <constructionHeuristic>
+        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+    </constructionHeuristic>
+    -->
 
         <localSearch>
             <localSearchType>LATE_ACCEPTANCE</localSearchType>
