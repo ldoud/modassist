@@ -71,6 +71,15 @@ public class ModAssignment {
         modsByType = allMods.stream().collect(Collectors.groupingBy(p -> p.getSlot()));
     }
 
+    public long getNumberOfCombinations() {
+        return getTransmitters().size() *
+                getReceivers().size() *
+                getProcessors().size() *
+                getHoloArrays().size() *
+                getDataBuses().size() *
+                getMultiplexers().size();
+    }
+
     @PlanningScore
     public HardSoftScore getScore() {
         return score;

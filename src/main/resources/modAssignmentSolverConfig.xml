@@ -14,7 +14,7 @@
 
     <!-- Optimization algorithms configuration -->
     <termination>
-        <secondsSpentLimit>60</secondsSpentLimit>
+        <minutesSpentLimit>40</minutesSpentLimit>
     </termination>
 
     <!--
@@ -35,8 +35,19 @@
     </constructionHeuristic>
     -->
 
+    <!--
         <localSearch>
             <localSearchType>LATE_ACCEPTANCE</localSearchType>
         </localSearch>
+-->
 
+    <!--
+    <localSearch>
+        <localSearchType>VARIABLE_NEIGHBORHOOD_DESCENT</localSearchType>
+    </localSearch>
+    -->
+
+    <localSearch>
+        <localSearchType>TABU_SEARCH</localSearchType>
+    </localSearch>
 </solver>

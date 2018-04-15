@@ -29,6 +29,7 @@ public class ModPlanner {
         ModAssignment assignmentOfMods = new ModAssignment();
         assignmentOfMods.setMods(mods);
         assignmentOfMods.setCharacters(toons);
+        System.out.println("Number of combinations: "+assignmentOfMods.getNumberOfCombinations());
 
         SolverFactory<ModAssignment> solverFactory = SolverFactory.createFromXmlResource("modAssignmentSolverConfig.xml");
         Solver<ModAssignment> solver = solverFactory.buildSolver();
