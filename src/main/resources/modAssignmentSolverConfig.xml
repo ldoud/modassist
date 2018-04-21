@@ -14,7 +14,7 @@
 
     <!-- Optimization algorithms configuration -->
     <termination>
-        <minutesSpentLimit>40</minutesSpentLimit>
+        <minutesSpentLimit>2</minutesSpentLimit>
     </termination>
 
     <!--
@@ -23,11 +23,52 @@
     </constructionHeuristic>
 -->
 
-    <!---->
+    <!--
     <constructionHeuristic>
         <constructionHeuristicType>ALLOCATE_ENTITY_FROM_QUEUE</constructionHeuristicType>
     </constructionHeuristic>
+    -->
 
+    <constructionHeuristic>
+        <constructionHeuristicType>STRONGEST_FIT</constructionHeuristicType>
+        <changeMoveSelector>
+            <valueSelector variableName="transmitter"/>
+        </changeMoveSelector>
+        <changeMoveSelector>
+            <valueSelector variableName="receiver"/>
+        </changeMoveSelector>
+        <changeMoveSelector>
+            <valueSelector variableName="processor"/>
+        </changeMoveSelector>
+        <changeMoveSelector>
+            <valueSelector variableName="holoArray"/>
+        </changeMoveSelector>
+        <changeMoveSelector>
+            <valueSelector variableName="dataBus"/>
+        </changeMoveSelector>
+        <changeMoveSelector>
+            <valueSelector variableName="multiplexer"/>
+        </changeMoveSelector>
+    </constructionHeuristic>
+
+    <!--
+    <changeMoveSelector>
+    <entitySelector>
+        <cacheType>PHASE</cacheType>
+        <selectionOrder>SORTED</selectionOrder>
+        <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
+        <sorterOrder>DESCENDING</sorterOrder>
+    </entitySelector>
+    </changeMoveSelector>
+-->
+
+<!--
+    <changeMoveSelector>
+        <entitySelector>
+            <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.LongLectureSelectionFilter</filterClass>
+        </entitySelector>
+    </changeMoveSelector>
+    -->
 
     <!--
     <constructionHeuristic>
@@ -47,7 +88,30 @@
     </localSearch>
     -->
 
+
+    <!--
     <localSearch>
         <localSearchType>TABU_SEARCH</localSearchType>
+        <changeMoveSelector>
+            <entitySelector>
+                <cacheType>PHASE</cacheType>
+                <selectionOrder>SORTED</selectionOrder>
+                <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
+                <sorterOrder>DESCENDING</sorterOrder>
+            </entitySelector>
+        </changeMoveSelector>
+    </localSearch>
+ -->
+
+    <localSearch>
+        <localSearchType>TABU_SEARCH</localSearchType>
+            <changeMoveSelector>
+                <valueSelector>
+                    <cacheType>PHASE</cacheType>
+                    <selectionOrder>SORTED</selectionOrder>
+                    <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
+                    <sorterOrder>DESCENDING</sorterOrder>
+                </valueSelector>
+            </changeMoveSelector>
     </localSearch>
 </solver>
