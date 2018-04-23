@@ -79,7 +79,9 @@ public class Mod {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append(slot.toString());
-        builder.append(" ");
+        builder.append("(");
+        builder.append(set);
+        builder.append(") ");
         builder.append(character);
         builder.append(" ");
 

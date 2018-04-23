@@ -63,11 +63,38 @@ public class Character {
         return unassigned + nullMods;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder value = new StringBuilder();
+        for (Mod m: modsByType.values()) {
+            if (m != null) {
+                value.append(m.getSlot());
+                value.append("/");
+                value.append(m.getSet());
+                value.append("/");
+                value.append(m.getSpeed());
+                value.append(" ");
+            }
+        }
+
+        return value.toString();
+    }
+
     public int getSpeed() {
         double speed = modsByType.values().stream()
                 .filter(mod -> mod != null)
                 .mapToInt(Mod::getSpeed)
                 .sum();
+
+        long numberOfSpeedModsAtLevel15 = modsByType.values().stream()
+                .filter(mod -> mod != null)
+                .filter(mod -> mod.getSet() == StatName.Speed)
+                .filter(mod -> mod.getLevel() == 15)
+                .count();
+
+        if (numberOfSpeedModsAtLevel15 >= 4) {
+            speed += 15;
+        }
 
         return (int) speed;
     }

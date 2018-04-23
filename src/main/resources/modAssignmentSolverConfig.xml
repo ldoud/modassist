@@ -17,18 +17,6 @@
         <minutesSpentLimit>2</minutesSpentLimit>
     </termination>
 
-    <!--
-    <constructionHeuristic>
-        <constructionHeuristicType>STRONGEST_FIT</constructionHeuristicType>
-    </constructionHeuristic>
--->
-
-    <!--
-    <constructionHeuristic>
-        <constructionHeuristicType>ALLOCATE_ENTITY_FROM_QUEUE</constructionHeuristicType>
-    </constructionHeuristic>
-    -->
-
     <constructionHeuristic>
         <constructionHeuristicType>STRONGEST_FIT</constructionHeuristicType>
         <changeMoveSelector>
@@ -52,66 +40,71 @@
     </constructionHeuristic>
 
     <!--
-    <changeMoveSelector>
-    <entitySelector>
-        <cacheType>PHASE</cacheType>
-        <selectionOrder>SORTED</selectionOrder>
-        <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
-        <sorterOrder>DESCENDING</sorterOrder>
-    </entitySelector>
-    </changeMoveSelector>
--->
-
-<!--
-    <changeMoveSelector>
-        <entitySelector>
-            <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.LongLectureSelectionFilter</filterClass>
-        </entitySelector>
-    </changeMoveSelector>
-    -->
-
-    <!--
-    <constructionHeuristic>
-        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
-    </constructionHeuristic>
-    -->
-
-    <!--
-        <localSearch>
-            <localSearchType>LATE_ACCEPTANCE</localSearchType>
-        </localSearch>
--->
-
-    <!--
     <localSearch>
-        <localSearchType>VARIABLE_NEIGHBORHOOD_DESCENT</localSearchType>
-    </localSearch>
-    -->
-
-
-    <!--
-    <localSearch>
-        <localSearchType>TABU_SEARCH</localSearchType>
-        <changeMoveSelector>
-            <entitySelector>
-                <cacheType>PHASE</cacheType>
-                <selectionOrder>SORTED</selectionOrder>
-                <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
-                <sorterOrder>DESCENDING</sorterOrder>
-            </entitySelector>
-        </changeMoveSelector>
-    </localSearch>
- -->
-
-    <localSearch>
-        <localSearchType>TABU_SEARCH</localSearchType>
+        <cartesianProductMoveSelector>
             <changeMoveSelector>
-                <valueSelector>
+                <valueSelector variableName="transmitter">
                     <cacheType>PHASE</cacheType>
                     <selectionOrder>SORTED</selectionOrder>
-                    <sorterComparatorClass>com.github.ldoud.modassist.planning.ModComparator</sorterComparatorClass>
-                    <sorterOrder>DESCENDING</sorterOrder>
+                    <sorterManner>DECREASING_STRENGTH</sorterManner>
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
                 </valueSelector>
             </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="receiver">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="processor">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="holoArray">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <swapMoveSelector/>
+        </cartesianProductMoveSelector>
     </localSearch>
+    -->
+
+    <localSearch>
+        <cartesianProductMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="transmitter">
+                    <filterClassList>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClassList>
+                </valueSelector>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="receiver">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="processor">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <valueSelector variableName="holoArray">
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
+                </valueSelector>
+            </changeMoveSelector>
+            <!--
+            <cacheType>PHASE</cacheType>
+            <selectionOrder>SORTED</selectionOrder>
+            <sorterManner>DECREASING_STRENGTH</sorterManner>
+            -->
+            <cacheType>PHASE</cacheType>
+            <selectionOrder>SORTED</selectionOrder>
+            <sorterComparatorClass>com.github.ldoud.modassist.planning.ModSetComparator</sorterComparatorClass>
+            <filterClass>com.github.ldoud.modassist.planning.SpeedSetMoveChangeFilter</filterClass>
+            <!--
+            <selectedCountLimit>100</selectedCountLimit>
+            -->
+        </cartesianProductMoveSelector>
+    </localSearch>
+
 </solver>
