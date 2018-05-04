@@ -80,6 +80,16 @@ public class Character {
         return value.toString();
     }
 
+    public int getSpeedFromSpeedMods() {
+        double speed = modsByType.values().stream()
+                .filter(mod -> mod != null)
+                .filter(mod -> mod.getSet() == StatName.Speed)
+                .mapToInt(Mod::getSpeed)
+                .sum();
+
+        return (int)speed;
+    }
+
     public int getSpeed() {
         double speed = modsByType.values().stream()
                 .filter(mod -> mod != null)

@@ -14,7 +14,7 @@
 
     <!-- Optimization algorithms configuration -->
     <termination>
-        <minutesSpentLimit>2</minutesSpentLimit>
+        <minutesSpentLimit>5</minutesSpentLimit>
     </termination>
 
     <constructionHeuristic>
@@ -71,6 +71,49 @@
     -->
 
     <localSearch>
+        <!--
+        <localSearchType>LATE_ACCEPTANCE</localSearchType>
+        -->
+
+        <!--
+        <acceptor>
+            <acceptorType>HILL_CLIMBING</acceptorType>
+        </acceptor>
+        <forager>
+            <acceptedCountLimit>5</acceptedCountLimit>
+        </forager>
+        -->
+
+        <acceptor>
+            <entityTabuSize>7</entityTabuSize>
+        </acceptor>
+        <forager>
+            <acceptedCountLimit>1000</acceptedCountLimit>
+            <finalistPodiumType>STRATEGIC_OSCILLATION</finalistPodiumType>
+        </forager>
+        <!-- best
+        <acceptor>
+            <stepCountingHillClimbingSize>100000</stepCountingHillClimbingSize>
+            <entityTabuSize>15</entityTabuSize>
+        </acceptor>
+        <forager>
+            <acceptedCountLimit>1</acceptedCountLimit>
+            <pickEarlyType>FIRST_LAST_STEP_SCORE_IMPROVING</pickEarlyType>
+        </forager>
+-->
+
+<!--
+        <acceptor>
+            <stepCountingHillClimbingSize>10</stepCountingHillClimbingSize>
+            <entityTabuSize>10</entityTabuSize>
+        </acceptor>
+        <forager>
+            <pickEarlyType>FIRST_LAST_STEP_SCORE_IMPROVING</pickEarlyType>
+            <acceptedCountLimit>2</acceptedCountLimit>
+        </forager>
+-->
+
+
         <cartesianProductMoveSelector>
             <changeMoveSelector>
                 <valueSelector variableName="transmitter">
