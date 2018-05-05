@@ -12,6 +12,7 @@ public class Mod {
     private int level;
     private StatName set;
     private ModType slot;
+    private boolean modHasSpeed = false;
     private Collection<Stat> stats = new ArrayList<>();
 
     public String getCharacter() {
@@ -64,6 +65,13 @@ public class Mod {
 
     public void add(Stat stat) {
         stats.add(stat);
+        if(stat.getName() == StatName.Speed) {
+            modHasSpeed = true;
+        }
+    }
+
+    public boolean hasSpeedStat() {
+        return modHasSpeed;
     }
 
     public int getSpeed() {

@@ -14,20 +14,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ModPlanner {
 
     public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
         String modFileLocation = "E:\\source\\modassist\\src\\test\\resources\\all_mods.xml";
         XmlDataFile modFile = new XmlDataFile(modFileLocation);
-        Collection<Mod> mods = modFile.readMods();
+        Collection<Mod> allMods = modFile.readMods();
+        Collection<Mod> modsWithSpeed = allMods.stream().filter(Mod::hasSpeedStat).collect(Collectors.toList());
 
         Character thrawn = new Character();
         List<Character> toons = new ArrayList<>();
         toons.add(thrawn);
 
         ModAssignment assignmentOfMods = new ModAssignment();
-        assignmentOfMods.setMods(mods);
+        assignmentOfMods.setMods(modsWithSpeed);
         assignmentOfMods.setCharacters(toons);
         System.out.println("Number of combinations: "+assignmentOfMods.getNumberOfCombinations());
 

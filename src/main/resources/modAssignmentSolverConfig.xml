@@ -117,7 +117,7 @@
         <cartesianProductMoveSelector>
             <changeMoveSelector>
                 <valueSelector variableName="transmitter">
-                    <filterClassList>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClassList>
+                    <filterClass>com.github.ldoud.modassist.planning.SpeedModSelectionFilter</filterClass>
                 </valueSelector>
             </changeMoveSelector>
             <changeMoveSelector>
