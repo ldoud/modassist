@@ -57,6 +57,14 @@ public class Character {
         modsByType.put(ModType.Multiplexer, multiplexer);
     }
 
+    public void setMod(Mod newMod) {
+        modsByType.put(newMod.getSlot(), newMod);
+    }
+
+    public Mod getModBySlot(ModType slot) {
+        return modsByType.get(slot);
+    }
+
     public int getCountOfUnassignedMods() {
         int unassigned = 6 - modsByType.values().size();
         int nullMods = (int) modsByType.values().stream().filter(mod -> mod == null).count();
