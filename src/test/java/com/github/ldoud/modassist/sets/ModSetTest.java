@@ -54,15 +54,15 @@ public class ModSetTest {
         ModSet ss = new ModSet(StatName.Speed);
         allMods.stream().forEach(mod -> mod.setSet(StatName.Speed));
 
-        Assertions.assertFalse(ss.isSetComplete(), "Set empty");
+        Assertions.assertFalse(ss.isComplete(), "Set empty");
         Assertions.assertTrue(ss.offer(transmitter), "Transmitter accepted");
-        Assertions.assertFalse(ss.isSetComplete(), "Set has 1");
+        Assertions.assertFalse(ss.isComplete(), "Set has 1");
         Assertions.assertTrue(ss.offer(receiver), "Receiver accepted");
-        Assertions.assertFalse(ss.isSetComplete(), "Set has 2");
+        Assertions.assertFalse(ss.isComplete(), "Set has 2");
         Assertions.assertTrue(ss.offer(processor), "Processor accepted");
-        Assertions.assertFalse(ss.isSetComplete(), "Set has 3");
+        Assertions.assertFalse(ss.isComplete(), "Set has 3");
         Assertions.assertTrue(ss.offer(holoArray), "HoloArray accepted");
-        Assertions.assertTrue(ss.isSetComplete(), "Set full");
+        Assertions.assertTrue(ss.isComplete(), "Set full");
     }
 
     @Test
@@ -70,11 +70,11 @@ public class ModSetTest {
         ModSet modSet = new ModSet(StatName.Health);
         allMods.stream().forEach(mod -> mod.setSet(StatName.Health));
 
-        Assertions.assertFalse(modSet.isSetComplete(), "Set empty");
+        Assertions.assertFalse(modSet.isComplete(), "Set empty");
         Assertions.assertTrue(modSet.offer(transmitter), "Transmitter accepted");
-        Assertions.assertFalse(modSet.isSetComplete(), "Set has 1");
+        Assertions.assertFalse(modSet.isComplete(), "Set has 1");
         Assertions.assertTrue(modSet.offer(receiver), "Receiver accepted");
-        Assertions.assertTrue(modSet.isSetComplete(), "Set full");
+        Assertions.assertTrue(modSet.isComplete(), "Set full");
     }
 
     @Test
@@ -86,11 +86,11 @@ public class ModSetTest {
         Assertions.assertTrue(modSet.offer(multiplexer), "Multiplexer accepted");
         Assertions.assertTrue(modSet.offer(processor), "Processor accepted");
         Assertions.assertTrue(modSet.offer(holoArray), "HoloArray accepted");
-        Assertions.assertTrue(modSet.isSetComplete(), "Set full");
+        Assertions.assertTrue(modSet.isComplete(), "Set full");
 
         // Try overfilling.
         Assertions.assertFalse(modSet.offer(transmitter), "Won't accept another mod");
-        Assertions.assertTrue(modSet.isSetComplete(), "Set still full");
+        Assertions.assertTrue(modSet.isComplete(), "Set still full");
     }
 
     @Test
@@ -100,11 +100,11 @@ public class ModSetTest {
 
         Assertions.assertTrue(modSet.offer(transmitter), "Transmitter accepted");
         Assertions.assertTrue(modSet.offer(receiver), "Receiver accepted");
-        Assertions.assertTrue(modSet.isSetComplete(), "Set full");
+        Assertions.assertTrue(modSet.isComplete(), "Set full");
 
         // Try overfilling.
         Assertions.assertFalse(modSet.offer(transmitter), "Won't accept another mod");
-        Assertions.assertTrue(modSet.isSetComplete(), "Set still full");
+        Assertions.assertTrue(modSet.isComplete(), "Set still full");
     }
 
     @Test
@@ -112,13 +112,13 @@ public class ModSetTest {
         ModSet modSet = new ModSet(StatName.Speed);
         allMods.stream().forEach(mod -> mod.setSet(StatName.CriticalDamage));
 
-        Assertions.assertFalse(modSet.isSetComplete(), "Set empty");
+        Assertions.assertFalse(modSet.isComplete(), "Set empty");
 
         Assertions.assertFalse(modSet.offer(transmitter), "Transmitter rejected");
         Assertions.assertFalse(modSet.offer(receiver), "Receiver rejected");
         Assertions.assertFalse(modSet.offer(processor),"Processor rejected");
         Assertions.assertFalse(modSet.offer(holoArray),"HoloArray reject");
-        Assertions.assertFalse(modSet.isSetComplete(), "Set is empty");
+        Assertions.assertFalse(modSet.isComplete(), "Set is empty");
     }
 
     @Test

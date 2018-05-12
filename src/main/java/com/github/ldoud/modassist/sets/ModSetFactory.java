@@ -4,6 +4,7 @@ import com.github.ldoud.modassist.data.Mod;
 import com.github.ldoud.modassist.data.StatName;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class ModSetFactory {
     TreeSet<Mod> modsBySpeed = new TreeSet<>(new ModSpeedComparator());
@@ -29,7 +30,7 @@ public class ModSetFactory {
                     ModSet candidateSet = (ModSet)speedSetIt.next();
                     modAccepted = candidateSet.offer(m);
 
-                    if(candidateSet.isSetComplete()) {
+                    if(candidateSet.isComplete()) {
                         speedSetIt.remove();
                         completeSpeedSets.add(candidateSet);
                     }
@@ -45,5 +46,9 @@ public class ModSetFactory {
         }
 
         return completeSpeedSets;
+    }
+
+    public List<Mod> getSingleModsInOrder() {
+        return modsBySpeed.stream().collect(Collectors.toList());
     }
 }

@@ -4,8 +4,10 @@ import com.github.ldoud.modassist.data.Mod;
 import com.github.ldoud.modassist.data.ModType;
 import com.github.ldoud.modassist.data.StatName;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class ModSet {
 
@@ -20,7 +22,7 @@ public class ModSet {
     }
 
     public boolean offer(Mod offeredMod) {
-        if (offeredMod.getSet() == setStat && !isSetComplete() &&  !modSet.containsKey(offeredMod.getSlot())) {
+        if (!isComplete() &&  isCorrectSet(offeredMod) && !modSet.containsKey(offeredMod.getSlot())) {
             modSet.put(offeredMod.getSlot(), offeredMod);
             return true;
         }
@@ -28,7 +30,19 @@ public class ModSet {
         return false;
     }
 
-    public boolean isSetComplete() {
+    public Set<ModType> getSlotsUsedBySet() {
+        return modSet.keySet();
+    }
+
+    protected boolean isCorrectSet(Mod offeredMod) {
+        return offeredMod.getSet() == setStat;
+    }
+
+    public Collection<Mod> getMods() {
+        return modSet.values();
+    }
+
+    public boolean isComplete() {
         return modSet.size() == setStat.getNumberOfModsInSet();
     }
 }
