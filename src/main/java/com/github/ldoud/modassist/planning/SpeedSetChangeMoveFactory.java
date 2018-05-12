@@ -1,9 +1,8 @@
 package com.github.ldoud.modassist.planning;
 
 import com.github.ldoud.modassist.data.Mod;
-import com.github.ldoud.modassist.data.ModType;
 import com.github.ldoud.modassist.data.StatName;
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.github.ldoud.modassist.sets.ModSpeedComparator;
 import org.optaplanner.core.impl.heuristic.move.Move;
 import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
 
@@ -32,7 +31,7 @@ public class SpeedSetChangeMoveFactory implements MoveListFactory<ModAssignment>
                 .filter(mod -> mod.getSet() == StatName.Speed)
                 .collect(Collectors.toList());
 
-        Collections.sort(speedMods, new ModComparator());
+        Collections.sort(speedMods, new ModSpeedComparator());
 
         return Optional.ofNullable(speedMods.get(0));
     }

@@ -1,10 +1,10 @@
-package com.github.ldoud.modassist.planning;
+package com.github.ldoud.modassist.sets;
 
 import com.github.ldoud.modassist.data.Mod;
 
 import java.util.Comparator;
 
-public class ModComparator implements Comparator<Mod> {
+public class ModSpeedComparator implements Comparator<Mod> {
 
     @Override
     public int compare(Mod m1, Mod m2) {
