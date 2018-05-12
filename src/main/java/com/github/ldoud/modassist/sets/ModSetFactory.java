@@ -5,24 +5,28 @@ import com.github.ldoud.modassist.data.StatName;
 
 import java.util.*;
 
-public class SetFactory {
+public class ModSetFactory {
     TreeSet<Mod> modsBySpeed = new TreeSet<>(new ModSpeedComparator());
 
-    public SetFactory(Collection<Mod> mods) {
+    public ModSetFactory(Collection<Mod> mods) {
         modsBySpeed.addAll(mods);
     }
 
-    public List<SpeedSet> getSpeedSets() {
-        ArrayList<SpeedSet> incompleteSpeedSets = new ArrayList<>();
-        ArrayList<SpeedSet> completeSpeedSets = new ArrayList<>();
+    public List<ModSet> createModSet(StatName statForSet) {
+        if (!statForSet.isStatUsedForModSet()) {
+            throw new RuntimeException("This is not a stat for a mod set: "+statForSet.name());
+        }
+
+        ArrayList<ModSet> incompleteSpeedSets = new ArrayList<>();
+        ArrayList<ModSet> completeSpeedSets = new ArrayList<>();
 
         for (Mod m : modsBySpeed) {
-            if (m.getSet() == StatName.Speed) {
+            if (m.getSet() == statForSet) {
                 boolean modAccepted = false;
 
-                // Offer to each existing speed set.
+                // Offer to each existing incomplete mod set.
                 for (Iterator speedSetIt = incompleteSpeedSets.iterator(); !modAccepted && speedSetIt.hasNext();) {
-                    SpeedSet candidateSet = (SpeedSet)speedSetIt.next();
+                    ModSet candidateSet = (ModSet)speedSetIt.next();
                     modAccepted = candidateSet.offer(m);
 
                     if(candidateSet.isSetComplete()) {
@@ -33,7 +37,7 @@ public class SetFactory {
 
                 // Make a new set to put this into if it didn't go into another set.
                 if(!modAccepted) {
-                    SpeedSet emptySet = new SpeedSet();
+                    ModSet emptySet = new ModSet(statForSet);
                     incompleteSpeedSets.add(emptySet);
                     emptySet.offer(m);
                 }
