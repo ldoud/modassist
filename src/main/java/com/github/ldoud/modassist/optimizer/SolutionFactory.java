@@ -33,7 +33,15 @@ public class SolutionFactory {
             throw new RuntimeException("Too many slots required by sets: "+slotsRequiredBySets);
         }
 
-        List<Solution> solutionsWithRequiredSets = createSetCombinations(Arrays.asList(requiredSets));
+        List<StatName> reqSetsAsList = Arrays.asList(requiredSets);
+        Collections.sort(reqSetsAsList, new Comparator<StatName>() {
+            @Override
+            public int compare(StatName o1, StatName o2) {
+                return o1.getNumberOfModsInSet() - o2.getNumberOfModsInSet();
+            }
+        });
+
+        List<Solution> solutionsWithRequiredSets = createSetCombinations(reqSetsAsList);
         List<Solution> completedSets = completeSolutions(solutionsWithRequiredSets);
 
         return completedSets;
@@ -44,10 +52,10 @@ public class SolutionFactory {
             return createInitialCombinations(requiredSets.get(0));
         }
 
-        StatName setToPopulate = requiredSets.remove(0);
+        StatName setToPopulate = requiredSets.get(0);
         List<ModSet> setsToOffer = setFactory.createModSet(setToPopulate);
 
-        List<Solution> solutionsToBuildOn = createSetCombinations(requiredSets);
+        List<Solution> solutionsToBuildOn = createSetCombinations(requiredSets.subList(1, requiredSets.size()));
         List<Solution> newCombinations = new ArrayList<>();
 
         for (Solution templateSolution : solutionsToBuildOn) {

@@ -1,6 +1,8 @@
 package com.github.ldoud.modassist.data;
 
 import com.github.ldoud.modassist.io.XmlDataFile;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -81,6 +83,30 @@ public class Mod {
                 .sum();
 
         return (int)speed;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) { return false; }
+        if (obj == this) { return true; }
+        if (obj.getClass() != getClass()) {
+            return false;
+        }
+        Mod rhs = (Mod) obj;
+        return new EqualsBuilder()
+                .appendSuper(super.equals(obj))
+                .append(character, rhs.character)
+                .append(slot, rhs.slot)
+                .isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder()
+                .append(character)
+                .append(set)
+                .append(slot)
+                .toHashCode();
     }
 
     @Override

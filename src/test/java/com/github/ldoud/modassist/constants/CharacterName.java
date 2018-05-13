@@ -30,6 +30,7 @@ public enum CharacterName {
     Magmatrooper("Magmatrooper"),
     OldDaka("Old Daka"),
     PrincessLeia("Princess Leia"),
+    R2D2("R2-D2"),
     ResistancePilot("Resistance Pilot"),
     ResistanceTrooper("Resistance Trooper"),
     RoyalGuard("Royal Guard"),
@@ -38,6 +39,7 @@ public enum CharacterName {
     Snowtrooper("Snowtrooper"),
     SithAssassin("Sith Assassin"),
     StormtrooperHan("Stormtrooper Han"),
+    TieFighterPilot("TIE Fighter Pilot"),
     WedgeAntilles("Wedge Antilles"),
     ZamWesell("Zam Wesell");
 

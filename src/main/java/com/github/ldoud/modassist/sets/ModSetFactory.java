@@ -7,10 +7,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class ModSetFactory {
-    TreeSet<Mod> modsBySpeed = new TreeSet<>(new ModSpeedComparator());
+    ArrayList<Mod> modsBySpeed = new ArrayList<>();
 
     public ModSetFactory(Collection<Mod> mods) {
         modsBySpeed.addAll(mods);
+        Collections.sort(modsBySpeed, new ModSpeedComparator());
     }
 
     public List<ModSet> createModSet(StatName statForSet) {

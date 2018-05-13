@@ -41,4 +41,10 @@ public class ModDataFromXmlFile {
 
         return modToTest.get();
     }
+
+    public List<Mod> getAllMods() {
+        return modsForCharacters.values().stream()
+                .flatMap(m -> m.stream())
+                .collect(Collectors.toList());
+    }
 }
