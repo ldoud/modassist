@@ -45,4 +45,8 @@ public class ModSet {
     public boolean isComplete() {
         return modSet.size() == setStat.getNumberOfModsInSet();
     }
+
+    public Mod getModInSlot(ModType slot) {
+        return  modSet.get(slot);
+    }
 }

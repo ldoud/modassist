@@ -52,4 +52,32 @@ public class ModSetFactoryTest {
         Assertions.assertEquals(5, ordered.get(2).getSpeed());
         Assertions.assertEquals(4, ordered.get(3).getSpeed());
     }
+
+    @Test
+    void testTwoModSets() {
+        Mod speed10 = dataFromFile.getMod(CharacterName.GrandAdmiralThrawn, ModType.DataBus);
+        Mod speed4 = dataFromFile.getMod(CharacterName.TieFighterPilot, ModType.DataBus);
+        Mod speed3 = dataFromFile.getMod(CharacterName.SabineWren, ModType.HoloArray);
+        Mod speed2 = dataFromFile.getMod(CharacterName.PoeDameron, ModType.HoloArray);
+        Mod speed21 = dataFromFile.getMod(CharacterName.ScarifRebelPathfinder, ModType.Receiver);
+
+        List<Mod> unordered = new ArrayList<>();
+        unordered.add(speed3);
+        unordered.add(speed4);
+        unordered.add(speed10);
+        unordered.add(speed2);
+        unordered.add(speed21);
+
+        ModSetFactory factory =  new ModSetFactory(unordered);
+        List<ModSet> modSets = factory.createModSet(StatName.Health);
+        Assertions.assertEquals(2, modSets.size(), "Number of sets");
+
+        ModSet firstSet = modSets.get(0);
+        Assertions.assertEquals(10, firstSet.getModInSlot(ModType.DataBus).getSpeed(), "First set, databus");
+        Assertions.assertEquals(21, firstSet.getModInSlot(ModType.Receiver).getSpeed(), "First set, receiver");
+
+        ModSet secondSet = modSets.get(1);
+        Assertions.assertEquals(4, secondSet.getModInSlot(ModType.DataBus).getSpeed(), "Second set, databus");
+        Assertions.assertEquals(3, secondSet.getModInSlot(ModType.HoloArray).getSpeed(), "Second set, holoArray");
+    }
 }
