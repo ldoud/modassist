@@ -54,6 +54,51 @@ public class ModSetFactoryTest {
     }
 
     @Test
+    void testFourModSets() {
+        Mod speedTransmitter7 = dataFromFile.getMod(CharacterName.GrandAdmiralThrawn, ModType.Transmitter);
+        Mod speedTransmitter18 = dataFromFile.getMod(CharacterName.DarthVader, ModType.Transmitter);
+        Mod speedTransmitter8 = dataFromFile.getMod(CharacterName.SabineWren, ModType.Transmitter);
+
+        Mod speedReceiver30 = dataFromFile.getMod(CharacterName.GeneralKenobi, ModType.Receiver);
+
+        Mod speedProcessor10 = dataFromFile.getMod(CharacterName.GrandAdmiralThrawn, ModType.Processor);
+        Mod speedProcessor9 = dataFromFile.getMod(CharacterName.HanSolo, ModType.Processor);
+
+        Mod speedHoloArray4 = dataFromFile.getMod(CharacterName.GeneralKenobi, ModType.HoloArray);
+        Mod speedHoloArray5 = dataFromFile.getMod(CharacterName.GrandAdmiralThrawn, ModType.HoloArray);
+
+        Mod speedMultiplexer7 = dataFromFile.getMod(CharacterName.SabineWren, ModType.Multiplexer);
+        Mod speedDataBus2 = dataFromFile.getMod(CharacterName.BB8, ModType.DataBus);
+
+        List<Mod> unordered = new ArrayList<>();
+        unordered.add(speedTransmitter7);
+        unordered.add(speedTransmitter18);
+        unordered.add(speedTransmitter8);
+        unordered.add(speedReceiver30);
+        unordered.add(speedProcessor10);
+        unordered.add(speedProcessor9);
+        unordered.add(speedHoloArray4);
+        unordered.add(speedHoloArray5);
+        unordered.add(speedMultiplexer7);
+        unordered.add(speedDataBus2);
+
+        ModSetFactory factory =  new ModSetFactory(unordered);
+        List<ModSet> modSets = factory.createModSet(StatName.Speed);
+
+        ModSet firstSet = modSets.get(0);
+        Assertions.assertEquals(18, firstSet.getModInSlot(ModType.Transmitter).getSpeed(), "First set, Transmitter");
+        Assertions.assertEquals(30, firstSet.getModInSlot(ModType.Receiver).getSpeed(), "First set, Receiver");
+        Assertions.assertEquals(10, firstSet.getModInSlot(ModType.Processor).getSpeed(), "First set, Processor");
+        Assertions.assertEquals(7, firstSet.getModInSlot(ModType.Multiplexer).getSpeed(), "First set, Multiplexer");
+
+        ModSet secondSet = modSets.get(1);
+        Assertions.assertEquals(8, secondSet.getModInSlot(ModType.Transmitter).getSpeed(), "Second set, Transmitter");
+        Assertions.assertEquals(9, secondSet.getModInSlot(ModType.Processor).getSpeed(), "Second set, Processor");
+        Assertions.assertEquals(5, secondSet.getModInSlot(ModType.HoloArray).getSpeed(), "Second set, HoloArray");
+        Assertions.assertEquals(2, secondSet.getModInSlot(ModType.DataBus).getSpeed(), "Second set, DataBus");
+    }
+
+    @Test
     void testTwoModSets() {
         Mod speed10 = dataFromFile.getMod(CharacterName.GrandAdmiralThrawn, ModType.DataBus);
         Mod speed4 = dataFromFile.getMod(CharacterName.TieFighterPilot, ModType.DataBus);

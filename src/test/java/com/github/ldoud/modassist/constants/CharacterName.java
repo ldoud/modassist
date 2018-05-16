@@ -3,6 +3,7 @@ package com.github.ldoud.modassist.constants;
 public enum CharacterName {
     AskokaTano("Ahsoka Tano"),
     AsajjVentress("Asajj Ventress"),
+    BB8("BB-8"),
     BiggsDarklighter("Biggs Darklighter"),
     BobaFett("Boba Fett"),
     CadBane("Cad Bane"),
@@ -11,6 +12,7 @@ public enum CharacterName {
     CloneWarsChewbacca("Clone Wars Chewbacca"),
     DarthMaul("Darth Maul"),
     DarthSion("Darth Sion"),
+    DarthVader("Darth Vader"),
     DeathTrooper("Death Trooper"),
     DirectorKrennic("Director Krennic"),
     EmperorPalpatine("Emperor Palpatine"),
@@ -22,6 +24,7 @@ public enum CharacterName {
     GrandAdmiralThrawn("Grand Admiral Thrawn"),
     GrandMoffTarkin("Grand Moff Tarkin"),
     GrandMasterYoda("Grand Master Yoda"),
+    HanSolo("Han Solo"),
     HothRebelScout("Hoth Rebel Scout"),
     JediConsular("Jedi Consular"),
     JynErso("Jyn Erso"),
