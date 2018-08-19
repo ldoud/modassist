@@ -30,8 +30,10 @@ public class ModOptimizer {
         toons.add(thrawn);
 
         SolutionFactory factory = new SolutionFactory(allMods);
-        Collection<Solution> speedSets = factory.createSolutions(StatName.Speed);
-        System.out.println("Speed sets found: "+speedSets.size());
+        Collection<Solution> speed = factory.createSolutions(StatName.Speed);
+        Collection<Solution> speedDefense = factory.createSolutions(StatName.Speed, StatName.Defense);
+        Collection<Solution> speedHealth = factory.createSolutions(StatName.Speed, StatName.Health);
+        System.out.println("Speed sets found: "+speed.size());
 
     }
 }

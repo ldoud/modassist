@@ -5,10 +5,14 @@ import com.github.ldoud.modassist.data.Mod;
 import com.github.ldoud.modassist.data.StatName;
 import com.github.ldoud.modassist.sets.ModSet;
 import com.github.ldoud.modassist.sets.ModSetFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
 public class SolutionFactory {
+
+    private static final Logger LOG = LoggerFactory.getLogger(SolutionFactory.class);
 
     private ModSetFactory setFactory;
 
@@ -28,6 +32,8 @@ public class SolutionFactory {
     }
 
     public Collection<Solution> createSolutions(StatName ... requiredSets) {
+        long startTime = System.currentTimeMillis();
+
         int slotsRequiredBySets = Arrays.stream(requiredSets).mapToInt(s -> s.getNumberOfModsInSet()).sum();
         if (slotsRequiredBySets > 6) {
             throw new RuntimeException("Too many slots required by sets: "+slotsRequiredBySets);
@@ -43,6 +49,9 @@ public class SolutionFactory {
 
         List<Solution> solutionsWithRequiredSets = createSetCombinations(reqSetsAsList);
         List<Solution> completedSets = completeSolutions(solutionsWithRequiredSets);
+
+        long stopTime = System.currentTimeMillis();
+        LOG.info("Created solution in {} ms", stopTime - startTime);
 
         return completedSets;
     }
