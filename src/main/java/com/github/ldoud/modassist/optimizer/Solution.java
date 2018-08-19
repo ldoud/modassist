@@ -2,9 +2,7 @@ package com.github.ldoud.modassist.optimizer;
 
 import com.github.ldoud.modassist.data.Mod;
 import com.github.ldoud.modassist.data.ModType;
-import com.github.ldoud.modassist.data.StatName;
 import com.github.ldoud.modassist.sets.ModSet;
-import org.optaplanner.core.api.solver.SolverFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;
